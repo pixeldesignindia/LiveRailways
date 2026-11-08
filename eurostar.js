@@ -10,7 +10,7 @@
  let data,locales,credits,mode=['journey','status','timetable','board'].includes(requestedTab)?requestedTab:'journey',mapObserver,mapWidth=0,aboutContent='';
  const state={origin:'London',destination:'Paris',date:'',datefrom:'',dateto:'',changes:'0',band:'any',station:new URLSearchParams(location.search).get('station')||'london-st-pancras',boardMode:'arrivals'};
  let selectedStation='london-st-pancras';
- const t=key=>({journey:'Plan a Journey',timetable:'TimeTable',about:'About Eurostar',board:'Station Board',boardButton:'View Station Board',stationBoard:'Station Board'}[key])||locales?.[lang]?.[key]||locales?.en?.[key]||key;
+ const t=key=>({journey:'Plan a Journey',timetable:'Timetable',about:'About Eurostar',board:'Station Board',boardButton:'View Station Board',stationBoard:'Station Board'}[key])||locales?.[lang]?.[key]||locales?.en?.[key]||key;
  const num=(n,compact=false)=>new Intl.NumberFormat(lang,{notation:compact?'compact':'standard',maximumFractionDigits:compact?1:0}).format(n);
  const region=code=>{try{return new Intl.DisplayNames([lang],{type:'region'}).of(code)}catch{return code}};
  function readForm(){for(const key of Object.keys(state)){const field=document.getElementById('ep-'+key);if(field)state[key]=field.value}}
@@ -76,7 +76,7 @@
  }
  function footerHTML(){
   const menu=[['Home','index.html'],['Routes','routes.html'],['Destinations','destinations.html'],['Countries','countries.html'],['Operators','operators.html'],['Stations','stations.html'],['Live Videos','https://stream.liverailways.com/']];
-  const operator=[['Plan a Journey','journey'],['Status','status'],['TimeTable','timetable'],['Station Board','board'],['About Eurostar','about']];
+  const operator=[['Plan a Journey','journey'],['Status','status'],['Timetable','timetable'],['Station Board','board'],['About Eurostar','about']];
   const routePairs=[['London','Paris'],['London','Brussels'],['London','Amsterdam'],['Paris','Brussels'],['Paris','Amsterdam'],['Brussels','Cologne']];
   return `<footer id="ep-site-footer" class="ep-site-footer" aria-label="Site footer"><div class="ep-footer-inner"><div class="ep-footer-grid"><div class="ep-footer-brand"><a href="index.html" aria-label="LiveRailways home"><img src="assets/liverailways-compact-matte-logo.webp" alt="LiveRailways" width="184" height="55" loading="lazy"></a><p>Explore European trains, routes and destinations.</p></div><nav aria-label="Footer explore"><h2>Explore</h2>${menu.map(([label,url])=>`<a href="${url}">${label}</a>`).join('')}</nav><nav aria-label="Footer Eurostar"><h2>Eurostar</h2>${operator.map(([label,tab])=>`<a href="eurostar.html?tab=${tab}#ep-search">${label}</a>`).join('')}</nav><nav aria-label="Footer popular routes"><h2>Popular routes</h2>${routePairs.map(([from,to])=>`<a href="routes.html?${new URLSearchParams({country:'all',scope:'catalogue',operator:'Eurostar',from,to})}">${from} <span aria-hidden="true">→</span> ${to}</a>`).join('')}</nav></div><div class="ep-footer-bottom"><span>© ${new Date().getFullYear()} LiveRailways</span><a href="#ep-sources">Sources &amp; image credits</a></div></div></footer>`;
  }

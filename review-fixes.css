@@ -1,0 +1,29 @@
+/* Fixes from the Nov 2026 site review. Loaded last on every page. */
+
+/* Station cards: keep the photo inside its box so it can't cover the station name. */
+body .ep-station-photo{overflow:hidden!important}
+body .ep-station-photo>img,body .ep-station-photo picture>img{width:100%!important;height:100%!important;object-fit:cover!important;display:block}
+
+/* Station card links: keep space between "Station Board", "Find routes", "Timetable". */
+body .ep-station-actions{gap:8px 18px!important;flex-wrap:wrap}
+
+/* Hide empty advertising placeholders until real ads are connected. */
+.ab-ad-slot,.tt-ad-banner{display:none!important}
+
+/* Hide the internal "Development times" toggle from visitors. */
+label:has(#tt-preview),.tt-preview-toggle{display:none!important}
+
+/* Make "sample data, not live" notices impossible to miss. */
+.ab-data-status{background:#fff4cc!important;color:#4d3a00!important;border:1px solid #e3c766;border-left:5px solid #d8a400;border-radius:6px;padding:10px 14px!important;font-weight:700;font-size:14px!important;line-height:1.5}
+
+/* Route-count box on station cards: don't squeeze a single count into one third of the width. */
+body .ep-station .uk-coverage-counts{grid-template-columns:repeat(auto-fit,minmax(90px,1fr))!important}
+
+/* Cards: size to their content instead of a fixed 550px. Cards in the same row still match heights. */
+body .lr-country-card{min-height:0!important}
+body .lr-country-card .lr-country-copy{min-height:0!important}
+
+/* Phones: fade the right edge of the search tabs so visitors can see they scroll sideways. */
+@media (max-width:700px){
+  body .lr-tabs{-webkit-mask-image:linear-gradient(90deg,#000 80%,transparent);mask-image:linear-gradient(90deg,#000 80%,transparent)}
+}

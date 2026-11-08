@@ -7,7 +7,7 @@
  const continents=[['asia-pacific','Asia Pacific'],['africa','Africa'],['europe','Europe'],['americas','Americas']];
  const zones=[['north','Northern Europe',['uk','ie','dk','no','se','fi','ee','lv','lt']],['west','Western Europe',['fr','nl','be','lu']],['central','Central Europe',['de','ch','at','cz','pl','hu','sk','si']],['south','Southern Europe',['es','it','pt','gr','tr','hr','ba','me','mk','rs','xk','al','mt','sm','va','cy']],['east','Eastern Europe',['ro','bg','md','by','ru','ua']],['caucasus','Caucasus',['am','az','ge']]];
  const featured=['uk','fr','de','nl','be','es','it','ch','at','tr','pt','gr','cz','no','se','pl','dk','hu','ie','fi'];
- const state={continent:'europe',zone:'all',country:q.get('country')||'all',scope:['streaming','catalogue','reports'].includes(q.get('scope'))?q.get('scope'):'reports',operator:q.get('operator')||'',query:'',sort:['durationDesc','durationAsc','distanceDesc','distanceAsc','featured'].includes(q.get('sort'))?q.get('sort'):'durationDesc',limit:30};
+ const state={continent:'europe',zone:'all',country:q.get('country')||'all',scope:['streaming','catalogue','reports'].includes(q.get('scope'))?q.get('scope'):'reports',operator:q.get('operator')||'',query:'',sort:['durationDesc','durationAsc','distanceDesc','distanceAsc','featured'].includes(q.get('sort'))?q.get('sort'):'durationAsc',limit:30};
  let terminalData,catalogue,endpoints,photos,operators,countries=[],rows=[],matches=[];
  document.body.classList.add('lr-route-cards-view','lr-home-view');
  document.querySelector('.workspace').hidden=true;
@@ -89,7 +89,7 @@
   document.querySelector('#route-card-operator').onchange=e=>{state.operator=e.target.value;state.limit=30;draw()};
   document.querySelector('#route-card-sort').onchange=e=>{state.sort=e.target.value;state.limit=30;draw()};
   document.querySelector('#route-card-scope').onchange=e=>{state.scope=e.target.value;state.limit=30;prepareRows();draw()};
-  main.querySelector('form').onsubmit=e=>e.preventDefault();main.querySelector('form').onreset=e=>{e.preventDefault();state.operator='';state.sort='durationDesc';state.scope='reports';document.querySelector('#route-card-sort').value=state.sort;document.querySelector('#route-card-scope').value=state.scope;prepareRows();choose(state.continent)};
+  main.querySelector('form').onsubmit=e=>e.preventDefault();main.querySelector('form').onreset=e=>{e.preventDefault();state.operator='';state.sort='durationAsc';state.scope='reports';document.querySelector('#route-card-sort').value=state.sort;document.querySelector('#route-card-scope').value=state.scope;prepareRows();choose(state.continent)};
   document.querySelector('#route-card-more').onclick=()=>{const previous=state.limit;state.limit+=30;document.querySelector('#route-card-grid').insertAdjacentHTML('beforeend',matches.slice(previous,state.limit).map(card).join(''));document.querySelector('#route-card-more').hidden=state.limit>=matches.length;document.querySelector('#route-card-page-count').textContent=`Showing ${Math.min(state.limit,matches.length)} of ${matches.length.toLocaleString()} routes`;};draw();
  }
  function prepareRows(){
