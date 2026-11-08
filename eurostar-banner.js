@@ -1,0 +1,2 @@
+// Panoramic AI illustrations: decorative scenes, not documentary route photographs.
+window.LR_PROFILE_GALLERY=[['eurostar-heroes/daylight-panorama-1.webp','AI-generated illustration of a Eurostar-style train in clear daylight countryside','EUROSTAR · SCENIC ILLUSTRATION','50% 50%','Eurostar','Scenic illustration','50% 50%','uk'],['eurostar-heroes/daylight-panorama-2.webp','AI-generated illustration of a Eurostar-style train beside a waterway in clear daylight','EUROSTAR · SCENIC ILLUSTRATION','50% 50%','Eurostar','Scenic illustration','50% 50%','fr']];

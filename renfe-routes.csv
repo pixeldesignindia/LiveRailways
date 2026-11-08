@@ -1,0 +1,426 @@
+﻿origin,destination,originCountry,destinationCountry,international,reportDate,distanceKm,distanceBasis,fastestMinutes,slowestMinutes,trainsOnReportDate,sourceRow
+Barcelona Sants,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,527,Straight line,181.0,,21,2
+Madrid Puerta de Atocha,Barcelona Sants,ES,ES,False,2026-11-05,527,Straight line,182.0,,20,3
+Madrid Puerta de Atocha,Puertollano,ES,ES,False,2026-11-05,196,Straight line,80.0,,19,4
+Puertollano,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,196,Straight line,79.0,,19,5
+Madrid Puerta de Atocha,Sevilla Santa Justa,ES,ES,False,2026-11-05,421,Straight line,158.0,,17,6
+Sevilla Santa Justa,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,421,Straight line,156.0,,17,7
+Madrid Puerta de Atocha,Toledo,ES,ES,False,2026-11-05,66,Straight line,34.0,,14,8
+Toledo,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,66,Straight line,34.0,,14,9
+Madrid Puerta de Atocha,Málaga María Zambrano,ES,ES,False,2026-11-05,435,Straight line,164.0,,13,10
+Málaga María Zambrano,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,435,Straight line,164.0,,13,11
+Barcelona Estació de França,Reus,ES,ES,False,2026-11-05,100,Straight line,108.0,,11,12
+Reus,Barcelona Estació de França,ES,ES,False,2026-11-05,100,Straight line,108.0,,13,13
+Madrid Chamartín,Valladolid-Campo Grande,ES,ES,False,2026-11-05,157,Straight line,61.0,,12,14
+Valladolid-Campo Grande,Madrid Chamartín,ES,ES,False,2026-11-05,157,Straight line,61.0,,11,15
+Sevilla Santa Justa,Málaga María Zambrano,ES,ES,False,2026-11-05,258,Straight line,124.0,,11,16
+Málaga María Zambrano,Sevilla Santa Justa,ES,ES,False,2026-11-05,258,Straight line,127.0,,11,17
+Madrid Chamartín,València Joaquín Sorolla,ES,ES,False,2026-11-05,308,Straight line,114.0,,10,18
+València Joaquín Sorolla,Madrid Chamartín,ES,ES,False,2026-11-05,308,Straight line,116.0,,11,19
+A Coruña,Vigo Urzaiz,ES,ES,False,2026-11-05,138,Straight line,131.0,,10,20
+Vigo Urzaiz,A Coruña,ES,ES,False,2026-11-05,138,Straight line,125.0,,11,21
+Barcelona Sants,Figueres,ES,ES,False,2026-11-05,130,Straight line,110.0,,10,22
+Figueres,Barcelona Sants,ES,ES,False,2026-11-05,130,Straight line,114.0,,10,23
+Alicante/Alacant-Terminal,Murcia del Carmen,ES,ES,False,2026-11-05,71,Straight line,55.0,,8,24
+Murcia del Carmen,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,71,Straight line,54.0,,8,25
+Cádiz,Jaén,ES,ES,False,2026-11-05,341,Straight line,319.0,,8,26
+Jaén,Cádiz,ES,ES,False,2026-11-05,341,Straight line,331.0,,8,27
+València-Estació del Nord,Alcoi,ES,ES,False,2026-11-05,100,Straight line,178.0,,8,28
+Alcoi,València-Estació del Nord,ES,ES,False,2026-11-05,100,Straight line,179.0,,8,29
+València-Estació del Nord,Vinaròs,ES,ES,False,2026-11-05,142,Straight line,140.0,,8,30
+Vinaròs,València-Estació del Nord,ES,ES,False,2026-11-05,142,Straight line,145.0,,8,31
+Tarragona,Salou-Port Aventura,ES,ES,False,2026-11-05,9,Straight line,13.0,,8,32
+Salou-Port Aventura,Tarragona,ES,ES,False,2026-11-05,9,Straight line,13.0,,8,33
+Barcelona Sants,Portbou,ES,ES,False,2026-11-05,155,Straight line,133.0,,6,34
+Portbou,Barcelona Sants,ES,ES,False,2026-11-05,155,Straight line,136.0,,10,35
+Barcelona Estació de França,Tortosa,ES,ES,False,2026-11-05,165,Straight line,167.0,,8,36
+Tortosa,Barcelona Estació de França,ES,ES,False,2026-11-05,165,Straight line,163.0,,8,37
+Córdoba-Julio Anguita,Campus Universitario de Rabanales,ES,ES,False,2026-11-05,7,Straight line,6.0,,7,38
+Campus Universitario de Rabanales,Córdoba-Julio Anguita,ES,ES,False,2026-11-05,7,Straight line,6.0,,8,39
+Murcia del Carmen,Cartagena,ES,ES,False,2026-11-05,47,Straight line,58.0,,8,40
+Cartagena,Murcia del Carmen,ES,ES,False,2026-11-05,47,Straight line,56.0,,7,41
+Ourense,A Coruña,ES,ES,False,2026-11-05,134,Straight line,105.0,,7,42
+A Coruña,Ourense,ES,ES,False,2026-11-05,134,Straight line,116.0,,7,43
+Sevilla Santa Justa,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,421,Straight line,278.0,,7,44
+Madrid-Atocha Cercanías,Sevilla Santa Justa,ES,ES,False,2026-11-05,421,Straight line,293.0,,7,45
+Barcelona Sants,FIGUERES-VILAFANT,ES,ES,False,2026-11-05,121,Straight line,53.0,,7,46
+FIGUERES-VILAFANT,Barcelona Sants,ES,ES,False,2026-11-05,121,Straight line,55.0,,6,47
+Sevilla Santa Justa,Cádiz,ES,ES,False,2026-11-05,120,Straight line,98.0,,6,48
+Cádiz,Sevilla Santa Justa,ES,ES,False,2026-11-05,120,Straight line,97.0,,6,49
+Lleida-Pirineus,Cervera,ES,ES,False,2026-11-05,54,Straight line,51.0,,6,50
+Cervera,Lleida-Pirineus,ES,ES,False,2026-11-05,54,Straight line,50.0,,6,51
+Madrid Chamartín,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,396,Straight line,137.0,,5,52
+Alicante/Alacant-Terminal,Madrid Chamartín,ES,ES,False,2026-11-05,396,Straight line,143.0,,6,53
+Alcolea de Córdoba,Villarrubia de Córdoba,ES,ES,False,2026-11-05,21,Straight line,27.0,,5,54
+Villarrubia de Córdoba,Alcolea de Córdoba,ES,ES,False,2026-11-05,21,Straight line,27.0,,6,55
+Madrid Puerta de Atocha,FIGUERES-VILAFANT,ES,ES,False,2026-11-05,648,Straight line,261.0,,5,56
+FIGUERES-VILAFANT,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,648,Straight line,259.0,,5,57
+Madrid Chamartín,A Coruña,ES,ES,False,2026-11-05,542,Straight line,260.0,,5,58
+A Coruña,Madrid Chamartín,ES,ES,False,2026-11-05,542,Straight line,260.0,,5,59
+Madrid-Atocha Cercanías,Málaga María Zambrano,ES,ES,False,2026-11-05,442,Straight line,311.0,,5,60
+Málaga María Zambrano,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,442,Straight line,298.0,,5,61
+A Coruña,Ferrol,ES,ES,False,2026-11-05,45,Straight line,67.0,,5,62
+Ferrol,A Coruña,ES,ES,False,2026-11-05,45,Straight line,67.0,,5,63
+Antequera AV,Algeciras,ES,ES,False,2026-11-05,142,Straight line,215.0,,5,64
+Algeciras,Antequera AV,ES,ES,False,2026-11-05,142,Straight line,213.0,,5,65
+Alicante/Alacant-Terminal,Villena,ES,ES,False,2026-11-05,55,Straight line,58.0,,5,66
+Villena,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,55,Straight line,53.0,,5,67
+Lleida-Pirineus,Barcelona Estació de França,ES,ES,False,2026-11-05,154,Straight line,203.0,,5,68
+Barcelona Estació de França,Lleida-Pirineus,ES,ES,False,2026-11-05,154,Straight line,198.0,,5,69
+Zaragoza Delicias,Calatayud,ES,ES,False,2026-11-05,71,Straight line,75.0,,5,70
+Calatayud,Zaragoza Delicias,ES,ES,False,2026-11-05,71,Straight line,90.0,,5,71
+A Coruña,Vigo-Guixar,ES,ES,False,2026-11-05,138,Straight line,179.0,,5,72
+Vigo-Guixar,A Coruña,ES,ES,False,2026-11-05,138,Straight line,169.0,,4,73
+Madrid Chamartín,Baides,ES,ES,False,2026-11-05,106,Straight line,213.0,,3,74
+Baides,Madrid Chamartín,ES,ES,False,2026-11-05,106,Straight line,196.0,,6,75
+Madrid Puerta de Atocha,Pamplona/Iruña,ES,ES,False,2026-11-05,341,Straight line,204.0,,4,76
+Pamplona/Iruña,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,341,Straight line,220.0,,4,77
+Madrid Puerta de Atocha,Cádiz,ES,ES,False,2026-11-05,538,Straight line,277.0,,4,78
+Cádiz,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,538,Straight line,276.0,,4,79
+Zaragoza Delicias,Huesca,ES,ES,False,2026-11-05,67,Straight line,56.0,,4,80
+Huesca,Zaragoza Delicias,ES,ES,False,2026-11-05,67,Straight line,58.0,,4,81
+Madrid Chamartín,Gijón-Sanz Crespo,ES,ES,False,2026-11-05,397,Straight line,221.0,,4,82
+Gijón-Sanz Crespo,Madrid Chamartín,ES,ES,False,2026-11-05,397,Straight line,219.0,,4,83
+Madrid Chamartín,Vigo Urzaiz,ES,ES,False,2026-11-05,560,Straight line,239.0,,4,84
+Vigo Urzaiz,Madrid Chamartín,ES,ES,False,2026-11-05,560,Straight line,235.0,,4,85
+Madrid Chamartín,Salamanca,ES,ES,False,2026-11-05,215,Straight line,97.0,,4,86
+Salamanca,Madrid Chamartín,ES,ES,False,2026-11-05,215,Straight line,97.0,,4,87
+Barcelona Sants,Lleida-Pirineus,ES,ES,False,2026-11-05,147,Straight line,66.0,,4,88
+Lleida-Pirineus,Barcelona Sants,ES,ES,False,2026-11-05,147,Straight line,65.0,,4,89
+Sevilla Santa Justa,Granada,ES,ES,False,2026-11-05,313,Straight line,157.0,,4,90
+Granada,Sevilla Santa Justa,ES,ES,False,2026-11-05,313,Straight line,165.0,,4,91
+Sevilla Santa Justa,Huelva,ES,ES,False,2026-11-05,91,Straight line,112.0,,4,92
+Huelva,Sevilla Santa Justa,ES,ES,False,2026-11-05,91,Straight line,108.0,,4,93
+Granada,Almería,ES,ES,False,2026-11-05,129,Straight line,159.0,,4,94
+Almería,Granada,ES,ES,False,2026-11-05,129,Straight line,167.0,,4,95
+Madrid Chamartín,Jaén,ES,ES,False,2026-11-05,318,Straight line,271.0,,4,96
+Jaén,Madrid Chamartín,ES,ES,False,2026-11-05,318,Straight line,273.0,,4,97
+Linares-Baeza,Vilches,ES,ES,False,2026-11-05,17,Straight line,34.0,,4,98
+Vilches,Linares-Baeza,ES,ES,False,2026-11-05,17,Straight line,34.0,,4,99
+Barcelona Sants,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,439,Straight line,318.0,,3,100
+Alicante/Alacant-Terminal,Barcelona Sants,ES,ES,False,2026-11-05,439,Straight line,325.0,,4,101
+Lleida-Pirineus,Terrassa Estació del Nord,ES,ES,False,2026-11-05,127,Straight line,152.0,,2,102
+Terrassa Estació del Nord,Lleida-Pirineus,ES,ES,False,2026-11-05,127,Straight line,122.0,,5,103
+Salamanca,Madrid-Príncipe Pío,ES,ES,False,2026-11-05,182,Straight line,158.0,,7,104
+Madrid-Príncipe Pío,Salamanca-La Alamedilla,ES,ES,False,2026-11-05,187,Straight line,159.0,,7,105
+Madrid Chamartín,Badajoz,ES,ES,False,2026-11-05,376,Straight line,292.0,,3,106
+Badajoz,Madrid Chamartín,ES,ES,False,2026-11-05,376,Straight line,278.0,,3,107
+Madrid Puerta de Atocha,Granada,ES,ES,False,2026-11-05,480,Straight line,203.0,,3,108
+Granada,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,480,Straight line,207.0,,3,109
+Málaga María Zambrano,Granada,ES,ES,False,2026-11-05,125,Straight line,82.0,,3,110
+Granada,Málaga María Zambrano,ES,ES,False,2026-11-05,125,Straight line,89.0,,3,111
+Córdoba-Julio Anguita,Cádiz,ES,ES,False,2026-11-05,253,Straight line,207.0,,3,112
+Cádiz,Córdoba-Julio Anguita,ES,ES,False,2026-11-05,253,Straight line,207.0,,3,113
+Palma del Río,Villa del Río,ES,ES,False,2026-11-05,94,Straight line,99.0,,5,114
+Villa del Río,Palma del Río,ES,ES,False,2026-11-05,94,Straight line,98.0,,1,115
+València-Estació del Nord,Tortosa,ES,ES,False,2026-11-05,184,Straight line,174.0,,3,116
+Tortosa,València-Estació del Nord,ES,ES,False,2026-11-05,184,Straight line,165.0,,3,117
+Barcelona Estació de França,Salou-Port Aventura,ES,ES,False,2026-11-05,94,Straight line,102.0,,3,118
+Salou-Port Aventura,Barcelona Estació de França,ES,ES,False,2026-11-05,94,Straight line,103.0,,3,119
+Barcelona Sants,Cerbère,ES,FR,True,2026-11-05,160,Straight line,160.0,,6,120
+Linares-Baeza,Mengíbar-Artichuela,ES,ES,False,2026-11-05,21,Straight line,30.0,,3,121
+Mengíbar-Artichuela,Linares-Baeza,ES,ES,False,2026-11-05,21,Straight line,30.0,,3,122
+Zaragoza Delicias,València-Estació del Nord,ES,ES,False,2026-11-05,291,Straight line,330.0,,3,123
+València-Estació del Nord,Zaragoza Delicias,ES,ES,False,2026-11-05,291,Straight line,330.0,,3,124
+Cerbère,Portbou,FR,ES,True,2026-11-05,2,Straight line,4.0,,6,125
+Santander,Bilbao la Concordia,ES,ES,False,2026-11-05,102,Straight line,184.0,,3,126
+Bilbao la Concordia,Santander,ES,ES,False,2026-11-05,102,Straight line,189.0,,3,127
+València-Estació del Nord,Cartagena,ES,ES,False,2026-11-05,270,Straight line,289.0,,2,128
+Cartagena,València-Estació del Nord,ES,ES,False,2026-11-05,270,Straight line,287.0,,3,129
+Madrid Chamartín,Irun,ES,ES,False,2026-11-05,465,Straight line,342.0,,3,130
+Irun,Madrid Chamartín,ES,ES,False,2026-11-05,465,Straight line,341.0,,2,131
+Miranda de Ebro,Altsasu,ES,ES,False,2026-11-05,70,Straight line,61.0,,3,132
+Altsasu,Miranda de Ebro,ES,ES,False,2026-11-05,70,Straight line,63.0,,2,133
+Madrid-Atocha Cercanías,Segovia,ES,ES,False,2026-11-05,95,Straight line,135.0,,2,134
+Segovia,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,95,Straight line,126.0,,3,135
+Madrid Chamartín,Soria,ES,ES,False,2026-11-05,202,Straight line,248.0,,2,136
+Soria,Madrid Chamartín,ES,ES,False,2026-11-05,202,Straight line,166.0,,3,137
+Zaragoza-Miraflores,Logroño,ES,ES,False,2026-11-05,164,Straight line,145.0,,2,138
+Logroño,Zaragoza-Miraflores,ES,ES,False,2026-11-05,164,Straight line,140.0,,3,139
+Valladolid-Campo Grande,Palencia,ES,ES,False,2026-11-05,48,Straight line,48.0,,3,140
+Palencia,Valladolid-Campo Grande,ES,ES,False,2026-11-05,48,Straight line,53.0,,2,141
+Vigo-Guixar,Porto Campanhã,ES,PT,True,2026-11-05,135,Straight line,146.0,,2,142
+Porto Campanhã,Vigo-Guixar,PT,ES,True,2026-11-05,135,Straight line,150.0,,2,143
+Barcelona Sants,València-Estació del Nord,ES,ES,False,2026-11-05,316,Straight line,199.0,,2,144
+València-Estació del Nord,Barcelona Sants,ES,ES,False,2026-11-05,316,Straight line,189.0,,2,145
+Ourense,Lugo,ES,ES,False,2026-11-05,93,Straight line,100.0,,2,146
+Lugo,Ourense,ES,ES,False,2026-11-05,93,Straight line,94.0,,2,147
+Zaragoza Delicias,Lleida-Pirineus,ES,ES,False,2026-11-05,128,Straight line,132.0,,2,148
+Lleida-Pirineus,Zaragoza Delicias,ES,ES,False,2026-11-05,128,Straight line,137.0,,2,149
+Salamanca,Valladolid-Campo Grande,ES,ES,False,2026-11-05,113,Straight line,65.0,,4,150
+Madrid Puerta de Atocha,Huelva,ES,ES,False,2026-11-05,498,Straight line,250.0,,2,151
+Huelva,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,498,Straight line,251.0,,2,152
+Barcelona Sants,Sevilla Santa Justa,ES,ES,False,2026-11-05,929,Straight line,377.0,,2,153
+Sevilla Santa Justa,Barcelona Sants,ES,ES,False,2026-11-05,929,Straight line,377.0,,2,154
+Madrid Chamartín,Santander,ES,ES,False,2026-11-05,377,Straight line,244.0,,2,155
+Santander,Madrid Chamartín,ES,ES,False,2026-11-05,377,Straight line,243.0,,2,156
+Madrid Chamartín,Bilbao-Intermod. Abando Indalecio Prieto,ES,ES,False,2026-11-05,409,Straight line,310.0,,2,157
+Bilbao-Intermod. Abando Indalecio Prieto,Madrid Chamartín,ES,ES,False,2026-11-05,409,Straight line,275.0,,2,158
+Madrid Puerta de Atocha,Murcia del Carmen,ES,ES,False,2026-11-05,465,Straight line,206.0,,2,159
+Murcia del Carmen,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,465,Straight line,213.0,,2,160
+Madrid Puerta de Atocha,Castelló de la Plana,ES,ES,False,2026-11-05,371,Straight line,183.0,,2,161
+Castelló de la Plana,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,371,Straight line,185.0,,2,162
+Málaga María Zambrano,El Chorro-Caminito del Rey,ES,ES,False,2026-11-05,37,Straight line,51.0,,2,163
+El Chorro-Caminito del Rey,Málaga María Zambrano,ES,ES,False,2026-11-05,37,Straight line,47.0,,2,164
+Albacete-Los Llanos,Cartagena,ES,ES,False,2026-11-05,181,Straight line,210.0,,2,165
+Cartagena,Albacete-Los Llanos,ES,ES,False,2026-11-05,181,Straight line,230.0,,2,166
+León,Ponferrada,ES,ES,False,2026-11-05,107,Straight line,115.0,,2,167
+Ponferrada,León,ES,ES,False,2026-11-05,107,Straight line,121.0,,2,168
+Ourense,O Carballiño,ES,ES,False,2026-11-05,18,Straight line,21.0,,2,169
+O Carballiño,Ourense,ES,ES,False,2026-11-05,18,Straight line,24.0,,2,170
+Palma del Río,Alcolea de Córdoba,ES,ES,False,2026-11-05,58,Straight line,64.0,,2,171
+Alcolea de Córdoba,Palma del Río,ES,ES,False,2026-11-05,58,Straight line,60.0,,2,172
+Córdoba-Julio Anguita,Alcolea de Córdoba,ES,ES,False,2026-11-05,9,Straight line,12.0,,2,173
+Alcolea de Córdoba,Córdoba-Julio Anguita,ES,ES,False,2026-11-05,9,Straight line,15.0,,2,174
+València-Estació del Nord,Albacete-Los Llanos,ES,ES,False,2026-11-05,172,Straight line,132.0,,2,175
+Albacete-Los Llanos,València-Estació del Nord,ES,ES,False,2026-11-05,172,Straight line,129.0,,2,176
+Barcelona Estació de França,Móra la Nova,ES,ES,False,2026-11-05,140,Straight line,173.0,,2,177
+Móra la Nova,Barcelona Estació de França,ES,ES,False,2026-11-05,140,Straight line,173.0,,2,178
+Zaragoza Delicias,Canfranc,ES,ES,False,2026-11-05,183,Straight line,199.0,,2,179
+Canfranc,Zaragoza Delicias,ES,ES,False,2026-11-05,183,Straight line,200.0,,2,180
+Cáceres,Badajoz,ES,ES,False,2026-11-05,82,Straight line,46.0,,2,181
+Badajoz,Cáceres,ES,ES,False,2026-11-05,82,Straight line,46.0,,2,182
+Zaragoza Delicias,Barcelona Estació de França,ES,ES,False,2026-11-05,309,Straight line,339.0,,2,183
+Barcelona Estació de França,Zaragoza Delicias,ES,ES,False,2026-11-05,309,Straight line,343.0,,2,184
+Madrid-Atocha Cercanías,Ávila,ES,ES,False,2026-11-05,110,Straight line,139.0,,2,185
+Ávila,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,110,Straight line,125.0,,2,186
+Madrid-Atocha Cercanías,Illescas,ES,ES,False,2026-11-05,36,Straight line,48.0,,2,187
+Illescas,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,36,Straight line,38.0,,2,188
+Madrid-Atocha Cercanías,Talavera de la Reina,ES,ES,False,2026-11-05,122,Straight line,87.0,,2,189
+Talavera de la Reina,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,122,Straight line,88.0,,2,190
+León,Madrid-Príncipe Pío,ES,ES,False,2026-11-05,369,Straight line,286.0,,2,191
+Madrid-Príncipe Pío,León,ES,ES,False,2026-11-05,369,Straight line,272.0,,2,192
+Madrid-Príncipe Pío,Irun,ES,ES,False,2026-11-05,564,Straight line,512.0,,2,193
+Irun,Madrid-Príncipe Pío,ES,ES,False,2026-11-05,564,Straight line,533.0,,2,194
+Zaragoza-Miraflores,Castejón de Ebro,ES,ES,False,2026-11-05,92,Straight line,74.0,,2,195
+Castejón de Ebro,Zaragoza-Miraflores,ES,ES,False,2026-11-05,92,Straight line,72.0,,2,196
+Zaragoza-Miraflores,Pamplona/Iruña,ES,ES,False,2026-11-05,164,Straight line,145.0,,2,197
+Pamplona/Iruña,Zaragoza-Miraflores,ES,ES,False,2026-11-05,164,Straight line,113.0,,2,198
+Madrid Chamartín,Albacete-Los Llanos,ES,ES,False,2026-11-05,269,Straight line,169.0,,2,199
+Albacete-Los Llanos,Madrid Chamartín,ES,ES,False,2026-11-05,269,Straight line,180.0,,2,200
+Ciudad Real,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,384,Straight line,247.0,,2,201
+Alicante/Alacant-Terminal,Ciudad Real,ES,ES,False,2026-11-05,384,Straight line,246.0,,2,202
+Valladolid-Campo Grande,Santander,ES,ES,False,2026-11-05,227,Straight line,231.0,,2,203
+Santander,Valladolid-Campo Grande,ES,ES,False,2026-11-05,227,Straight line,235.0,,2,204
+Valladolid-Campo Grande,Salamanca-La Alamedilla,ES,ES,False,2026-11-05,116,Straight line,69.0,,4,205
+València-Estació del Nord,Encinacorba,ES,ES,False,2026-11-05,242,Straight line,302.0,,2,206
+Encinacorba,València-Estació del Nord,ES,ES,False,2026-11-05,242,Straight line,300.0,,2,207
+Zaragoza Delicias,Ferreruela,ES,ES,False,2026-11-05,76,Straight line,91.0,,2,208
+Ferreruela,Zaragoza Delicias,ES,ES,False,2026-11-05,76,Straight line,81.0,,2,209
+Madrid Chamartín,Zaragoza Delicias,ES,ES,False,2026-11-05,273,Straight line,354.0,,2,210
+Zaragoza Delicias,Madrid Chamartín,ES,ES,False,2026-11-05,273,Straight line,341.0,,2,211
+Zaragoza Delicias,Baides,ES,ES,False,2026-11-05,175,Straight line,195.0,,2,212
+Baides,Zaragoza Delicias,ES,ES,False,2026-11-05,175,Straight line,191.0,,2,213
+Madrid Chamartín,Almazán-Villa,ES,ES,False,2026-11-05,163,Straight line,204.0,,2,214
+Almazán-Villa,Madrid Chamartín,ES,ES,False,2026-11-05,163,Straight line,226.0,,2,215
+Ferrol,Ribadeo,ES,ES,False,2026-11-05,124,Straight line,188.0,,2,216
+Ribadeo,Ferrol,ES,ES,False,2026-11-05,124,Straight line,185.0,,2,217
+Oviedo,Ferrol,ES,ES,False,2026-11-05,251,Straight line,445.0,,2,218
+Ferrol,Oviedo,ES,ES,False,2026-11-05,251,Straight line,442.0,,2,219
+Oviedo,Llanes,ES,ES,False,2026-11-05,99,Straight line,185.0,,2,220
+Llanes,Oviedo,ES,ES,False,2026-11-05,99,Straight line,184.0,,2,221
+Oviedo,Santander,ES,ES,False,2026-11-05,183,Straight line,337.0,,2,222
+Santander,Oviedo,ES,ES,False,2026-11-05,183,Straight line,327.0,,2,223
+León,València Joaquín Sorolla,ES,ES,False,2026-11-05,612,Straight line,256.0,,2,224
+València Joaquín Sorolla,León,ES,ES,False,2026-11-05,612,Straight line,259.0,,1,225
+Madrid Chamartín,Murcia del Carmen,ES,ES,False,2026-11-05,397,Straight line,166.0,,2,226
+Murcia del Carmen,Madrid Chamartín,ES,ES,False,2026-11-05,397,Straight line,166.0,,1,227
+Ponferrada,Vigo-Guixar,ES,ES,False,2026-11-05,236,Straight line,328.0,,1,228
+Vigo-Guixar,Ponferrada,ES,ES,False,2026-11-05,236,Straight line,330.0,,2,229
+Córdoba-Julio Anguita,Villa del Río,ES,ES,False,2026-11-05,46,Straight line,50.0,,2,230
+Villa del Río,Córdoba-Julio Anguita,ES,ES,False,2026-11-05,46,Straight line,50.0,,1,231
+Lleida-Pirineus,Manresa,ES,ES,False,2026-11-05,104,Straight line,122.0,,3,232
+Miranda de Ebro,Irun,ES,ES,False,2026-11-05,158,Straight line,205.0,,1,233
+Irun,Miranda de Ebro,ES,ES,False,2026-11-05,158,Straight line,191.0,,2,234
+Madrid Chamartín,Ávila,ES,ES,False,2026-11-05,103,Straight line,124.0,,1,235
+Ávila,Madrid Chamartín,ES,ES,False,2026-11-05,103,Straight line,131.0,,2,236
+Valladolid-Campo Grande,Ávila,ES,ES,False,2026-11-05,118,Straight line,87.0,,2,237
+Ávila,Valladolid-Campo Grande,ES,ES,False,2026-11-05,118,Straight line,82.0,,1,238
+Valladolid-Campo Grande,Medina del Campo,ES,ES,False,2026-11-05,40,Straight line,34.0,,1,239
+Medina del Campo,Valladolid-Campo Grande,ES,ES,False,2026-11-05,40,Straight line,35.0,,2,240
+Madrid Chamartín,Sigüenza,ES,ES,False,2026-11-05,117,Straight line,182.0,,2,241
+Sigüenza,Madrid Chamartín,ES,ES,False,2026-11-05,117,Straight line,236.0,,1,242
+Miranda de Ebro,Zaragoza-Miraflores,ES,ES,False,2026-11-05,282,Straight line,270.0,,1,243
+Zaragoza-Miraflores,Miranda de Ebro,ES,ES,False,2026-11-05,282,Straight line,259.0,,2,244
+Zaragoza Delicias,Teruel,ES,ES,False,2026-11-05,163,Straight line,194.0,,2,245
+Teruel,Zaragoza Delicias,ES,ES,False,2026-11-05,163,Straight line,194.0,,1,246
+Encinacorba,Zaragoza Delicias,ES,ES,False,2026-11-05,52,Straight line,70.0,,3,247
+Zaragoza Delicias,Arcos de Jalón,ES,ES,False,2026-11-05,128,Straight line,170.0,,2,248
+Arcos de Jalón,Zaragoza Delicias,ES,ES,False,2026-11-05,128,Straight line,175.0,,1,249
+Ricla-La Almunia,Zaragoza Delicias,ES,ES,False,2026-11-05,57,Straight line,80.0,,3,250
+Miranda de Ebro,Bilbao-Intermod. Abando Indalecio Prieto,ES,ES,False,2026-11-05,64,Straight line,117.0,,1,251
+Bilbao-Intermod. Abando Indalecio Prieto,Miranda de Ebro,ES,ES,False,2026-11-05,64,Straight line,119.0,,1,252
+Vitoria-Gasteiz,San Sebastián-Donostia,ES,ES,False,2026-11-05,103,Straight line,125.0,,1,253
+San Sebastián-Donostia,Vitoria-Gasteiz,ES,ES,False,2026-11-05,103,Straight line,125.0,,1,254
+Barcelona Sants,Bilbao-Intermod. Abando Indalecio Prieto,ES,ES,False,2026-11-05,546,Straight line,423.0,,1,255
+Bilbao-Intermod. Abando Indalecio Prieto,Barcelona Sants,ES,ES,False,2026-11-05,546,Straight line,431.0,,1,256
+Barcelona Sants,San Sebastián-Donostia,ES,ES,False,2026-11-05,540,Straight line,389.0,,1,257
+San Sebastián-Donostia,Barcelona Sants,ES,ES,False,2026-11-05,540,Straight line,376.0,,1,258
+Barcelona Sants,Vigo Urzaiz,ES,ES,False,2026-11-05,1172,Straight line,832.0,,1,259
+Vigo Urzaiz,Barcelona Sants,ES,ES,False,2026-11-05,1172,Straight line,848.0,,1,260
+Zaragoza Delicias,Salamanca,ES,ES,False,2026-11-05,569,Straight line,422.0,,1,261
+Salamanca,Zaragoza Delicias,ES,ES,False,2026-11-05,569,Straight line,386.0,,1,262
+Barcelona Sants,Córdoba-Julio Anguita,ES,ES,False,2026-11-05,870,Straight line,700.0,,1,263
+Córdoba-Julio Anguita,Barcelona Sants,ES,ES,False,2026-11-05,870,Straight line,680.0,,1,264
+Madrid Puerta de Atocha,Logroño,ES,ES,False,2026-11-05,338,Straight line,223.0,,1,265
+Logroño,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,338,Straight line,233.0,,1,266
+València-Estació del Nord,FIGUERES-VILAFANT,ES,ES,False,2026-11-05,435,Straight line,272.0,,1,267
+FIGUERES-VILAFANT,València-Estació del Nord,ES,ES,False,2026-11-05,435,Straight line,253.0,,1,268
+València-Estació del Nord,Lorca-Sutullena,ES,ES,False,2026-11-05,283,Straight line,357.0,,1,269
+Lorca-Sutullena,València-Estació del Nord,ES,ES,False,2026-11-05,283,Straight line,366.0,,1,270
+Madrid Puerta de Atocha,Almería,ES,ES,False,2026-11-05,608,Straight line,410.0,,1,271
+Almería,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,608,Straight line,404.0,,1,272
+Madrid Puerta de Atocha,Huesca,ES,ES,False,2026-11-05,340,Straight line,174.0,,1,273
+Huesca,Madrid Puerta de Atocha,ES,ES,False,2026-11-05,340,Straight line,170.0,,1,274
+Barcelona Sants,Granada,ES,ES,False,2026-11-05,994,Straight line,452.0,,1,275
+Granada,Barcelona Sants,ES,ES,False,2026-11-05,994,Straight line,419.0,,1,276
+Sevilla Santa Justa,València Joaquín Sorolla,ES,ES,False,2026-11-05,617,Straight line,262.0,,1,277
+València Joaquín Sorolla,Sevilla Santa Justa,ES,ES,False,2026-11-05,617,Straight line,260.0,,1,278
+Barcelona Sants,Málaga María Zambrano,ES,ES,False,2026-11-05,950,Straight line,401.0,,1,279
+Málaga María Zambrano,Barcelona Sants,ES,ES,False,2026-11-05,950,Straight line,429.0,,1,280
+Alicante/Alacant-Terminal,Santander,ES,ES,False,2026-11-05,772,Straight line,445.0,,1,281
+Santander,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,772,Straight line,460.0,,1,282
+Madrid Chamartín,Ponferrada,ES,ES,False,2026-11-05,411,Straight line,258.0,,1,283
+Ponferrada,Madrid Chamartín,ES,ES,False,2026-11-05,411,Straight line,249.0,,1,284
+Madrid Chamartín,Avilés,ES,ES,False,2026-11-05,420,Straight line,239.0,,1,285
+Avilés,Madrid Chamartín,ES,ES,False,2026-11-05,420,Straight line,242.0,,1,286
+Madrid Chamartín,Lugo,ES,ES,False,2026-11-05,512,Straight line,286.0,,1,287
+Lugo,Madrid Chamartín,ES,ES,False,2026-11-05,512,Straight line,295.0,,1,288
+Alicante/Alacant-Terminal,Gijón-Sanz Crespo,ES,ES,False,2026-11-05,820,Straight line,444.0,,1,289
+Gijón-Sanz Crespo,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,820,Straight line,444.0,,1,290
+Madrid Chamartín,Logroño,ES,ES,False,2026-11-05,396,Straight line,250.0,,1,291
+Logroño,Madrid Chamartín,ES,ES,False,2026-11-05,396,Straight line,255.0,,1,292
+València Joaquín Sorolla,Burgos-Rosa Manzano,ES,ES,False,2026-11-05,579,Straight line,227.0,,1,293
+Burgos-Rosa Manzano,València Joaquín Sorolla,ES,ES,False,2026-11-05,579,Straight line,224.0,,1,294
+Alicante/Alacant-Terminal,León,ES,ES,False,2026-11-05,704,Straight line,290.0,,1,295
+León,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,704,Straight line,287.0,,1,296
+Alicante/Alacant-Terminal,Ourense,ES,ES,False,2026-11-05,803,Straight line,294.0,,1,297
+Ourense,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,803,Straight line,303.0,,1,298
+Murcia del Carmen,Burgos-Rosa Manzano,ES,ES,False,2026-11-05,673,Straight line,278.0,,1,299
+Burgos-Rosa Manzano,Murcia del Carmen,ES,ES,False,2026-11-05,673,Straight line,288.0,,1,300
+Albacete-Los Llanos,Toledo,ES,ES,False,2026-11-05,322,Straight line,167.0,,1,301
+Toledo,Albacete-Los Llanos,ES,ES,False,2026-11-05,322,Straight line,175.0,,1,302
+Córdoba-Julio Anguita,Sevilla Santa Justa,ES,ES,False,2026-11-05,118,Straight line,52.0,,1,303
+Sevilla Santa Justa,Córdoba-Julio Anguita,ES,ES,False,2026-11-05,118,Straight line,48.0,,1,304
+Madrid-Atocha Cercanías,Algeciras,ES,ES,False,2026-11-05,514,Straight line,442.0,,1,305
+Algeciras,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,514,Straight line,469.0,,1,306
+Madrid Puerta de Atocha,Marseille Saint-Charles,ES,FR,True,2026-11-05,1012,Straight line,522.0,,1,307
+Marseille Saint-Charles,Madrid Puerta de Atocha,FR,ES,True,2026-11-05,1012,Straight line,494.0,,1,308
+Barcelona Sants,Lyon Part-Dieu,ES,FR,True,2026-11-05,580,Straight line,306.0,,1,309
+Lyon Part-Dieu,Barcelona Sants,FR,ES,True,2026-11-05,580,Straight line,288.0,,1,310
+Valladolid-Campo Grande,Gijón-Sanz Crespo,ES,ES,False,2026-11-05,290,Straight line,320.0,,1,311
+Gijón-Sanz Crespo,Valladolid-Campo Grande,ES,ES,False,2026-11-05,290,Straight line,342.0,,1,312
+A Coruña,Monforte de Lemos,ES,ES,False,2026-11-05,156,Straight line,171.0,,1,313
+Monforte de Lemos,A Coruña,ES,ES,False,2026-11-05,156,Straight line,163.0,,1,314
+Ourense,Santiago de Compostela-Daniel Castelao,ES,ES,False,2026-11-05,84,Straight line,100.0,,1,315
+Santiago de Compostela-Daniel Castelao,Ourense,ES,ES,False,2026-11-05,84,Straight line,101.0,,1,316
+Sevilla Santa Justa,Osuna,ES,ES,False,2026-11-05,89,Straight line,89.0,,1,317
+Osuna,Sevilla Santa Justa,ES,ES,False,2026-11-05,89,Straight line,78.0,,1,318
+Huelva,Jabugo-Galaroza,ES,ES,False,2026-11-05,80,Straight line,104.0,,1,319
+Jabugo-Galaroza,Huelva,ES,ES,False,2026-11-05,80,Straight line,96.0,,1,320
+Córdoba-Julio Anguita,Villarrubia de Córdoba,ES,ES,False,2026-11-05,12,Straight line,13.0,,1,321
+Villarrubia de Córdoba,Córdoba-Julio Anguita,ES,ES,False,2026-11-05,12,Straight line,13.0,,1,322
+Palma del Río,Campus Universitario de Rabanales,ES,ES,False,2026-11-05,55,Straight line,81.0,,1,323
+Campus Universitario de Rabanales,Palma del Río,ES,ES,False,2026-11-05,55,Straight line,67.0,,1,324
+Campus Universitario de Rabanales,Villarrubia de Córdoba,ES,ES,False,2026-11-05,19,Straight line,20.0,,1,325
+Villarrubia de Córdoba,Campus Universitario de Rabanales,ES,ES,False,2026-11-05,19,Straight line,22.0,,1,326
+Córdoba-Julio Anguita,Jaén,ES,ES,False,2026-11-05,102,Straight line,125.0,,1,327
+Jaén,Córdoba-Julio Anguita,ES,ES,False,2026-11-05,102,Straight line,120.0,,1,328
+Alicante/Alacant-Terminal,València-Estació del Nord,ES,ES,False,2026-11-05,153,Straight line,155.0,,1,329
+València-Estació del Nord,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,153,Straight line,158.0,,1,330
+Barcelona Estació de França,Flix,ES,ES,False,2026-11-05,157,Straight line,199.0,,1,331
+Flix,Barcelona Estació de França,ES,ES,False,2026-11-05,157,Straight line,200.0,,1,332
+Barcelona Estació de França,Caspe,ES,ES,False,2026-11-05,206,Straight line,255.0,,1,333
+Caspe,Barcelona Estació de França,ES,ES,False,2026-11-05,206,Straight line,247.0,,1,334
+Barcelona Estació de França,La Plana-Picamoixons,ES,ES,False,2026-11-05,118,Straight line,132.0,,1,335
+La Plana-Picamoixons,Barcelona Estació de França,ES,ES,False,2026-11-05,118,Straight line,130.0,,1,336
+Lleida-Pirineus,Tarragona,ES,ES,False,2026-11-05,97,Straight line,165.0,,1,337
+Tarragona,Lleida-Pirineus,ES,ES,False,2026-11-05,97,Straight line,162.0,,1,338
+Zaragoza Delicias,Móra la Nova,ES,ES,False,2026-11-05,170,Straight line,175.0,,1,339
+Móra la Nova,Zaragoza Delicias,ES,ES,False,2026-11-05,170,Straight line,174.0,,1,340
+Zaragoza Delicias,Binéfar,ES,ES,False,2026-11-05,130,Straight line,101.0,,1,341
+Binéfar,Zaragoza Delicias,ES,ES,False,2026-11-05,130,Straight line,104.0,,1,342
+Barcelona Sants,GIRONA,ES,ES,False,2026-11-05,91,Straight line,79.0,,1,343
+GIRONA,Barcelona Sants,ES,ES,False,2026-11-05,91,Straight line,81.0,,1,344
+Madrid Chamartín,Alcázar de San Juan,ES,ES,False,2026-11-05,128,Straight line,106.0,,1,345
+Alcázar de San Juan,Madrid Chamartín,ES,ES,False,2026-11-05,128,Straight line,103.0,,1,346
+Madrid-Atocha Cercanías,Alcázar de San Juan,ES,ES,False,2026-11-05,121,Straight line,90.0,,1,347
+Alcázar de San Juan,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,121,Straight line,95.0,,1,348
+Madrid-Atocha Cercanías,Mérida,ES,ES,False,2026-11-05,368,Straight line,265.0,,1,349
+Mérida,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,368,Straight line,263.0,,1,350
+Madrid-Atocha Cercanías,Cáceres,ES,ES,False,2026-11-05,313,Straight line,254.0,,1,351
+Cáceres,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,313,Straight line,247.0,,1,352
+Madrid Chamartín,Ciudad Real,ES,ES,False,2026-11-05,237,Straight line,172.0,,1,353
+Ciudad Real,Madrid Chamartín,ES,ES,False,2026-11-05,237,Straight line,182.0,,1,354
+Ciudad Real,Alcázar de San Juan,ES,ES,False,2026-11-05,108,Straight line,66.0,,1,355
+Alcázar de San Juan,Ciudad Real,ES,ES,False,2026-11-05,108,Straight line,65.0,,1,356
+Badajoz,Villanueva de la Serena,ES,ES,False,2026-11-05,104,Straight line,102.0,,1,357
+Villanueva de la Serena,Badajoz,ES,ES,False,2026-11-05,104,Straight line,96.0,,1,358
+Badajoz,Cabeza del Buey,ES,ES,False,2026-11-05,167,Straight line,154.0,,1,359
+Cabeza del Buey,Badajoz,ES,ES,False,2026-11-05,167,Straight line,148.0,,1,360
+Mérida,Zafra,ES,ES,False,2026-11-05,61,Straight line,53.0,,1,361
+Zafra,Mérida,ES,ES,False,2026-11-05,61,Straight line,52.0,,1,362
+Valladolid-Campo Grande,Madrid-Príncipe Pío,ES,ES,False,2026-11-05,218,Straight line,185.0,,1,363
+Madrid-Príncipe Pío,Valladolid-Campo Grande,ES,ES,False,2026-11-05,218,Straight line,175.0,,1,364
+Palencia,Madrid-Príncipe Pío,ES,ES,False,2026-11-05,265,Straight line,223.0,,1,365
+Madrid-Príncipe Pío,Palencia,ES,ES,False,2026-11-05,265,Straight line,212.0,,1,366
+Madrid-Príncipe Pío,Altsasu,ES,ES,False,2026-11-05,481,Straight line,388.0,,1,367
+Altsasu,Madrid-Príncipe Pío,ES,ES,False,2026-11-05,481,Straight line,379.0,,1,368
+València-Estació del Nord,Alcázar de San Juan,ES,ES,False,2026-11-05,311,Straight line,241.0,,1,369
+Alcázar de San Juan,València-Estació del Nord,ES,ES,False,2026-11-05,311,Straight line,228.0,,1,370
+Barcelona Estació de França,Vinaròs,ES,ES,False,2026-11-05,202,Straight line,228.0,,1,371
+Vinaròs,Barcelona Estació de França,ES,ES,False,2026-11-05,202,Straight line,220.0,,1,372
+València-Estació del Nord,Barcelona Estació de França,ES,ES,False,2026-11-05,341,Straight line,369.0,,1,373
+Barcelona Estació de França,València-Estació del Nord,ES,ES,False,2026-11-05,341,Straight line,370.0,,1,374
+Palencia,León,ES,ES,False,2026-11-05,117,Straight line,85.0,,1,375
+León,Palencia,ES,ES,False,2026-11-05,117,Straight line,86.0,,1,376
+Valladolid-Campo Grande,Puebla de Sanabria,ES,ES,False,2026-11-05,212,Straight line,178.0,,1,377
+Puebla de Sanabria,Valladolid-Campo Grande,ES,ES,False,2026-11-05,212,Straight line,185.0,,1,378
+Alcázar de San Juan,Badajoz,ES,ES,False,2026-11-05,410,Straight line,361.0,,1,379
+Badajoz,Alcázar de San Juan,ES,ES,False,2026-11-05,410,Straight line,331.0,,1,380
+Teruel,Encinacorba,ES,ES,False,2026-11-05,115,Straight line,160.0,,1,381
+Encinacorba,Teruel,ES,ES,False,2026-11-05,115,Straight line,165.0,,1,382
+Encinacorba,Ferreruela,ES,ES,False,2026-11-05,26,Straight line,61.0,,2,383
+Ciudad Real,Badajoz,ES,ES,False,2026-11-05,302,Straight line,252.0,,1,384
+Badajoz,Ciudad Real,ES,ES,False,2026-11-05,302,Straight line,288.0,,1,385
+Sevilla Santa Justa,Plasencia,ES,ES,False,2026-11-05,343,Straight line,316.0,,1,386
+Plasencia,Sevilla Santa Justa,ES,ES,False,2026-11-05,343,Straight line,299.0,,1,387
+Linares-Baeza,Almería,ES,ES,False,2026-11-05,183,Straight line,239.0,,1,388
+Almería,Linares-Baeza,ES,ES,False,2026-11-05,183,Straight line,239.0,,1,389
+Sigüenza,Baides,ES,ES,False,2026-11-05,14,Straight line,15.0,,1,390
+Baides,Sigüenza,ES,ES,False,2026-11-05,14,Straight line,11.0,,1,391
+Sevilla Santa Justa,Fuente del Arco,ES,ES,False,2026-11-05,102,Straight line,150.0,,1,392
+Fuente del Arco,Sevilla Santa Justa,ES,ES,False,2026-11-05,102,Straight line,160.0,,1,393
+Madrid-Atocha Cercanías,Fuente del Arco,ES,ES,False,2026-11-05,481,Straight line,400.0,,1,394
+Fuente del Arco,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,481,Straight line,436.0,,1,395
+Barcelona Sants,Tortosa,ES,ES,False,2026-11-05,159,Straight line,116.0,,1,396
+Tortosa,Barcelona Sants,ES,ES,False,2026-11-05,159,Straight line,108.0,,1,397
+Bilbao la Concordia,Feve-León,ES,ES,False,2026-11-05,270,Straight line,477.0,,1,398
+Feve-León,Bilbao la Concordia,ES,ES,False,2026-11-05,270,Straight line,487.0,,1,399
+FIGUERES-VILAFANT,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,560,Straight line,391.0,,1,400
+València-Estació del Nord,Murcia del Carmen,ES,ES,False,2026-11-05,222,Straight line,253.0,,1,401
+San Sebastián-Donostia,Madrid Chamartín,ES,ES,False,2026-11-05,455,Straight line,312.0,,1,402
+Valladolid-Campo Grande,Alicante/Alacant-Terminal,ES,ES,False,2026-11-05,553,Straight line,224.0,,1,403
+Madrid Chamartín,León,ES,ES,False,2026-11-05,309,Straight line,131.0,,1,404
+Murcia del Carmen,Valladolid-Campo Grande,ES,ES,False,2026-11-05,623,Straight line,286.0,,1,405
+Segovia-Guiomar,Madrid Chamartín,ES,ES,False,2026-11-05,60,Straight line,25.0,,1,406
+Ronda,Madrid-Atocha Cercanías,ES,ES,False,2026-11-05,440,Straight line,391.0,,1,407
+Vigo-Guixar,Santiago de Compostela-Daniel Castelao,ES,ES,False,2026-11-05,84,Straight line,94.0,,1,408
+Ponferrada,Ourense,ES,ES,False,2026-11-05,130,Straight line,162.0,,1,409
+Ourense,Vigo-Guixar,ES,ES,False,2026-11-05,111,Straight line,140.0,,1,410
+Villa del Río,Villarrubia de Córdoba,ES,ES,False,2026-11-05,58,Straight line,74.0,,1,411
+Flaçà,Barcelona Sants,ES,ES,False,2026-11-05,105,Straight line,95.0,,1,412
+Pamplona/Iruña,Miranda de Ebro,ES,ES,False,2026-11-05,115,Straight line,109.0,,1,413
+Miranda de Ebro,Burgos-Rosa Manzano,ES,ES,False,2026-11-05,69,Straight line,60.0,,1,414
+Burgos-Rosa Manzano,Pamplona/Iruña,ES,ES,False,2026-11-05,183,Straight line,165.0,,1,415
+Castejón de Ebro,Logroño,ES,ES,False,2026-11-05,71,Straight line,70.0,,1,416
+Miranda de Ebro,Castejón de Ebro,ES,ES,False,2026-11-05,190,Straight line,180.0,,1,417
+Cercedilla,Segovia,ES,ES,False,2026-11-05,38,Straight line,44.0,,1,418
+Ávila,Valladolid Universidad,ES,ES,False,2026-11-05,121,Straight line,89.0,,1,419
+Soria,Baides,ES,ES,False,2026-11-05,105,Straight line,120.0,,1,420
+Palencia,Medina del Campo,ES,ES,False,2026-11-05,88,Straight line,100.0,,1,421
+Salamanca,Palencia,ES,ES,False,2026-11-05,163,Straight line,139.0,,1,422
+Palencia,Salamanca-La Alamedilla,ES,ES,False,2026-11-05,163,Straight line,141.0,,1,423
+Navarrete,Zaragoza Delicias,ES,ES,False,2026-11-05,91,Straight line,106.0,,1,424
+Villarreal de Huerva,Ferreruela,ES,ES,False,2026-11-05,16,Straight line,49.0,,1,425
+Sigüenza,Zaragoza Delicias,ES,ES,False,2026-11-05,163,Straight line,212.0,,1,426

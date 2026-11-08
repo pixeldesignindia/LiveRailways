@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "countries": [
+    {
+      "code": "jp",
+      "iso2": "JP",
+      "name": "Japan",
+      "slug": "japan",
+      "continent": "asia-pacific",
+      "region": "east-asia",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Japan"
+      ],
+      "displayOrder": 1
+    },
+    {
+      "code": "au",
+      "iso2": "AU",
+      "name": "Australia",
+      "slug": "australia",
+      "continent": "asia-pacific",
+      "region": "oceania",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Australia"
+      ],
+      "displayOrder": 2
+    },
+    {
+      "code": "kr",
+      "iso2": "KR",
+      "name": "South Korea",
+      "slug": "south-korea",
+      "continent": "asia-pacific",
+      "region": "east-asia",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Korea",
+        "Republic of Korea"
+      ],
+      "displayOrder": 3
+    },
+    {
+      "code": "tw",
+      "iso2": "TW",
+      "name": "Taiwan",
+      "slug": "taiwan",
+      "continent": "asia-pacific",
+      "region": "east-asia",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Taiwan"
+      ],
+      "displayOrder": 4
+    },
+    {
+      "code": "id",
+      "iso2": "ID",
+      "name": "Indonesia",
+      "slug": "indonesia",
+      "continent": "asia-pacific",
+      "region": "southeast-asia",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Indonesia"
+      ],
+      "displayOrder": 5
+    },
+    {
+      "code": "my",
+      "iso2": "MY",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "continent": "asia-pacific",
+      "region": "southeast-asia",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Malaysia"
+      ],
+      "displayOrder": 6
+    },
+    {
+      "code": "th",
+      "iso2": "TH",
+      "name": "Thailand",
+      "slug": "thailand",
+      "continent": "asia-pacific",
+      "region": "southeast-asia",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Thailand"
+      ],
+      "displayOrder": 7
+    },
+    {
+      "code": "vn",
+      "iso2": "VN",
+      "name": "Vietnam",
+      "slug": "vietnam",
+      "continent": "asia-pacific",
+      "region": "southeast-asia",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Viet Nam"
+      ],
+      "displayOrder": 8
+    },
+    {
+      "code": "in",
+      "iso2": "IN",
+      "name": "India",
+      "slug": "india",
+      "continent": "asia-pacific",
+      "region": "south-asia",
+      "status": "stations-ready",
+      "ready": true,
+      "developmentPhase": "station-directory",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "India"
+      ],
+      "displayOrder": 9,
+      "stationDirectory": "india.html",
+      "stationCount": 93
+    },
+    {
+      "code": "us",
+      "iso2": "US",
+      "name": "United States",
+      "slug": "united-states",
+      "continent": "americas",
+      "region": "north-america",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "USA",
+        "US",
+        "United States of America"
+      ],
+      "displayOrder": 10
+    },
+    {
+      "code": "ca",
+      "iso2": "CA",
+      "name": "Canada",
+      "slug": "canada",
+      "continent": "americas",
+      "region": "north-america",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Canada"
+      ],
+      "displayOrder": 11
+    },
+    {
+      "code": "mx",
+      "iso2": "MX",
+      "name": "Mexico",
+      "slug": "mexico",
+      "continent": "americas",
+      "region": "north-america",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Mexico"
+      ],
+      "displayOrder": 12
+    },
+    {
+      "code": "br",
+      "iso2": "BR",
+      "name": "Brazil",
+      "slug": "brazil",
+      "continent": "americas",
+      "region": "south-america",
+      "status": "planned",
+      "ready": false,
+      "developmentPhase": "after-europe",
+      "map": null,
+      "cardImage": null,
+      "routeData": null,
+      "operatorData": null,
+      "aliases": [
+        "Brazil"
+      ],
+      "displayOrder": 13
+    }
+  ]
+}

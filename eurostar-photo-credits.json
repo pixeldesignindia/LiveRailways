@@ -1,0 +1,34 @@
+[
+  {
+    "id": "eurostar-e320-real",
+    "title": "Eurostar e320, Paris Nord 02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Eurostar_e320,_Paris_Nord_02.jpg",
+    "author": "RAIL P (RAIL.PHOTOGRAPHY)",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Eurostar e320 unit 4004 at Paris-Nord station",
+    "date": "2025-08-08 14:41:25",
+    "image": "assets/eurostar-stations/eurostar-e320-real.webp",
+    "changes": "Resized and converted to WebP; responsive display may crop the photograph.",
+    "dimensions": [
+      1800,
+      1197
+    ]
+  },
+  {
+    "id": "eurostar-hs1-real",
+    "title": "Eurostar Class 374 on HS1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Eurostar_Class_374_on_HS1.jpg",
+    "author": "Kabelleger / David Gubler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "New Eurostar class 374 trainset formed of units 4008/4007, based on the Siemens Velaro series, on HS1, near Sellindge, UK",
+    "date": "2015-09-09 23:33:20",
+    "image": "assets/eurostar-stations/eurostar-hs1-real.webp",
+    "changes": "Resized and converted to WebP; responsive display may crop the photograph.",
+    "dimensions": [
+      2000,
+      1235
+    ]
+  }
+]

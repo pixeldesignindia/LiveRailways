@@ -1,0 +1,9 @@
+/* Exact 3:1 framing keeps platforms, train fronts and station architecture visible. */
+.lr-station-hero-view .lr-hero{height:auto!important;aspect-ratio:3/1;background:transparent;contain:none;isolation:isolate}
+.lr-station-hero-view .lr-hero>img{object-fit:contain!important;filter:none!important;box-shadow:none!important}
+.lr-station-hero-view .lr-hero::before,.lr-station-hero-view .lr-hero::after{display:none!important;content:none!important}
+.lr-station-hero-view .lr-hero-inner{display:none!important}
+.lr-station-hero-view .lr-hero>.lr-slide-controls{display:none!important}
+.lr-station-hero-view .lr-search-shell{margin:18px auto 0!important}
+.lr-station-image-note{max-width:1140px;margin:12px auto 0;padding:0 24px;box-sizing:border-box;font-size:11px;line-height:1.5;color:#64736c}
+@media(max-width:650px){.lr-station-image-note{padding:0 16px;font-size:11px}.lr-station-hero-view .lr-search-shell{margin-top:14px!important}}

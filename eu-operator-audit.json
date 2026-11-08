@@ -1,0 +1,222 @@
+{
+  "reviewed": "2026-11-07",
+  "scope": "EU-27 national passenger operators and major passenger-facing brands, not an exhaustive licence register",
+  "audits": [
+    {
+      "region": "eu-west",
+      "notes": [
+        {
+          "country": "at",
+          "status": "Main operators represented; missing IC/Cityjet/GKB added. GYSEV handled by eastern audit.",
+          "sources": [
+            "https://www.oebb.at/en/reiseplanung-services/im-zug/unsere-zuege",
+            "https://westbahn.de/fahrplan/",
+            "https://www.gkb.at/index.php/unternehmen/personenverkehr-bahn"
+          ],
+          "exceptions": [
+            "CAT train temporarily replaced by buses through October2027; do not present as active train. https://www.oebb.at/en/regionale-angebote/ueberregionale-angebote/anreise-zum-flughafen/anreise-wien"
+          ]
+        },
+        {
+          "country": "de",
+          "status": "DB ICE and FlixTrain present; DBIntercity/Regio and major regional brands added. Selected major passenger-facing brands, not every licensed regional subcontractor.",
+          "sources": [
+            "https://www.bahn.de/service/ueber-uns/zugtypen",
+            "https://www.dbregio.de/schiene/zugverkehre",
+            "https://www.transdev.de/de/karriere/ansprechpartner"
+          ]
+        },
+        {
+          "country": "nl",
+          "status": "NS Intercity and international operators present; NS local/high-speed and independent regional brands added.",
+          "sources": [
+            "https://www.ns.nl/en/travel/trains/in-the-netherlands",
+            "https://www.keolis.nl/reisgebieden/",
+            "https://www.arriva.nl/over-je-reis/met-de-trein/"
+          ]
+        },
+        {
+          "country": "be",
+          "status": "SNCB national passenger operator already present; EuroCity/EurocityDirect and Arriva cross-border services added.",
+          "sources": [
+            "https://www.ns.nl/en/about-ns/train-and-tracks/high-speed-line",
+            "https://www.arriva.nl/over-je-reis/met-de-trein/de-drielandentrein/"
+          ]
+        },
+        {
+          "country": "lu",
+          "status": "CFL national operator and TGV/heritage represented; no duplicate national operator required.",
+          "sources": [
+            "https://www.cfl.lu/en-gb"
+          ]
+        },
+        {
+          "country": "fr",
+          "status": "Major national and cross-border brands already represented; Corsican railways and RATP RER added.",
+          "sources": [
+            "https://cf-corse.corsica/",
+            "https://www.iledefrance-mobilites.fr/le-reseau/services-de-mobilite/rer/presentation-plans-rer"
+          ]
+        },
+        {
+          "country": "ie",
+          "status": "InterCity/Enterprise present; DART and Commuter service families added.",
+          "sources": [
+            "https://www.irishrail.ie/en-ie/train-timetables/timetables-by-route"
+          ]
+        }
+      ],
+      "exclusions": []
+    },
+    {
+      "region": "eu-east",
+      "notes": {
+        "pl": "Added eleven major regional/suburban operators from the official PKP carrier list and operator websites. POLREGIO cross-border Czech/German services verified. Other regional operators conservatively assigned Poland only pending individual cross-border timetable review.",
+        "cz": "Existing ČD, RegioJet and Leo Express retained. Added Arriva, GW Train Regio and trilex. Arriva official list includes Hodonín–Myjava in Slovakia.",
+        "sk": "Existing ZSSK, RegioJet and Leo Express cover major national/independent operators. Added coverage through Arriva Hodonín–Myjava. No duplicate national card.",
+        "hu": "Existing MÁV retained. Added GYSEV/Raaberbahn and HÉV Budapest. GYSEV official 2024 report confirms Hungarian/Austrian passenger operations.",
+        "ro": "Existing CFR and Astra retained. Added Regio Călători, Transferoviar Călători, Softrans and InterRegional Călători. Not an exhaustive licensed-operator register; further minor/new operators remain possible.",
+        "bg": "Existing BDZ retained. Added Sofia Metro with airport category. No verified missing major mainline passenger brand identified.",
+        "hr": "Existing HŽ passenger card retained. No verified missing major national mainline operator identified; local tram contractors excluded.",
+        "si": "Existing SŽ card retained. No verified missing major national mainline operator identified.",
+        "gr": "Existing Hellenic Train/Pelion cards retained. Added Athens Metro STASY airport/city brand; metro not represented as a long-distance operator."
+      },
+      "exclusions": []
+    },
+    {
+      "region": "eu-north-south",
+      "notes": [
+        {
+          "country": "es",
+          "status": "major-passenger-brands-reviewed",
+          "note": "Existing main national operator retained; verified missing major passenger-facing product, regional and airport brands added where applicable. This is not a complete register of every licensed operator or tram contractor.",
+          "sourceUrls": [
+            "https://www.renfe.com/es/es/cercanias",
+            "https://www.renfe.com/es/es/cercanias/rodalies-catalunya",
+            "https://www.renfe.com/es/es/viajar/prepara-tu-viaje/trenes-media-distancia",
+            "https://euskotren.eus/en/whai-is-euskotren"
+          ]
+        },
+        {
+          "country": "pt",
+          "status": "major-passenger-brands-reviewed",
+          "note": "Existing main national operator retained; verified missing major passenger-facing product, regional and airport brands added where applicable. This is not a complete register of every licensed operator or tram contractor.",
+          "sourceUrls": [
+            "https://cp.pt/info/en/prices-intercidades",
+            "https://www.cp.pt/info/en/web/cp/regional-and-interregional",
+            "https://www.cp.pt/info/en/lisbon",
+            "https://www.fertagus.pt/en"
+          ]
+        },
+        {
+          "country": "it",
+          "status": "major-passenger-brands-reviewed",
+          "note": "Existing main national operator retained; verified missing major passenger-facing product, regional and airport brands added where applicable. This is not a complete register of every licensed operator or tram contractor.",
+          "sourceUrls": [
+            "https://www.trenitalia.com/en/connections/frecce/frecciargento.html",
+            "https://www.trenitalia.com/en/connections/frecce/frecciabianca.html",
+            "https://www.trenitalia.com/en/connections/intercity.html",
+            "https://www.trenitalia.com/en/information/travelling-on-regional-trains.html",
+            "https://www.trenord.it/en/routes-and-timetables/services/regional-routes/",
+            "https://www.trenord.it/en/linee-e-orari/il-nostro-servizio/malpensa-express/",
+            "https://www.trenitalia.com/en/services/leonardo-express.html",
+            "https://www.tilo.ch/en/",
+            "https://www.tper.it/servizio-ferroviario",
+            "https://www.eavsrl.it/orari-linee-ferroviarie/",
+            "https://ferrotramviaria.it/en-GB/to-airport",
+            "https://www.fssudest.it/s/chisiamo?language=it"
+          ]
+        },
+        {
+          "country": "dk",
+          "status": "major-passenger-brands-reviewed",
+          "note": "Existing main national operator retained; verified missing major passenger-facing product, regional and airport brands added where applicable. This is not a complete register of every licensed operator or tram contractor.",
+          "sourceUrls": [
+            "https://www.oresundstag.se/en/about-oresundstag/who-are-we",
+            "https://www.dsb.dk/s-tog/",
+            "https://www.lokaltog.dk/om-os/",
+            "https://nj.dk/om-os/om-nordjyske-jernbaner/"
+          ]
+        },
+        {
+          "country": "se",
+          "status": "major-passenger-brands-reviewed",
+          "note": "Existing main national operator retained; verified missing major passenger-facing product, regional and airport brands added where applicable. This is not a complete register of every licensed operator or tram contractor.",
+          "sourceUrls": [
+            "https://vrresa.se/en",
+            "https://www.oresundstag.se/en/about-oresundstag/who-are-we",
+            "https://www.arlandaexpress.com/",
+            "https://www.malardalstrafik.se/en/about-us/",
+            "https://en.norrtag.se/norrtags-linjer/",
+            "https://www.vasttrafik.se/en/Tickets/more-about-tickets/kopa-ticket-on-board/",
+            "https://sl.se/en/getting-around/how-to-travel-with-sl",
+            "https://www.skanetrafiken.se/"
+          ]
+        },
+        {
+          "country": "fi",
+          "status": "major-passenger-brands-reviewed",
+          "note": "Existing main national operator retained; verified missing major passenger-facing product, regional and airport brands added where applicable. This is not a complete register of every licensed operator or tram contractor.",
+          "sourceUrls": [
+            "https://www.vr.fi/en/trains/intercity",
+            "https://www.hsl.fi/en/travelling/visitors/airport-train",
+            "https://www.vr.fi/en/railway-stations-and-routes"
+          ]
+        },
+        {
+          "country": "ee",
+          "status": "major-passenger-brands-reviewed",
+          "note": "Existing main national operator retained; verified missing major passenger-facing product, regional and airport brands added where applicable. This is not a complete register of every licensed operator or tram contractor.",
+          "sourceUrls": [
+            "https://elron.ee/en/Tallinn-Tartu-Riga",
+            "https://www.vivi.lv/en/information-for-passengers/international-routes/"
+          ]
+        },
+        {
+          "country": "lv",
+          "status": "major-passenger-brands-reviewed",
+          "note": "Existing main national operator retained; verified missing major passenger-facing product, regional and airport brands added where applicable. This is not a complete register of every licensed operator or tram contractor.",
+          "sourceUrls": [
+            "https://elron.ee/en/Tallinn-Tartu-Riga",
+            "https://ltglink.lt/en/vilnius-riga-en",
+            "https://www.vivi.lv/en/information-for-passengers/international-routes/"
+          ]
+        },
+        {
+          "country": "lt",
+          "status": "major-passenger-brands-reviewed",
+          "note": "Existing main national operator retained; verified missing major passenger-facing product, regional and airport brands added where applicable. This is not a complete register of every licensed operator or tram contractor.",
+          "sourceUrls": [
+            "https://ltglink.lt/en/vilnius-riga-en"
+          ]
+        },
+        {
+          "country": "cy",
+          "status": "no-passenger-rail-network",
+          "note": "No operating national railway network; no fabricated passenger operator card.",
+          "sourceUrls": [
+            "https://ec.europa.eu/eurostat/cache/metadata/EN/rail_if_esms.htm"
+          ]
+        },
+        {
+          "country": "mt",
+          "status": "no-passenger-rail-network",
+          "note": "No operating national railway network; no fabricated passenger operator card.",
+          "sourceUrls": [
+            "https://ec.europa.eu/eurostat/cache/metadata/EN/rail_if_esms.htm"
+          ]
+        }
+      ],
+      "exclusions": [
+        "CP Alfa Pendular, Trenitalia Frecciarossa and VR Pendolino already represented; no duplicate cards.",
+        "GoCollective rail not added: official company confirms rail business transferred to DSB on 1 September 2026. Source https://gocollective.dk/om-gocollective/investor-relations/",
+        "Campania Express not added as active because current service suspension needs resolution; EAV regional railway is included.",
+        "Cross-border coverage refers to trains actually operated, not merely through-ticket connections.",
+        "Vivi serves Valga in Estonia; Elron direct Riga and LTG Link direct Riga services justify Latvia mapping."
+      ]
+    }
+  ],
+  "additionalBrandReview": [
+    "Only verified country coverage included; PKP IC/EC coverage intentionally conservative (Poland and Germany). ČD ComfortJet Copenhagen launch confirmed by current official May 2026 operating announcement."
+  ]
+}

@@ -1,0 +1,78 @@
+(()=>{
+ const box=document.querySelector('.lr-search-box');if(!box)return;
+ const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const params=new URLSearchParams(location.search),contextCountry=/^\/(?:index(?:\.html)?)?$/.test(location.pathname)?'all':params.get('country')||$('atlas-country')?.value||'all',defaultDate=params.get('date')||$('lr-date').value;
+ const cityStationTerm=value=>String(value).replace(/\s*\(all stations\)\s*$/i,'').trim();
+ const majorCities=['London','Paris','Madrid','Barcelona','Berlin','Brussels','Amsterdam','Rotterdam','Antwerp','Rome','Milan','Naples','Turin','Venice','Florence','Bologna','Vienna','Salzburg','Innsbruck','Zurich','Geneva','Basel','Bern','Lausanne','Lucerne','Munich','Frankfurt','Cologne','Hamburg','Dresden','Leipzig','Stuttgart','Düsseldorf','Hannover','Manchester','Birmingham','Liverpool','Edinburgh','Glasgow','Leeds','Bristol','Cardiff','Nottingham','Sheffield','Newcastle','York','Lyon','Marseille','Lille','Bordeaux','Toulouse','Nice','Nantes','Rennes','Strasbourg','Montpellier','Avignon','Besançon','Calais','Cannes','Dijon','Nîmes','Orléans','Reims','Rouen','Tours','Valencia','Seville','Málaga','Bilbao','Vigo','A Coruña','San Sebastián','Zaragoza','Alicante','Córdoba','Granada','Murcia','Lisbon','Porto','Coimbra','Faro','Dublin','Belfast','Cork','Copenhagen','Stockholm','Gothenburg','Malmö','Oslo','Helsinki','Warsaw','Kraków','Prague','Budapest','Bucharest','Sofia','Athens','Thessaloniki','Istanbul','Ankara','İzmir'];
+ function addCityStationOptions(){const list=$('top-route-suggestions');if(!list)return;const stations=[...list.options].map(o=>o.value).filter(v=>!v.endsWith('(All Stations)')),counts=new Map();for(const station of stations){const first=station.split(/[- ]/)[0];if(first.length>=4&&!['Saint','Sainte','Bourg','Port','Gare','Mont','Pont','Brest'].includes(first))counts.set(first,(counts.get(first)||0)+1)}const cities=[...new Set([...majorCities,...[...counts].filter(([,count])=>count>1).map(([name])=>name)])].sort((a,b)=>a.localeCompare(b));list.innerHTML=cities.map(city=>`<option value="${esc(city)} (All Stations)" label="All listed stations in ${esc(city)}"></option>`).join('')+stations.map(name=>`<option value="${esc(name)}"></option>`).join('')}
+ if(window.atlasNavReady)addCityStationOptions();else window.addEventListener('atlas:ready',addCityStationOptions,{once:true});
+ const rangeStart=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Dubai'}),rangeEndDate=new Date(rangeStart+'T12:00:00Z');rangeEndDate.setUTCDate(rangeEndDate.getUTCDate()+59);const rangeEnd=rangeEndDate.toISOString().slice(0,10);
+ const bands=[['any','Any Time'],['00-06','00:00–06:00'],['06-12','06:00–12:00'],['12-18','12:00–18:00'],['18-24','18:00–24:00']];
+ const options=a=>a.map(([v,t])=>`<option value="${v}">${t}</option>`).join('');
+ const band=id=>`<label for="${id}">Time Band<select id="${id}" data-time-band>${options(bands)}</select></label>`;
+ const station=(label,id,required=false)=>`<label for="${id}">${label}<input id="${id}" placeholder="City (All Stations) or station" list="top-route-suggestions" autocomplete="off" ${required?'required':''}></label>`;
+ const date=id=>`<label for="${id}">Journey Date<input id="${id}" type="date" required></label>`;
+ const dateRange=prefix=>`<label for="lr-${prefix}-datefrom">From Date (optional)<input id="lr-${prefix}-datefrom" type="date" data-range-from></label><label for="lr-${prefix}-dateto">To Date (optional)<input id="lr-${prefix}-dateto" type="date" data-range-to></label>`;
+ const rangeHint=`<p class="lr-filter-note">Leave dates blank for the <strong>Next 60 Days</strong> · ${rangeStart} to ${rangeEnd}</p>`;
+ const button=t=>`<button class="lr-find lr-filter-submit" type="submit">${t}</button>`;
+ const note=(id,t)=>`<p class="lr-filter-note" id="${id}" role="status">${t}</p>`;
+ const preferenceNote='Time bands use station-local departure times. Timed searches cover supplied full-train Renfe/SNCF timetables, active 24–30 October 2026; other records have no supplied times.';
+ // Keep the legacy catalogue controls for internal result filtering, outside the visible search form.
+ box.querySelector('.lr-map-filters').hidden=true;
+ for(const id of ['lr-origin','lr-destination'])$(id).placeholder='City (All Stations) or station';
+ const changes=$('lr-changes').closest('label');changes.insertAdjacentHTML('beforebegin',band('lr-j-band'));
+ const timetable=document.createElement('form');timetable.id='lr-timetable';timetable.className='lr-tab-form';timetable.setAttribute('role','tabpanel');timetable.setAttribute('aria-labelledby','lr-timetable-tab');timetable.hidden=true;
+ timetable.innerHTML=`${rangeHint}<div class="lr-simple-filter-grid lr-timetable-filter-grid">${station('From','lr-t-origin',true)}<button type="button" id="lr-t-swap" aria-label="Swap timetable stations">⇄</button>${station('To (optional)','lr-t-destination')}${dateRange('t')}<label for="lr-t-changes">Direct / Changes<select id="lr-t-changes"><option value="">All journeys</option><option value="0">Direct only</option><option value="1">1 change</option><option value="2">2+ changes</option><option value="unknown">Unconfirmed</option></select></label>${band('lr-t-band')}<label for="lr-t-operator">Operator<select id="lr-t-operator"><option value="all">All Operators</option></select></label></div>${button('View TimeTable →')}${note('lr-t-note','Enter a station to find its listed connections. Add a destination to narrow the timetable search.')}`;
+ $('lr-journey').after(timetable);
+ let timetableOperatorIndex,operatorSelection=params.get('operator')||'all';
+ const normalizeStation=value=>cityStationTerm(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+ const operatorNote=document.createElement('p');operatorNote.className='lr-filter-note';operatorNote.setAttribute('role','status');$('lr-t-operator').closest('.lr-simple-filter-grid').after(operatorNote);
+ function updateTimetableOperators(){
+  if(!timetableOperatorIndex||timetable.dataset.managed==='station')return;
+  const target=$('lr-t-operator'),from=normalizeStation($('lr-t-origin').value),to=normalizeStation($('lr-t-destination').value),index=timetableOperatorIndex;
+  const matches=(station,term)=>!term||index.normalizedStations[station].includes(term);
+  const rows=index.routes.filter(([country,a,b])=>(contextCountry==='all'||country===contextCountry)&&((matches(a,from)&&matches(b,to))||(matches(b,from)&&matches(a,to))));
+  const available=[...new Set(rows.flatMap(r=>r[3]))].map(i=>index.operators[i]).sort((a,b)=>a.localeCompare(b));
+  const prior=operatorSelection;target.innerHTML='<option value="all">All Operators</option>'+available.map(op=>`<option value="${esc(op)}">${esc(op)}</option>`).join('');target.value=available.includes(prior)?prior:'all';operatorSelection=target.value;
+  operatorNote.textContent=from||to?(available.length?'Operators listed for the selected route in the available catalogue.':'No operators listed for this route in the available catalogue.'):'Choose stations to narrow the operator list.';
+ }
+ for(const id of ['lr-t-origin','lr-t-destination'])$(id).addEventListener('input',updateTimetableOperators);
+ $('lr-t-operator').addEventListener('change',()=>operatorSelection=$('lr-t-operator').value);
+ fetch('route-operator-index.json').then(r=>{if(!r.ok)throw Error('Operator lookup unavailable');return r.json()}).then(index=>{timetableOperatorIndex={...index,normalizedStations:index.stations.map(normalizeStation)};updateTimetableOperators()}).catch(()=>{operatorNote.textContent='Route-specific operator options could not load. All Operators remains available.'});
+ $('lr-timetable-tab').setAttribute('aria-controls','lr-timetable');
+ $('lr-status').innerHTML=`<form id="lr-status-form" class="lr-tab-form"><div class="lr-simple-filter-grid lr-status-filter-grid">${station('Origin Station','lr-x-origin')}${station('Destination Station','lr-x-destination')}<label for="lr-x-number">Train Number<input id="lr-x-number" placeholder="e.g. 9321" required></label>${date('lr-x-date')}</div>${button('Check Status →')}<div id="lr-status-feedback" class="lr-filter-feedback" role="status" hidden></div></form>`;
+ $('lr-boards').innerHTML=`<form id="lr-board-form" class="lr-tab-form"><div class="lr-simple-filter-grid lr-board-filter-grid">${station('Station Name','lr-b-station',true)}</div>${button('View Station Board →')}<div id="lr-board-feedback" class="lr-filter-feedback" role="status" hidden></div></form>`;
+ const forms=[$('lr-journey'),timetable,$('lr-status-form'),$('lr-board-form')];
+ forms.forEach(f=>{f.querySelectorAll('input[type=date]').forEach(d=>d.value=d.hasAttribute('data-range-from')?(params.get('datefrom')||params.get('date')||''):d.hasAttribute('data-range-to')?(params.get('dateto')||params.get('date')||''):defaultDate);f.querySelectorAll('[data-time-band]').forEach(b=>b.value=bands.some(a=>a[0]===params.get('timeband'))?params.get('timeband'):'any')});
+ for(const prefix of ['t','x']){$('lr-'+prefix+'-origin').value=params.get('from')||params.get('station')||params.get('city')||'';$('lr-'+prefix+'-destination').value=params.get('to')||''}
+ for(const input of box.querySelectorAll('input[list="top-route-suggestions"]'))if(majorCities.includes(input.value))input.value+=' (All Stations)';
+ $('lr-b-station').value=params.get('station')||params.get('city')||params.get('from')||params.get('to')||'';
+ function refreshBandNote(form){const b=form.querySelector('[data-time-band]');if(!b)return;const n=form.querySelector('[role=status]');if(!n)return;if(!n.dataset.baseNote)n.dataset.baseNote=n.textContent;n.textContent=b.value==='any'?n.dataset.baseNote:preferenceNote.replace('departure','departure')}
+ for(const form of [timetable]){const from=form.querySelector('[data-range-from]'),to=form.querySelector('[data-range-to]');function validateRange(){to.setCustomValidity(from.value&&to.value&&from.value>to.value?'To Date must be on or after From Date.':'')}from.addEventListener('input',validateRange);to.addEventListener('input',validateRange)}
+ forms.forEach(f=>f.querySelectorAll('[data-time-band]').forEach(b=>{b.onchange=()=>refreshBandNote(f);refreshBandNote(f)}));
+ function query(form,tab){const q=new URLSearchParams({country:contextCountry,scope:'catalogue',searchtab:tab,sort:'durationAsc'}),d=form.querySelector('input[type=date]')?.value||defaultDate,b=form.querySelector('[data-time-band]')?.value||'any';if(tab==='schedule'||tab==='timetable'){const from=form.querySelector('[data-range-from]').value,to=form.querySelector('[data-range-to]').value,start=from|| (to&&to<rangeStart?to:rangeStart),end=to|| (from&&from>rangeEnd?from:rangeEnd);q.set('datefrom',start);q.set('dateto',end)}else{q.set('date',d);sessionStorage.setItem('lr-travel-date',d)}if(b!=='any'){q.set('timeband',b);q.set('timebasis','departures');q.set('scope','streaming')}return q}
+ function set(q,k,id){const v=cityStationTerm($(id).value);if(v)q.set(k,v)}
+ $('lr-journey').onsubmit=e=>{e.preventDefault();const q=query(e.currentTarget,'journey');set(q,'from','lr-origin');set(q,'to','lr-destination');q.set('changes',$('lr-changes').value);if($('lr-changes').value==='0')q.set('scope','streaming');location.href='routes.html?'+q};
+ for(const [form,prefix,tab]of [[timetable,'t','timetable']])form.onsubmit=e=>{e.preventDefault();const q=query(form,tab);if(tab==='timetable'&&$('lr-t-operator').value!=='all')q.set('operator',$('lr-t-operator').value);set(q,'from','lr-'+prefix+'-origin');set(q,'to','lr-'+prefix+'-destination');q.set('station',$('lr-'+prefix+'-origin').value);if($('lr-t-changes').value)q.set('changes',$('lr-t-changes').value);location.href='station-timetable.html?'+q+'#station-timetable'};
+ $('lr-x-number').value=params.get('train')||'';
+ $('lr-status-form').onsubmit=e=>{e.preventDefault();const q=new URLSearchParams({country:contextCountry,scope:'catalogue'});set(q,'from','lr-x-origin');set(q,'to','lr-x-destination');q.set('date',$('lr-x-date').value);const f=$('lr-status-feedback');f.hidden=false;f.innerHTML=`<strong>Live status is unavailable for train ${esc($('lr-x-number').value)}.</strong><p>No live running source is connected yet.</p><a href="routes.html?${esc(q)}">Browse published route information →</a>`};
+ const onBoardPage=/\/station-board(?:-refined)?(?:\.html)?\/?$/.test(location.pathname);
+ $('lr-board-form').onsubmit=e=>{e.preventDefault();const q=new URLSearchParams({searchtab:'board',station:cityStationTerm($('lr-b-station').value)});const mode=new URLSearchParams(location.search).get('mode');if(mode)q.set('mode',mode);location.href='station-board.html?'+q+'#station-board'};
+ $('clear-filters')?.addEventListener('click',()=>{forms.forEach(f=>{f.reset();f.querySelectorAll('input[type=date]').forEach(d=>d.setCustomValidity(''));f.querySelectorAll('input[type=date]').forEach(d=>d.value=d.hasAttribute('data-range-from')?(params.get('datefrom')||params.get('date')||''):d.hasAttribute('data-range-to')?(params.get('dateto')||params.get('date')||''):defaultDate);refreshBandNote(f)});operatorSelection='all';updateTimetableOperators();for(const id of ['lr-status-feedback','lr-board-feedback'])$(id).hidden=true});
+ if(params.get('station'))$('lr-t-origin').value=params.get('station');
+ const requested=params.get('searchtab'),tabs={journey:'lr-journey-tab',schedule:'lr-timetable-tab',timetable:'lr-timetable-tab',status:'lr-status-tab',board:'lr-board-tab',videos:'lr-videos-tab'};if(tabs[requested])$(tabs[requested]).click();
+ // Operator and country information remains in result columns, not additional search filters.
+ for(const id of ['category-filter','network-filter'])$(id)?.closest('label')?.setAttribute('hidden','');
+
+ const fieldIds={from:'lr-t-origin',to:'lr-t-destination',date:'lr-t-datefrom',endDate:'lr-t-dateto',operator:'lr-t-operator',band:'lr-t-band',changes:'lr-t-changes'};
+ window.LRSharedTimetableSearch={
+   element:timetable,
+   get(){return Object.fromEntries(Object.entries(fieldIds).map(([key,id])=>[key,$(id).value]));},
+   set(values){for(const [key,value] of Object.entries(values))if(fieldIds[key])$(fieldIds[key]).value=value;},
+   operators(values){timetable.dataset.managed='station';$('lr-t-operator').innerHTML='<option value="all">All operators</option>'+values.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');operatorNote.textContent='Operators from this station’s available route data.';},
+   subscribe(fn){timetable.addEventListener('input',fn);timetable.addEventListener('change',fn);timetable.addEventListener('lr:swap',fn);},
+   onSubmit(fn){const original=timetable.onsubmit;timetable.onsubmit=e=>{if(fn(this.get())!==false)e.preventDefault();else original(e);};}
+ };
+ $('lr-t-changes').value=params.get('changes')||'';
+ $('lr-t-swap').onclick=()=>{const v=$('lr-t-origin').value;$('lr-t-origin').value=$('lr-t-destination').value;$('lr-t-destination').value=v;updateTimetableOperators();timetable.dispatchEvent(new Event('lr:swap'));};
+})();

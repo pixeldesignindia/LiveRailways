@@ -1,0 +1,52 @@
+{
+  "reviewed": "2026-10-24",
+  "scope": "All 51 country editions were checked for route counts, shared map/list data and endpoint evidence. The directory contains 2,366 directional records: 2,266 validated against stored timetable files and 100 published endpoint services. This is selected coverage, not a complete European train inventory.",
+  "corrections": [
+    "Moved six Renfe-feed services to their actual origin countries: five to France and one to Portugal. The provider’s country no longer determines the route’s country.",
+    "Removed the suspended Nordland night-service branding and overnight example times. Norway now lists the published daytime Trondheim S–Bodø endpoint route, with a suspension notice for the night train.",
+    "Replaced generic Czechia/Slovakia tourism and old InterCity references with named Košičan terminal publications and current ZSSK express-service notices. Published entries still require a dated check.",
+    "All 51 maps use the same searchable route list beside the map, with matching directory counts, route-type filters and 50 results per page. Countries without route evidence show a status message in that same panel."
+  ],
+  "limit": "No country is certified as a complete inventory. Published endpoint services have not all had their current operating calendars, mileage and frequencies independently verified. Missing values remain “Not verified”; an empty list can mean evidence is pending, rather than no trains operating.",
+  "validation": {
+    "reviewed": "2026-10-24",
+    "countryEditionsChecked": 51,
+    "listedRoutes": 2366,
+    "datedRoutes": 2266,
+    "publishedRoutes": 100,
+    "feeds": [
+      {
+        "feed": "renfe-mainline",
+        "sha256": "42c2f59402035de5ceac2f68de52bf1da1f72c6c9c674234fe8c07c878c98394",
+        "routesChecked": 529,
+        "tripPatternsChecked": 2034,
+        "departuresChecked": 10194,
+        "result": "PASS"
+      },
+      {
+        "feed": "sncf-national",
+        "sha256": "e8ef6146d71a13f0349ed917f74f2bdccc4529c4ab33efee31fc05f95d296853",
+        "routesChecked": 1737,
+        "tripPatternsChecked": 14912,
+        "departuresChecked": 48780,
+        "result": "PASS"
+      }
+    ],
+    "consistency": "PASS: country files, unique endpoints, positive durations, audit/search counts and original dated trip first/last stops, calendars, ranges and frequency aggregates.",
+    "limit": "Stored timetable validation and published endpoint evidence do not establish live operation or complete coverage of every operator."
+  },
+  "layout": {
+    "countryPagesChecked": 51,
+    "desktopAlignment": "PASS: same 320 px right column at the tested desktop width, top-aligned with the map on all 51 pages. Sticky positioning and a bounded scrolling list.",
+    "mobileBehavior": "Below 700 px, the same section is placed immediately below the map.",
+    "pageSize": 50,
+    "testedViewport": {
+      "width": 1363,
+      "height": 936
+    },
+    "desktopListOffsetFromPanelTopPx": 307,
+    "desktopPanelOffsetFromMapTopPx": 0,
+    "desktopPanelWidthPx": 320,
+    "allCountryChecks": "PASS: all 51 country pages, no exceptions"
+  }
+}

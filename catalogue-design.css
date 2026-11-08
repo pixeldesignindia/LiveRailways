@@ -1,0 +1,49 @@
+/* Shared editorial card system across every LiveRailways catalogue. */
+:root{--lr-card-gap:24px;--lr-card-radius:12px;--lr-card-height:480px}
+body .lr-home-country-grid,body .lr-station-cards-grid,body .ep-city-grid,body .ep-journey-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--lr-card-gap);align-items:stretch;grid-auto-rows:1fr}
+body .lr-country-card,body .lr-operator-grid .lr-operator-card,body .ep-station,body .destination-city,body .ep-city-card{display:flex;flex-direction:column;min-width:0;min-height:var(--lr-card-height);border-radius:var(--lr-card-radius);overflow:hidden}
+body .destination-city .lr-country-card,body .ep-city-card .lr-country-card{min-height:0;border-radius:0;flex:1}
+body .lr-country-media{height:auto;flex:none}
+body .lr-country-card .lr-country-photo,body .lr-scenic-card .lr-country-media .lr-country-photo,body .lr-operator-grid .lr-country-photo,body .ep-banded-station .ep-station-photo,body .ep-station-photo{height:auto;aspect-ratio:4/3;flex:none;min-height:0;width:100%}
+body .lr-country-photo img{height:100%;width:100%;object-fit:cover}
+body .lr-country-card .lr-country-copy,body .lr-operator-grid .lr-country-copy,body .ep-banded-station .ep-station-copy,body .ep-station-copy{box-sizing:border-box;flex:1;padding:22px;gap:12px;min-height:174px}
+body .lr-country-copy p,body .lr-country-copy .lr-country-description,body .ep-station p{font-size:15px;line-height:1.55}
+body .lr-country-copy>span,body .lr-operator-grid .lr-country-copy>span,body .ep-station-actions a,body .ep-station-actions button{font-size:15px;line-height:1.4;min-height:28px}
+body .lr-country-name,body .lr-scenic-card .lr-country-name,body .lr-operator-name,body .lr-station-name-band{min-height:48px;height:auto;font-size:19px}
+body .lr-operator-label,body .lr-station-name{font-size:18px;line-height:1.25}
+body .lr-route-card-title{font-size:19px;min-height:92px;padding:16px 20px}
+body .lr-roundel-icon{inset:6% 0 18%}
+body .lr-roundel-ring{max-width:86%;max-height:100%}
+body .lr-home-tool-grid>a,body .destination-route{min-height:200px;padding:26px;border-radius:12px}
+body .topbar .public-navigation .lr-menu-link{font-size:15px;min-height:48px;display:flex;align-items:center;box-sizing:border-box}
+.lr-nav-category{position:relative;display:flex;align-items:center;gap:4px}
+.lr-nav-toggle{background:transparent;border:0;color:#d8bf4a;cursor:pointer;font-size:16px;min-width:28px;min-height:44px}
+.lr-nav-submenu{position:absolute;top:100%;left:0;z-index:1000;min-width:240px;padding:12px;background:#064c41;border:1px solid #53766b;border-radius:0 0 10px 10px;box-shadow:0 12px 28px #0003}
+.lr-nav-submenu[hidden]{display:none!important}
+.topbar .public-navigation .lr-nav-submenu a{display:block;padding:12px;font-size:15px;text-decoration:none;line-height:1.4;border-radius:5px}
+.topbar .public-navigation .lr-nav-submenu a:hover{background:#ffffff16}
+.lr-nav-toggle:focus-visible,.lr-nav-submenu a:focus-visible{outline:3px solid #d8bf4a;outline-offset:2px}
+body .lr-tabs button,body .ep-jump a{min-height:50px;font-size:15px;box-sizing:border-box}
+@media(min-width:1001px){body .lr-primary-links{gap:14px}body .topbar .public-navigation{overflow:visible}}
+@media(max-width:1000px){body .lr-home-country-grid,body .lr-station-cards-grid,body .ep-city-grid,body .ep-journey-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.lr-nav-category{width:100%;flex-wrap:wrap}.lr-nav-submenu{position:static;flex-basis:100%;box-shadow:none;margin-bottom:8px}.lr-nav-toggle{margin-left:auto}body .lr-primary-links{width:100%}}
+@media(max-width:600px){body .lr-home-country-grid,body .lr-station-cards-grid,body .ep-city-grid,body .ep-journey-grid{grid-template-columns:minmax(0,1fr);gap:20px;grid-auto-rows:auto}body .lr-country-card,body .lr-operator-grid .lr-operator-card,body .ep-station,body .destination-city,body .ep-city-card{min-height:460px}body .lr-country-card .lr-country-copy,body .lr-operator-grid .lr-country-copy,body .ep-banded-station .ep-station-copy{padding:20px}body .lr-tabs button{font-size:14px}}
+
+/* Exact shared name-strip geometry: two readable lines in every catalogue. */
+:root{--lr-name-strip-height:64px;--lr-card-height:550px}
+body .lr-country-name,body .lr-scenic-card .lr-country-name,body .lr-operator-name,body .ep-banded-station .lr-station-name-band,body .lr-route-card-title,body .ep-journey-card .lr-country-name{
+ height:var(--lr-name-strip-height)!important;min-height:var(--lr-name-strip-height)!important;max-height:var(--lr-name-strip-height)!important;box-sizing:border-box!important;flex-shrink:0;margin:0!important;border:0!important;background:var(--lr-uniform-band,#173E75)!important;color:#fff!important;font-size:18px!important;line-height:1.25!important;font-weight:700;overflow:hidden;
+}
+body .lr-country-name,body .lr-route-card-title{display:flex;align-items:center;justify-content:center;gap:6px;padding:8px 14px!important;text-align:center}
+body .lr-route-card-title{display:block;align-content:center;overflow-wrap:normal;font-size:16px!important}
+body .lr-route-card-title span{color:#fff}
+body .ep-banded-station h3.lr-station-name{height:100%!important;min-height:0!important;max-height:64px;padding:8px 12px!important;font-size:17px!important;line-height:1.25!important;color:#fff;white-space:normal;overflow:hidden}
+body .lr-operator-name{order:0;padding:0!important}
+body .lr-operator-label{font-size:17px!important;line-height:1.25!important;padding:8px 12px!important}
+body .lr-operator-country{background:transparent!important;color:#fff!important;border-left:1px solid #ffffff55;font-size:13px!important;flex-basis:100px;width:100px;min-width:100px;max-width:100px}
+body .ep-india-station .lr-station-junction-slot,body .ep-india-station .lr-station-junction,body .ep-india-station .lr-station-name-band .lr-station-code{height:100%;max-height:none;box-sizing:border-box;align-self:stretch}
+body .lr-country-card .lr-country-copy,body .ep-banded-station .ep-station-copy{min-height:196px}
+@media(max-width:600px){body .lr-country-card,body .lr-operator-grid .lr-operator-card,body .ep-station,body .destination-city,body .ep-city-card{min-height:var(--lr-card-height)}}
+
+.uk-coverage-counts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;border-top:1px solid #dbe3ea;padding:12px 0;margin-top:12px}.uk-coverage-counts>span{display:block!important;font-size:10px!important;line-height:1.4}.uk-coverage-counts b{display:block;font-size:20px;color:#173b5c}.uk-coverage-date{display:block;font-size:11px;color:#637587;margin:5px 0 12px}
+
+.ep-station-photo{position:relative}.lr-hub-station-badge{position:absolute;top:14px;left:14px;z-index:2;background:#f4ce60;color:#17324c;border:1px solid #ffffffb0;border-radius:5px;padding:7px 11px;font-size:11px;font-weight:800;letter-spacing:.3px;box-shadow:0 2px 7px #0002;line-height:1.25}

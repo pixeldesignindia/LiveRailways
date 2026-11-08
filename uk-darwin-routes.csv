@@ -1,0 +1,847 @@
+﻿Report date,From station,From city,To station,To city,Distance km,Distance basis,Fastest minutes,Slowest minutes,Average minutes (A→B only),Trains on report date,End-to-end trains,Operators and train counts,Source row
+2026-11-05,London Paddington,London,Heathrow Terminal 5,London,26,Track,21.0,,21.0,76,76,Heathrow Express: 76,2
+2026-11-05,Heathrow Terminal 5,London,London Paddington,London,26,Track,20.0,,,76,76,Heathrow Express: 76,3
+2026-11-05,London Liverpool Street,London,Stansted Airport,Stansted Airport,59,Track,46.0,,49.0,74,74,Greater Anglia: 74,4
+2026-11-05,Stansted Airport,Stansted Airport,London Liverpool Street,London,59,Track,46.0,,,73,73,Greater Anglia: 73,5
+2026-11-05,Birmingham New Street,Birmingham,London Euston,London,181,Track,79.0,,111.0,54,54,LNR & WMR: 29; Avanti West Coast: 25,6
+2026-11-05,London Euston,London,Birmingham New Street,Birmingham,181,Track,77.0,,,52,52,LNR & WMR: 29; Avanti West Coast: 23,7
+2026-11-05,Manchester Piccadilly,Manchester,London Euston,London,295,Track,119.0,,137.0,49,49,Avanti West Coast: 49,8
+2026-11-05,London Euston,London,Manchester Piccadilly,Manchester,295,Track,126.0,,,47,47,Avanti West Coast: 47,9
+2026-11-05,London Waterloo,London,Portsmouth Harbour,Portsmouth,119,Track,93.0,,110.0,48,48,South Western Railway: 48,10
+2026-11-05,Portsmouth Harbour,Portsmouth,London Waterloo,London,119,Track,96.0,,,47,47,South Western Railway: 47,11
+2026-11-05,Edinburgh,Edinburgh,Glasgow Queen Street Low Level,Glasgow,76,Track,44.0,,51.0,46,46,ScotRail: 46,12
+2026-11-05,Glasgow Queen Street Low Level,Glasgow,Edinburgh,Edinburgh,76,Track,45.0,,,46,46,ScotRail: 46,13
+2026-11-05,London Fenchurch Street,London,Shoeburyness,Southend-on-Sea,63,Track,63.0,,67.0,42,42,c2c: 42,14
+2026-11-05,Shoeburyness,Southend-on-Sea,London Fenchurch Street,London,63,Track,63.0,,,44,44,c2c: 44,15
+2026-11-05,Brighton,Brighton,Bedford,Bedford,166,Track,136.0,,148.0,39,39,Thameslink: 39,16
+2026-11-05,Bedford,Bedford,Brighton,Brighton,166,Track,145.0,,,41,41,Thameslink: 41,17
+2026-11-05,Glasgow Central,Glasgow,Ayr,Ayr,66,Track,51.0,,54.0,39,39,ScotRail: 39,18
+2026-11-05,Ayr,Ayr,Glasgow Central,Glasgow,66,Track,50.0,,,39,39,ScotRail: 39,19
+2026-11-05,London Victoria,London,Brighton,Brighton,82,Track,58.0,,61.0,39,39,Gatwick Express: 36; Southern: 3,20
+2026-11-05,Brighton,Brighton,London Victoria,London,82,Track,60.0,,,37,37,Gatwick Express: 35; Southern: 2,21
+2026-11-05,Manchester Airport,Manchester,Blackpool North,Blackpool,95,Track,90.0,,95.0,38,38,Northern: 38,22
+2026-11-05,Blackpool North,Blackpool,Manchester Airport,Manchester,95,Track,92.0,,,36,36,Northern: 36,23
+2026-11-05,London Victoria,London,East Grinstead,East Grinstead,49,Track,60.0,,60.0,36,36,Southern: 36,24
+2026-11-05,East Grinstead,East Grinstead,London Victoria,London,49,Track,56.0,,,36,36,Southern: 36,25
+2026-11-05,London Victoria,London,Reigate,Reigate,36,Track,45.0,,46.0,36,36,Southern: 36,26
+2026-11-05,Reigate,Reigate,London Victoria,London,36,Track,45.0,,,35,35,Southern: 35,27
+2026-11-05,London Bridge,London,Caterham,Caterham,29,Track,45.0,,47.0,36,36,Southern: 36,28
+2026-11-05,Caterham,Caterham,London Bridge,London,29,Track,48.0,,,35,35,Southern: 35,29
+2026-11-05,Peterborough,Peterborough,Horsham,Horsham,188,Track,165.0,,168.0,36,36,Thameslink: 36,30
+2026-11-05,Horsham,Horsham,Peterborough,Peterborough,188,Track,161.0,,,35,35,Thameslink: 35,31
+2026-11-05,St-Pancras-International,London,Corby,Corby,128,Track,68.0,,71.0,36,36,East Midlands Railway: 36,32
+2026-11-05,Corby,Corby,St-Pancras-International,London,128,Track,71.0,,,34,34,East Midlands Railway: 34,33
+2026-11-05,London Bridge,London,Epsom,Epsom,30,Track,44.0,,44.0,35,35,Southern: 35,34
+2026-11-05,Epsom,Epsom,London Bridge,London,30,Track,42.0,,,35,35,Southern: 35,35
+2026-11-05,London Charing Cross,London,Hayes (Kent),London,23,Track,38.0,,45.0,34,34,Southeastern: 34,36
+2026-11-05,Hayes (Kent),London,London Charing Cross,London,23,Track,42.0,,,36,36,Southeastern: 36,37
+2026-11-05,London Liverpool Street,London,Southend Victoria,Southend-on-Sea,67,Track,59.0,,61.0,35,35,Greater Anglia: 35,38
+2026-11-05,Southend Victoria,Southend-on-Sea,London Liverpool Street,London,67,Track,58.0,,,33,33,Greater Anglia: 33,39
+2026-11-05,Oxford,Oxford,London Marylebone,London,107,Track,74.0,,84.0,35,35,Chiltern Railways: 35,40
+2026-11-05,London Marylebone,London,Oxford,Oxford,107,Track,72.0,,,32,32,Chiltern Railways: 32,41
+2026-11-05,London Charing Cross,London,Gravesend,Gravesend,38,Track,64.0,,65.0,33,33,Southeastern: 33,42
+2026-11-05,Gravesend,Gravesend,London Charing Cross,London,38,Track,62.0,,,34,34,Southeastern: 34,43
+2026-11-05,Gatwick Airport,Gatwick Airport,Reading,Reading,84,Track,80.0,,91.0,33,33,Great Western Railway: 33,44
+2026-11-05,Reading,Reading,Gatwick Airport,Gatwick Airport,84,Track,83.0,,,33,33,Great Western Railway: 33,45
+2026-11-05,Brockenhurst,Brockenhurst,Lymington Pier,Lymington,9,Track,10.0,,10.0,33,33,South Western Railway: 33,46
+2026-11-05,Lymington Pier,Lymington,Brockenhurst,Brockenhurst,9,Track,10.0,,,33,33,South Western Railway: 33,47
+2026-11-05,London Liverpool Street,London,Norwich,Norwich,185,Track,99.0,,109.0,33,33,Greater Anglia: 33,48
+2026-11-05,Norwich,Norwich,London Liverpool Street,London,185,Track,99.0,,,32,32,Greater Anglia: 32,49
+2026-11-05,Brighton,Brighton,Southampton Central,Southampton,99,Track,108.0,,109.0,32,32,Southern: 32,50
+2026-11-05,Southampton Central,Southampton,Brighton,Brighton,99,Track,105.0,,,33,33,Southern: 33,51
+2026-11-05,London Charing Cross,London,Hastings,Hastings,100,Track,92.0,,104.0,34,34,Southeastern: 34,52
+2026-11-05,Hastings,Hastings,London Charing Cross,London,100,Track,92.0,,,31,31,Southeastern: 31,53
+2026-11-05,Brighton,Brighton,Cambridge,Cambridge,180,Track,145.0,,146.0,32,32,Thameslink: 32,54
+2026-11-05,Cambridge,Cambridge,Brighton,Brighton,180,Track,147.0,,,32,32,Thameslink: 32,55
+2026-11-05,St-Pancras-International,London,Nottingham,Nottingham,203,Track,93.0,,103.0,33,33,East Midlands Railway: 33,56
+2026-11-05,Nottingham,Nottingham,St-Pancras-International,London,203,Track,96.0,,,30,30,East Midlands Railway: 30,57
+2026-11-05,St-Pancras-International,London,Sheffield,Sheffield,265,Track,118.0,,128.0,31,31,East Midlands Railway: 31,58
+2026-11-05,Sheffield,Sheffield,St-Pancras-International,London,265,Track,121.0,,,32,32,East Midlands Railway: 32,59
+2026-11-05,London Victoria,London,Littlehampton,Littlehampton,113,Track,106.0,,109.0,29,29,Southern: 29,60
+2026-11-05,Littlehampton,Littlehampton,London Victoria,London,113,Track,106.0,,,34,34,Southern: 34,61
+2026-11-05,London Waterloo,London,Alton,Alton,72,Straight line,66.0,,78.0,31,31,South Western Railway: 31,62
+2026-11-05,Alton,Alton,London Waterloo,London,72,Straight line,67.0,,,32,32,South Western Railway: 32,63
+2026-11-05,Aberdare,Aberdare,Merthyr Tydfil,Merthyr Tydfil,76,Track,130.0,,133.0,29,29,Transport for Wales: 29,64
+2026-11-05,Merthyr Tydfil,Merthyr Tydfil,Aberdare,Aberdare,76,Track,127.0,,,30,30,Transport for Wales: 30,65
+2026-11-05,Three Bridges,Crawley,Bedford,Bedford,132,Track,121.0,,133.0,28,28,Thameslink: 28,66
+2026-11-05,Bedford,Bedford,Three Bridges,Crawley,132,Track,107.0,,,31,31,Thameslink: 31,67
+2026-11-05,Birmingham New Street,Birmingham,Liverpool Lime Street,Liverpool,141,Track,98.0,,102.0,29,29,LNR & WMR: 29,68
+2026-11-05,Liverpool Lime Street,Liverpool,Birmingham New Street,Birmingham,141,Track,96.0,,,29,29,LNR & WMR: 29,69
+2026-11-05,Edinburgh,Edinburgh,London Kings Cross,London,632,Track,250.0,,265.0,30,30,LNER: 26; Lumo: 4,70
+2026-11-05,London Kings Cross,London,Edinburgh,Edinburgh,632,Track,246.0,,,27,27,LNER: 24; Lumo: 3,71
+2026-11-05,London Waterloo,London,Weymouth,Weymouth,229,Track,165.0,,179.0,29,29,South Western Railway: 29,72
+2026-11-05,Weymouth,Weymouth,London Waterloo,London,229,Track,168.0,,,26,26,South Western Railway: 26,73
+2026-11-05,London Euston,London,Liverpool Lime Street,Liverpool,311,Track,136.0,,142.0,27,27,Avanti West Coast: 27,74
+2026-11-05,Liverpool Lime Street,Liverpool,London Euston,London,311,Track,133.0,,,27,27,Avanti West Coast: 27,75
+2026-11-05,Glasgow Central,Glasgow,Gourock,Gourock,42,Track,40.0,,41.0,28,28,ScotRail: 28,76
+2026-11-05,Gourock,Gourock,Glasgow Central,Glasgow,42,Track,40.0,,,25,25,ScotRail: 25,77
+2026-11-05,London Kings Cross,London,Kings Lynn,Kings Lynn,157,Track,105.0,,109.0,22,22,Great Northern: 22,78
+2026-11-05,Kings Lynn,Kings Lynn,London Kings Cross,London,157,Track,107.0,,,25,25,Great Northern: 25,79
+2026-11-05,St-Pancras-International,London,Ramsgate,Ramsgate,,,104.0,,109.0,26,26,Southeastern: 26,80
+2026-11-05,Ramsgate,Ramsgate,St-Pancras-International,London,,,91.0,,,21,21,Southeastern: 21,81
+2026-11-05,London Paddington,London,Bristol Temple Meads,Bristol,190,Track,88.0,,95.0,22,22,Great Western Railway: 22,82
+2026-11-05,Bristol Temple Meads,Bristol,London Paddington,London,190,Track,94.0,,,23,23,Great Western Railway: 23,83
+2026-11-05,London Euston,London,Glasgow Central,Glasgow,644,Track,271.0,,306.0,21,21,Avanti West Coast: 20; Caledonian Sleeper: 1,84
+2026-11-05,Glasgow Central,Glasgow,London Euston,London,644,Track,272.0,,,22,22,Avanti West Coast: 21; Caledonian Sleeper: 1,85
+2026-11-05,London Liverpool Street,London,Clacton-on-Sea,Clacton,112,Track,86.0,,88.0,21,21,Greater Anglia: 21,86
+2026-11-05,Clacton-on-Sea,Clacton,London Liverpool Street,London,112,Track,86.0,,,20,20,Greater Anglia: 20,87
+2026-11-05,Leeds,Leeds,Manchester Victoria,Manchester,69,Track,54.0,,77.0,22,22,Northern: 21; TransPennine Express: 1,88
+2026-11-05,Manchester Victoria,Manchester,Leeds,Leeds,69,Track,75.0,,,19,19,Northern: 19,89
+2026-11-05,St-Pancras-International,London,Faversham,Faversham,,,67.0,,69.0,20,20,Southeastern: 20,90
+2026-11-05,Faversham,Faversham,St-Pancras-International,London,,,66.0,,,21,21,Southeastern: 21,91
+2026-11-05,Leeds,Leeds,London Kings Cross,London,299,Track,132.0,,137.0,18,18,LNER: 18,92
+2026-11-05,London Kings Cross,London,Leeds,Leeds,299,Track,131.0,,,21,21,LNER: 21,93
+2026-11-05,London Waterloo,London,Dorking,Dorking,35,Track,52.0,,54.0,20,20,South Western Railway: 20,94
+2026-11-05,Dorking,Dorking,London Waterloo,London,35,Track,55.0,,,19,19,South Western Railway: 19,95
+2026-11-05,St-Pancras-International,London,Margate,Margate,,,86.0,,92.0,20,20,Southeastern: 20,96
+2026-11-05,Margate,Margate,St-Pancras-International,London,,,88.0,,,19,19,Southeastern: 19,97
+2026-11-05,London Euston,London,Crewe,Crewe,254,Track,105.0,,135.0,20,20,LNR & WMR: 16; Avanti West Coast: 4,98
+2026-11-05,Crewe,Crewe,London Euston,London,254,Track,123.0,,,18,18,LNR & WMR: 16; Avanti West Coast: 2,99
+2026-11-05,Edinburgh,Edinburgh,Perth,Perth,91,Track,86.0,,91.0,17,17,ScotRail: 17,100
+2026-11-05,Perth,Perth,Edinburgh,Edinburgh,91,Track,87.0,,,20,20,ScotRail: 20,101
+2026-11-05,London Liverpool Street,London,Ipswich,Ipswich,110,Track,67.0,,80.0,18,18,Greater Anglia: 18,102
+2026-11-05,Ipswich,Ipswich,London Liverpool Street,London,110,Track,66.0,,,18,18,Greater Anglia: 18,103
+2026-11-05,Edinburgh,Edinburgh,Glasgow Central,Glasgow,91,Track,60.0,,73.0,19,19,ScotRail: 18; CrossCountry: 1,104
+2026-11-05,Glasgow Central,Glasgow,Edinburgh,Edinburgh,91,Track,60.0,,,17,17,ScotRail: 17,105
+2026-11-05,Edinburgh,Edinburgh,Dundee,Dundee,95,Track,81.0,,88.0,18,18,ScotRail: 18,106
+2026-11-05,Dundee,Dundee,Edinburgh,Edinburgh,95,Track,83.0,,,18,18,ScotRail: 18,107
+2026-11-05,London Bridge,London,Uckfield,Uckfield,74,Track,70.0,,75.0,17,17,Southern: 17,108
+2026-11-05,Uckfield,Uckfield,London Bridge,London,74,Track,80.0,,,19,19,Southern: 19,109
+2026-11-05,London Kings Cross,London,Newcastle,Newcastle upon Tyne,433,Track,182.0,,188.0,18,18,LNER: 17; Lumo: 1,110
+2026-11-05,Newcastle,Newcastle upon Tyne,London Kings Cross,London,433,Track,184.0,,,17,17,LNER: 16; Lumo: 1,111
+2026-11-05,London Victoria,London,Bognor Regis,Bognor Regis,108,Track,106.0,,114.0,3,3,Southern: 3,112
+2026-11-05,Bognor Regis,Bognor Regis,London Victoria,London,108,Track,108.0,,,32,32,Southern: 32,113
+2026-11-05,London Victoria,London,Dover Priory,Dover,124,Track,118.0,,123.0,18,18,Southeastern: 18,114
+2026-11-05,Dover Priory,Dover,London Victoria,London,124,Track,123.0,,,17,17,Southeastern: 17,115
+2026-11-05,London Charing Cross,London,Maidstone East,Maidstone,62,Track,64.0,,66.0,16,16,Southeastern: 16,116
+2026-11-05,Maidstone East,Maidstone,London Charing Cross,London,62,Track,63.0,,,19,19,Southeastern: 19,117
+2026-11-05,Liverpool Lime Street,Liverpool,Newcastle,Newcastle upon Tyne,291,Track,180.0,,189.0,17,17,TransPennine Express: 17,118
+2026-11-05,Newcastle,Newcastle upon Tyne,Liverpool Lime Street,Liverpool,291,Track,177.0,,,17,17,TransPennine Express: 17,119
+2026-11-05,London Marylebone,London,Birmingham Moor Street,Birmingham,179,Track,108.0,,121.0,17,17,Chiltern Railways: 17,120
+2026-11-05,Birmingham Moor Street,Birmingham,London Marylebone,London,179,Track,115.0,,,17,17,Chiltern Railways: 17,121
+2026-11-05,Birmingham New Street,Birmingham,Leicester,Leicester,64,Track,53.0,,59.0,17,17,CrossCountry: 17,122
+2026-11-05,Leicester,Leicester,Birmingham New Street,Birmingham,64,Track,55.0,,,17,17,CrossCountry: 17,123
+2026-11-05,London Paddington,London,Oxford,Oxford,101,Track,51.0,,59.0,17,17,Great Western Railway: 17,124
+2026-11-05,Oxford,Oxford,London Paddington,London,101,Track,51.0,,,17,17,Great Western Railway: 17,125
+2026-11-05,Brighton,Brighton,Ore,Hastings,66,Track,73.0,,76.0,16,16,Southern: 16,126
+2026-11-05,Ore,Hastings,Brighton,Brighton,66,Track,70.0,,,18,18,Southern: 18,127
+2026-11-05,Leeds,Leeds,Sheffield,Sheffield,61,Track,46.0,,48.0,17,17,Northern: 17,128
+2026-11-05,Sheffield,Sheffield,Leeds,Leeds,61,Track,45.0,,,17,17,Northern: 17,129
+2026-11-05,St-Pancras-International,London,Paris Nord,,,,201.0,,207.0,17,17,Eurostar: 17,130
+2026-11-05,Paris Nord,,St-Pancras-International,London,,,81.0,,,16,16,Eurostar: 16,131
+2026-11-05,Glasgow Central,Glasgow,Kilmarnock,Kilmarnock,39,Track,37.0,,48.0,16,16,ScotRail: 16,132
+2026-11-05,Kilmarnock,Kilmarnock,Glasgow Central,Glasgow,39,Track,37.0,,,17,17,ScotRail: 17,133
+2026-11-05,London Victoria,London,Eastbourne,Eastbourne,106,Track,86.0,,88.0,15,15,Southern: 15,134
+2026-11-05,Eastbourne,Eastbourne,London Victoria,London,106,Track,93.0,,,18,18,Southern: 18,135
+2026-11-05,Birmingham New Street,Birmingham,Nottingham,Nottingham,92,Track,69.0,,75.0,17,17,CrossCountry: 17,136
+2026-11-05,Nottingham,Nottingham,Birmingham New Street,Birmingham,92,Track,71.0,,,16,16,CrossCountry: 16,137
+2026-11-05,London Victoria,London,Ramsgate,Ramsgate,127,Track,115.0,,118.0,15,15,Southeastern: 15,138
+2026-11-05,Ramsgate,Ramsgate,London Victoria,London,127,Track,118.0,,,18,18,Southeastern: 18,139
+2026-11-05,London Liverpool Street,London,Braintree,Braintree,72,Track,63.0,,64.0,16,16,Greater Anglia: 16,140
+2026-11-05,Braintree,Braintree,London Liverpool Street,London,72,Track,60.0,,,16,16,Greater Anglia: 16,141
+2026-11-05,Crewe,Crewe,Wrexham General,Wrexham,53,Track,37.0,,39.0,17,17,Transport for Wales: 17,142
+2026-11-05,Wrexham General,Wrexham,Crewe,Crewe,53,Track,40.0,,,15,15,Transport for Wales: 15,143
+2026-11-05,Liverpool Lime Street,Liverpool,Blackpool North,Blackpool,85,Track,77.0,,80.0,17,17,Northern: 17,144
+2026-11-05,Blackpool North,Blackpool,Liverpool Lime Street,Liverpool,85,Track,73.0,,,15,15,Northern: 15,145
+2026-11-05,Glasgow Queen Street Low Level,Glasgow,Aberdeen,Aberdeen,251,Track,148.0,,165.0,15,15,ScotRail: 15,146
+2026-11-05,Aberdeen,Aberdeen,Glasgow Queen Street Low Level,Glasgow,251,Track,153.0,,,16,16,ScotRail: 16,147
+2026-11-05,Birmingham New Street,Birmingham,Shrewsbury,Shrewsbury,68,Track,60.0,,63.0,15,15,LNR & WMR: 15,148
+2026-11-05,Shrewsbury,Shrewsbury,Birmingham New Street,Birmingham,68,Track,61.0,,,16,16,LNR & WMR: 16,149
+2026-11-05,Birmingham New Street,Birmingham,Hereford,Hereford,88,Track,83.0,,88.0,15,15,LNR & WMR: 15,150
+2026-11-05,Hereford,Hereford,Birmingham New Street,Birmingham,88,Track,85.0,,,16,16,LNR & WMR: 16,151
+2026-11-05,York,York,Blackpool North,Blackpool,169,Track,158.0,,162.0,16,16,Northern: 16,152
+2026-11-05,Blackpool North,Blackpool,York,York,169,Track,158.0,,,15,15,Northern: 15,153
+2026-11-05,Leeds,Leeds,Nottingham,Nottingham,126,Track,109.0,,112.0,15,15,Northern: 15,154
+2026-11-05,Nottingham,Nottingham,Leeds,Leeds,126,Track,116.0,,,16,16,Northern: 16,155
+2026-11-05,London Paddington,London,Swansea,Swansea,306,Track,161.0,,172.0,16,16,Great Western Railway: 16,156
+2026-11-05,Swansea,Swansea,London Paddington,London,306,Track,165.0,,,15,15,Great Western Railway: 15,157
+2026-11-05,London Victoria,London,Ore,Hastings,134,Track,128.0,,131.0,16,16,Southern: 16,158
+2026-11-05,Ore,Hastings,London Victoria,London,134,Track,135.0,,,15,15,Southern: 15,159
+2026-11-05,Leeds,Leeds,Chester,Chester,144,Track,139.0,,142.0,15,15,Northern: 15,160
+2026-11-05,Chester,Chester,Leeds,Leeds,144,Track,135.0,,,16,16,Northern: 16,161
+2026-11-05,Liverpool Lime Street,Liverpool,Cleethorpes,Cleethorpes,238,Track,214.0,,215.0,15,15,TransPennine Express: 15,162
+2026-11-05,Cleethorpes,Cleethorpes,Liverpool Lime Street,Liverpool,238,Track,214.0,,,16,16,TransPennine Express: 16,163
+2026-11-05,London Liverpool Street,London,Colchester Town,Colchester,87,Track,71.0,,73.0,14,14,Greater Anglia: 14,164
+2026-11-05,Colchester Town,Colchester,London Liverpool Street,London,87,Track,69.0,,,16,16,Greater Anglia: 16,165
+2026-11-05,Birmingham New Street,Birmingham,Stansted Airport,Stansted Airport,260,Track,197.0,,201.0,14,14,CrossCountry: 14,166
+2026-11-05,Stansted Airport,Stansted Airport,Birmingham New Street,Birmingham,260,Track,188.0,,,16,16,CrossCountry: 16,167
+2026-11-05,Cardiff Central,Cardiff,Portsmouth Harbour,Portsmouth,227,Track,201.0,,204.0,15,15,Great Western Railway: 15,168
+2026-11-05,Portsmouth Harbour,Portsmouth,Cardiff Central,Cardiff,227,Track,201.0,,,15,15,Great Western Railway: 15,169
+2026-11-05,London Paddington,London,Cheltenham Spa,Cheltenham,194,Track,118.0,,120.0,15,15,Great Western Railway: 15,170
+2026-11-05,Cheltenham Spa,Cheltenham,London Paddington,London,194,Track,115.0,,,15,15,Great Western Railway: 15,171
+2026-11-05,Horsham,Horsham,Bognor Regis,Bognor Regis,47,Track,45.0,,46.0,29,29,Southern: 29,172
+2026-11-05,Portsmouth Harbour,Portsmouth,Horsham,Horsham,78,Track,72.0,,,29,29,Southern: 29,173
+2026-11-05,Manchester Airport,Manchester,Holyhead,Holyhead,217,Track,195.0,,198.0,15,15,Transport for Wales: 15,174
+2026-11-05,Holyhead,Holyhead,Manchester Airport,Manchester,217,Track,190.0,,,14,14,Transport for Wales: 14,175
+2026-11-05,Manchester Victoria,Manchester,Scarborough,Scarborough,177,Track,134.0,,136.0,15,15,TransPennine Express: 15,176
+2026-11-05,Scarborough,Scarborough,Manchester Victoria,Manchester,177,Track,135.0,,,13,13,TransPennine Express: 13,177
+2026-11-05,London Waterloo,London,Salisbury,Salisbury,134,Track,87.0,,91.0,13,13,South Western Railway: 13,178
+2026-11-05,Salisbury,Salisbury,London Waterloo,London,134,Track,80.0,,,15,15,South Western Railway: 15,179
+2026-11-05,Manchester Airport,Manchester,Redcar Central,Redcar,219,Track,183.0,,187.0,14,14,TransPennine Express: 14,180
+2026-11-05,Redcar Central,Redcar,Manchester Airport,Manchester,219,Track,190.0,,,13,13,TransPennine Express: 13,181
+2026-11-05,Glasgow Queen Street Low Level,Glasgow,Dundee,Dundee,136,Track,90.0,,102.0,13,13,ScotRail: 13,182
+2026-11-05,Dundee,Dundee,Glasgow Queen Street Low Level,Glasgow,136,Track,94.0,,,14,14,ScotRail: 14,183
+2026-11-05,London Victoria,London,Portsmouth Harbour,Portsmouth,139,Track,126.0,,132.0,27,27,Southern: 27,184
+2026-11-05,Liverpool Lime Street,Liverpool,Hull,Hull,202,Track,151.0,,152.0,14,14,TransPennine Express: 14,185
+2026-11-05,Hull,Hull,Liverpool Lime Street,Liverpool,202,Track,148.0,,,12,12,TransPennine Express: 12,186
+2026-11-05,Brighton,Brighton,Portsmouth & Southsea,Portsmouth,72,Track,82.0,,83.0,13,13,Southern: 13,187
+2026-11-05,Portsmouth & Southsea,Portsmouth,Brighton,Brighton,72,Track,81.0,,,13,13,Southern: 13,188
+2026-11-05,Manchester Piccadilly,Manchester,Bournemouth,Bournemouth,412,Track,290.0,,293.0,13,13,CrossCountry: 13,189
+2026-11-05,Bournemouth,Bournemouth,Manchester Piccadilly,Manchester,412,Track,284.0,,,13,13,CrossCountry: 13,190
+2026-11-05,London Paddington,London,Newbury,Newbury,85,Track,47.0,,53.0,12,12,Great Western Railway: 12,191
+2026-11-05,Newbury,Newbury,London Paddington,London,85,Track,49.0,,,14,14,Great Western Railway: 14,192
+2026-11-05,Liverpool Lime Street,Liverpool,Llandudno,Llandudno,120,Track,110.0,,112.0,13,13,Transport for Wales: 13,193
+2026-11-05,Llandudno,Llandudno,Liverpool Lime Street,Liverpool,120,Track,120.0,,,13,13,Transport for Wales: 13,194
+2026-11-05,Leeds,Leeds,Lincoln Central,Lincoln,139,Track,134.0,,136.0,13,13,Northern: 13,195
+2026-11-05,Lincoln Central,Lincoln,Leeds,Leeds,139,Track,138.0,,,13,13,Northern: 13,196
+2026-11-05,Edinburgh,Edinburgh,Aberdeen,Aberdeen,210,Track,140.0,,154.0,13,13,ScotRail: 12; Caledonian Sleeper: 1,197
+2026-11-05,Aberdeen,Aberdeen,Edinburgh,Edinburgh,210,Track,138.0,,,12,12,ScotRail: 10; Caledonian Sleeper: 1; CrossCountry: 1,198
+2026-11-05,Carlisle,Carlisle,Middlesbrough,Middlesbrough,176,Track,161.0,,164.0,12,12,Northern: 12,199
+2026-11-05,Middlesbrough,Middlesbrough,Carlisle,Carlisle,176,Track,160.0,,,13,13,Northern: 13,200
+2026-11-05,Newcastle,Newcastle upon Tyne,Carlisle,Carlisle,99,Track,83.0,,89.0,14,14,Northern: 14,201
+2026-11-05,Carlisle,Carlisle,Newcastle,Newcastle upon Tyne,99,Track,84.0,,,11,11,Northern: 11,202
+2026-11-05,London Kings Cross,London,Ely,Ely,114,Track,71.0,,75.0,14,14,Great Northern: 14,203
+2026-11-05,Ely,Ely,London Kings Cross,London,114,Track,71.0,,,11,11,Great Northern: 11,204
+2026-11-05,Sheffield,Sheffield,Scarborough,Scarborough,181,Track,163.0,,165.0,12,12,Northern: 12,205
+2026-11-05,Scarborough,Scarborough,Sheffield,Sheffield,181,Track,165.0,,,13,13,Northern: 13,206
+2026-11-05,Crewe,Crewe,Lincoln Central,Lincoln,162,Track,180.0,,183.0,13,13,East Midlands Railway: 13,207
+2026-11-05,Lincoln Central,Lincoln,Crewe,Crewe,162,Track,164.0,,,11,11,East Midlands Railway: 11,208
+2026-11-05,Liverpool Lime Street,Liverpool,Norwich,Norwich,408,Track,320.0,,322.0,10,10,East Midlands Railway: 10,209
+2026-11-05,Norwich,Norwich,Liverpool Lime Street,Liverpool,408,Track,334.0,,,11,11,East Midlands Railway: 11,210
+2026-11-05,London Paddington,London,Penzance,Penzance,466,Straight line,297.0,,331.0,10,10,Great Western Railway: 10,211
+2026-11-05,Penzance,Penzance,London Paddington,London,466,Straight line,292.0,,,11,11,Great Western Railway: 11,212
+2026-11-05,Cardiff Central,Cardiff,Nottingham,Nottingham,266,Track,194.0,,198.0,11,11,CrossCountry: 11,213
+2026-11-05,Nottingham,Nottingham,Cardiff Central,Cardiff,266,Track,198.0,,,9,9,CrossCountry: 9,214
+2026-11-05,London Marylebone,London,Birmingham Snow Hill,Birmingham,179,Track,121.0,,123.0,11,11,Chiltern Railways: 11,215
+2026-11-05,Birmingham Snow Hill,Birmingham,London Marylebone,London,179,Track,124.0,,,9,9,Chiltern Railways: 9,216
+2026-11-05,Stansted Airport,Stansted Airport,Norwich,Norwich,149,Track,114.0,,117.0,10,10,Greater Anglia: 10,217
+2026-11-05,Norwich,Norwich,Stansted Airport,Stansted Airport,149,Track,113.0,,,10,10,Greater Anglia: 10,218
+2026-11-05,Aberdeen,Aberdeen,Inverness,Inverness,174,Track,132.0,,135.0,9,9,ScotRail: 9,219
+2026-11-05,Inverness,Inverness,Aberdeen,Aberdeen,174,Track,133.0,,,10,10,ScotRail: 10,220
+2026-11-05,Edinburgh,Edinburgh,Newcastle,Newcastle upon Tyne,200,Track,88.0,,101.0,10,10,TransPennine Express: 8; CrossCountry: 1; LNER: 1,221
+2026-11-05,Newcastle,Newcastle upon Tyne,Edinburgh,Edinburgh,200,Track,102.0,,,9,9,TransPennine Express: 8; LNER: 1,222
+2026-11-05,Manchester Airport,Manchester,Barrow-in-Furness,Barrow-in-Furness,157,Track,143.0,,147.0,10,10,Northern: 10,223
+2026-11-05,Barrow-in-Furness,Barrow-in-Furness,Manchester Airport,Manchester,157,Track,137.0,,,9,9,Northern: 9,224
+2026-11-05,London Waterloo,London,Yeovil Junction,Yeovil,197,Track,141.0,,151.0,10,10,South Western Railway: 10,225
+2026-11-05,Yeovil Junction,Yeovil,London Waterloo,London,197,Track,146.0,,,9,9,South Western Railway: 9,226
+2026-11-05,London Kings Cross,London,Peterborough,Peterborough,123,Track,69.0,,76.0,9,9,Great Northern: 5; Thameslink: 4,227
+2026-11-05,Peterborough,Peterborough,London Kings Cross,London,123,Track,61.0,,,9,9,Great Northern: 5; Thameslink: 4,228
+2026-11-05,Manchester Piccadilly,Manchester,Bristol Temple Meads,Bristol,276,Track,184.0,,188.0,9,9,CrossCountry: 9,229
+2026-11-05,Bristol Temple Meads,Bristol,Manchester Piccadilly,Manchester,276,Track,178.0,,,9,9,CrossCountry: 9,230
+2026-11-05,London Paddington,London,Cardiff Central,Cardiff,233,Track,109.0,,114.0,9,9,Great Western Railway: 9,231
+2026-11-05,Cardiff Central,Cardiff,London Paddington,London,233,Track,107.0,,,9,9,Great Western Railway: 9,232
+2026-11-05,London Paddington,London,Weston-super-Mare,Weston-super-Mare,220,Track,125.0,,132.0,9,9,Great Western Railway: 9,233
+2026-11-05,Weston-super-Mare,Weston-super-Mare,London Paddington,London,220,Track,125.0,,,8,8,Great Western Railway: 8,234
+2026-11-05,London Paddington,London,Plymouth,Plymouth,361,Track,190.0,,206.0,9,9,Great Western Railway: 9,235
+2026-11-05,Plymouth,Plymouth,London Paddington,London,361,Track,184.0,,,8,8,Great Western Railway: 8,236
+2026-11-05,Manchester Piccadilly,Manchester,Cardiff Central,Cardiff,273,Track,188.0,,203.0,9,9,Transport for Wales: 9,237
+2026-11-05,Cardiff Central,Cardiff,Manchester Piccadilly,Manchester,273,Track,198.0,,,8,8,Transport for Wales: 8,238
+2026-11-05,London Paddington,London,Great Malvern,The Malverns,207,Track,141.0,,149.0,9,9,Great Western Railway: 9,239
+2026-11-05,Great Malvern,The Malverns,London Paddington,London,207,Track,145.0,,,8,8,Great Western Railway: 8,240
+2026-11-05,London Euston,London,Wolverhampton,Wolverhampton,202,Track,111.0,,124.0,10,10,Avanti West Coast: 10,241
+2026-11-05,Wolverhampton,Wolverhampton,London Euston,London,202,Track,109.0,,,6,6,Avanti West Coast: 6,242
+2026-11-05,London Kings Cross,London,Cambridge,Cambridge,93,Track,68.0,,73.0,9,9,Great Northern: 8; Thameslink: 1,243
+2026-11-05,Cambridge,Cambridge,London Kings Cross,London,93,Track,68.0,,,7,7,Great Northern: 6; Thameslink: 1,244
+2026-11-05,Gatwick Airport,Gatwick Airport,Redhill,Redhill,9,Track,14.0,,14.0,6,6,Southern: 6,245
+2026-11-05,Redhill,Redhill,Gatwick Airport,Gatwick Airport,9,Track,12.0,,,10,10,Southern: 10,246
+2026-11-05,Oxford,Oxford,Bristol Temple Meads,Bristol,120,Track,68.0,,72.0,8,8,Great Western Railway: 8,247
+2026-11-05,Bristol Temple Meads,Bristol,Oxford,Oxford,120,Track,71.0,,,8,8,Great Western Railway: 8,248
+2026-11-05,Cardiff Central,Cardiff,Holyhead,Holyhead,374,Track,284.0,,294.0,8,8,Transport for Wales: 8,249
+2026-11-05,Holyhead,Holyhead,Cardiff Central,Cardiff,374,Track,271.0,,,8,8,Transport for Wales: 8,250
+2026-11-05,Edinburgh,Edinburgh,Manchester Airport,Manchester,375,Track,210.0,,212.0,8,8,TransPennine Express: 8,251
+2026-11-05,Manchester Airport,Manchester,Edinburgh,Edinburgh,375,Track,208.0,,,8,8,TransPennine Express: 8,252
+2026-11-05,London Paddington,London,Reading,Reading,57,Track,33.0,,36.0,7,7,Great Western Railway: 7,253
+2026-11-05,Reading,Reading,London Paddington,London,57,Track,26.0,,,8,8,Great Western Railway: 8,254
+2026-11-05,London Waterloo,London,Exeter St Davids,Exeter,277,Track,223.0,,230.0,7,7,South Western Railway: 7,255
+2026-11-05,Exeter St Davids,Exeter,London Waterloo,London,277,Track,229.0,,,8,8,South Western Railway: 8,256
+2026-11-05,London Kings Cross,London,Bradford Forster Square,Bradford,320,Track,161.0,,163.0,7,7,LNER: 7,257
+2026-11-05,Bradford Forster Square,Bradford,London Kings Cross,London,320,Track,149.0,,,7,7,LNER: 7,258
+2026-11-05,Glasgow Central,Glasgow,Carlisle,Carlisle,186,Track,142.0,,147.0,7,7,ScotRail: 7,259
+2026-11-05,Carlisle,Carlisle,Glasgow Central,Glasgow,186,Track,142.0,,,7,7,ScotRail: 7,260
+2026-11-05,London Euston,London,Chester,Chester,287,Track,124.0,,124.0,6,6,Avanti West Coast: 6,261
+2026-11-05,Chester,Chester,London Euston,London,287,Track,123.0,,,7,7,Avanti West Coast: 7,262
+2026-11-05,London Kings Cross,London,York,York,303,Track,123.0,,131.0,6,6,LNER: 6,263
+2026-11-05,York,York,London Kings Cross,London,303,Track,126.0,,,7,7,LNER: 7,264
+2026-11-05,London Kings Cross,London,Harrogate,Harrogate,328,Track,169.0,,169.0,6,6,LNER: 6,265
+2026-11-05,Harrogate,Harrogate,London Kings Cross,London,328,Track,168.0,,,7,7,LNER: 7,266
+2026-11-05,Inverness,Inverness,Elgin,Elgin,59,Track,44.0,,46.0,7,7,ScotRail: 7,267
+2026-11-05,Elgin,Elgin,Inverness,Inverness,59,Track,44.0,,,6,6,ScotRail: 6,268
+2026-11-05,London Kings Cross,London,Lincoln Central,Lincoln,220,Track,106.0,,109.0,7,7,LNER: 7,269
+2026-11-05,Lincoln Central,Lincoln,London Kings Cross,London,220,Track,109.0,,,6,6,LNER: 6,270
+2026-11-05,London Euston,London,Edinburgh,Edinburgh,656,Track,338.0,,342.0,6,6,Avanti West Coast: 6,271
+2026-11-05,Edinburgh,Edinburgh,London Euston,London,656,Track,346.0,,,7,7,Avanti West Coast: 7,272
+2026-11-05,London Kings Cross,London,Sunderland,Sunderland,427,Track,197.0,,206.0,6,6,Grand Central: 6,273
+2026-11-05,Sunderland,Sunderland,London Kings Cross,London,427,Track,210.0,,,6,6,Grand Central: 6,274
+2026-11-05,Glasgow Queen Street Low Level,Glasgow,Inverness,Inverness,293,Track,197.0,,219.0,6,6,ScotRail: 6,275
+2026-11-05,Inverness,Inverness,Glasgow Queen Street Low Level,Glasgow,293,Track,199.0,,,6,6,ScotRail: 6,276
+2026-11-05,London Kings Cross,London,Hull,Hull,330,Track,156.0,,160.0,6,6,Hull Trains: 5; LNER: 1,277
+2026-11-05,Hull,Hull,London Kings Cross,London,330,Track,156.0,,,6,6,Hull Trains: 5; LNER: 1,278
+2026-11-05,London Paddington,London,Carmarthen,Carmarthen,357,Track,213.0,,222.0,6,6,Great Western Railway: 6,279
+2026-11-05,Carmarthen,Carmarthen,London Paddington,London,357,Track,225.0,,,6,6,Great Western Railway: 6,280
+2026-11-05,Birmingham International,Solihull,Aberystwyth,Aberystwyth,213,Track,193.0,,194.0,5,5,Transport for Wales: 5,281
+2026-11-05,Aberystwyth,Aberystwyth,Birmingham International,Solihull,213,Track,205.0,,,7,7,Transport for Wales: 7,282
+2026-11-05,London Charing Cross,London,Ashford International,Ashford,93,Track,94.0,,99.0,7,7,Southeastern: 7,283
+2026-11-05,Ashford International,Ashford,London Charing Cross,London,93,Track,80.0,,,5,5,Southeastern: 5,284
+2026-11-05,Glasgow Central,Glasgow,Manchester Airport,Manchester,376,Track,213.0,,215.0,6,6,TransPennine Express: 6,285
+2026-11-05,Manchester Airport,Manchester,Glasgow Central,Glasgow,376,Track,211.0,,,6,6,TransPennine Express: 6,286
+2026-11-05,London Euston,London,Holyhead,Holyhead,423,Track,231.0,,233.0,6,6,Avanti West Coast: 6,287
+2026-11-05,Holyhead,Holyhead,London Euston,London,423,Track,224.0,,,5,5,Avanti West Coast: 5,288
+2026-11-05,Edinburgh,Edinburgh,Inverness,Inverness,301,Track,209.0,,219.0,5,5,ScotRail: 5,289
+2026-11-05,Inverness,Inverness,Edinburgh,Edinburgh,301,Track,204.0,,,6,6,ScotRail: 6,290
+2026-11-05,Reading,Reading,Newcastle,Newcastle upon Tyne,483,Track,281.0,,284.0,5,5,CrossCountry: 5,291
+2026-11-05,Newcastle,Newcastle upon Tyne,Reading,Reading,483,Track,271.0,,,6,6,CrossCountry: 6,292
+2026-11-05,Edinburgh,Edinburgh,Plymouth,Plymouth,902,Track,519.0,,523.0,5,5,CrossCountry: 5,293
+2026-11-05,Plymouth,Plymouth,Edinburgh,Edinburgh,902,Track,520.0,,,6,6,CrossCountry: 6,294
+2026-11-05,Shrewsbury,Shrewsbury,Aberystwyth,Aberystwyth,131,Track,105.0,,111.0,6,6,Transport for Wales: 6,295
+2026-11-05,Aberystwyth,Aberystwyth,Shrewsbury,Shrewsbury,131,Track,111.0,,,5,5,Transport for Wales: 5,296
+2026-11-05,St-Pancras-International,London,Dover Priory,Dover,,,66.0,,67.0,5,5,Southeastern: 5,297
+2026-11-05,Dover Priory,Dover,St-Pancras-International,London,,,66.0,,,6,6,Southeastern: 6,298
+2026-11-05,St-Pancras-International,London,Brussels Midi,,,,181.0,,184.0,5,5,Eurostar: 5,299
+2026-11-05,Brussels Midi,,St-Pancras-International,London,,,60.0,,,5,5,Eurostar: 5,300
+2026-11-05,St-Pancras-International,London,Amsterdam CS,,,,304.0,,312.0,5,5,Eurostar: 5,301
+2026-11-05,Amsterdam CS,,St-Pancras-International,London,,,197.0,,,5,5,Eurostar: 5,302
+2026-11-05,Glasgow Queen Street Low Level,Glasgow,Oban,Oban,160,Track,183.0,,187.0,6,6,ScotRail: 6,303
+2026-11-05,Oban,Oban,Glasgow Queen Street Low Level,Glasgow,160,Track,172.0,,,4,4,ScotRail: 4,304
+2026-11-05,Glasgow Central,Glasgow,Wemyss Bay,Wemyss Bay,49,Track,50.0,,51.0,4,4,ScotRail: 4,305
+2026-11-05,Wemyss Bay,Wemyss Bay,Glasgow Central,Glasgow,49,Track,47.0,,,6,6,ScotRail: 6,306
+2026-11-05,Birmingham New Street,Birmingham,Manchester Piccadilly,Manchester,132,Track,88.0,,90.0,4,4,CrossCountry: 4,307
+2026-11-05,Manchester Piccadilly,Manchester,Birmingham New Street,Birmingham,132,Track,88.0,,,5,5,CrossCountry: 5,308
+2026-11-05,Brighton,Brighton,Hastings,Hastings,65,Track,68.0,,77.0,5,5,Southern: 5,309
+2026-11-05,Hastings,Hastings,Brighton,Brighton,65,Track,84.0,,,4,4,Southern: 4,310
+2026-11-05,Cardiff Central,Cardiff,Milford Haven,Milford Haven,189,Track,167.0,,175.0,3,3,Transport for Wales: 3,311
+2026-11-05,Milford Haven,Milford Haven,Cardiff Central,Cardiff,189,Track,167.0,,,6,6,Transport for Wales: 6,312
+2026-11-05,Birmingham International,Solihull,Llandudno Junction,Llandudno Junction,221,Track,185.0,,186.0,5,5,Transport for Wales: 5,313
+2026-11-05,Llandudno Junction,Llandudno Junction,Birmingham International,Solihull,221,Track,205.0,,,4,4,Transport for Wales: 4,314
+2026-11-05,Kilmarnock,Kilmarnock,Girvan,Girvan,59,Track,50.0,,52.0,5,5,ScotRail: 5,315
+2026-11-05,Girvan,Girvan,Kilmarnock,Kilmarnock,59,Track,53.0,,,4,4,ScotRail: 4,316
+2026-11-05,London Liverpool Street,London,Witham (Essex),Witham,62,Track,45.0,,47.0,4,4,Greater Anglia: 4,317
+2026-11-05,Witham (Essex),Witham,London Liverpool Street,London,62,Track,45.0,,,5,5,Greater Anglia: 5,318
+2026-11-05,Bedford,Bedford,East Grinstead,East Grinstead,133,Track,108.0,,121.0,5,5,Thameslink: 5,319
+2026-11-05,East Grinstead,East Grinstead,Bedford,Bedford,133,Track,130.0,,,4,4,Thameslink: 4,320
+2026-11-05,London Kings Cross,London,Bradford Interchange,Bradford,324,Track,165.0,,182.0,4,4,Grand Central: 4,321
+2026-11-05,Bradford Interchange,Bradford,London Kings Cross,London,324,Track,164.0,,,4,4,Grand Central: 4,322
+2026-11-05,London Euston,London,Stirling,Stirling,670,Track,336.0,,351.0,4,4,Lumo Stirling: 4,323
+2026-11-05,Stirling,Stirling,London Euston,London,670,Track,338.0,,,4,4,Lumo Stirling: 4,324
+2026-11-05,Cambridge,Cambridge,Norwich,Norwich,110,Track,76.0,,77.0,4,4,Greater Anglia: 4,325
+2026-11-05,Norwich,Norwich,Cambridge,Cambridge,110,Track,73.0,,,4,4,Greater Anglia: 4,326
+2026-11-05,Liverpool Lime Street,Liverpool,Nottingham,Nottingham,189,Track,158.0,,167.0,5,5,East Midlands Railway: 5,327
+2026-11-05,Nottingham,Nottingham,Liverpool Lime Street,Liverpool,189,Track,164.0,,,3,3,East Midlands Railway: 3,328
+2026-11-05,Ayr,Ayr,Girvan,Girvan,34,Track,26.0,,26.0,3,3,ScotRail: 3,329
+2026-11-05,Girvan,Girvan,Ayr,Ayr,34,Track,27.0,,,5,5,ScotRail: 5,330
+2026-11-05,York,York,Manchester Airport,Manchester,130,Track,111.0,,133.0,4,4,TransPennine Express: 4,331
+2026-11-05,Manchester Airport,Manchester,York,York,130,Track,146.0,,,4,4,TransPennine Express: 4,332
+2026-11-05,London Paddington,London,Worcester Shrub Hill,Worcester,193,Track,126.0,,135.0,3,3,Great Western Railway: 3,333
+2026-11-05,Worcester Shrub Hill,Worcester,London Paddington,London,193,Track,121.0,,,5,5,Great Western Railway: 5,334
+2026-11-05,London Paddington,London,Worcester Foregate Street,Worcester,194,Track,128.0,,134.0,4,4,Great Western Railway: 4,335
+2026-11-05,Worcester Foregate Street,Worcester,London Paddington,London,194,Track,127.0,,,4,4,Great Western Railway: 4,336
+2026-11-05,Manchester Airport,Manchester,Windermere,Windermere,148,Track,132.0,,138.0,4,4,Northern: 4,337
+2026-11-05,Windermere,Windermere,Manchester Airport,Manchester,148,Track,128.0,,,4,4,Northern: 4,338
+2026-11-05,London Waterloo,London,Poole,Poole,183,Track,126.0,,135.0,2,2,South Western Railway: 2,339
+2026-11-05,Poole,Poole,London Waterloo,London,183,Track,134.0,,,6,6,South Western Railway: 6,340
+2026-11-05,London Kings Cross,London,Aberdeen,Aberdeen,842,Track,423.0,,430.0,4,4,LNER: 4,341
+2026-11-05,Aberdeen,Aberdeen,London Kings Cross,London,842,Track,429.0,,,3,3,LNER: 3,342
+2026-11-05,London Marylebone,London,Aylesbury Vale Parkway,Aylesbury,65,Track,60.0,,61.0,3,3,Chiltern Railways: 3,343
+2026-11-05,Aylesbury Vale Parkway,Aylesbury,London Marylebone,London,65,Track,63.0,,,4,4,Chiltern Railways: 4,344
+2026-11-05,London Paddington,London,Hereford,Hereford,240,Track,169.0,,175.0,4,4,Great Western Railway: 4,345
+2026-11-05,Hereford,Hereford,London Paddington,London,240,Track,182.0,,,3,3,Great Western Railway: 3,346
+2026-11-05,Cardiff Central,Cardiff,Aberdare,Aberdare,37,Track,65.0,,65.0,2,2,Transport for Wales: 2,347
+2026-11-05,Aberdare,Aberdare,Cardiff Central,Cardiff,37,Track,63.0,,,5,5,Transport for Wales: 5,348
+2026-11-05,Sheffield,Sheffield,Hull,Hull,95,Track,76.0,,79.0,4,4,Northern: 4,349
+2026-11-05,Hull,Hull,Sheffield,Sheffield,95,Track,77.0,,,3,3,Northern: 3,350
+2026-11-05,London Marylebone,London,Banbury,Banbury,110,Track,72.0,,73.0,3,3,Chiltern Railways: 3,351
+2026-11-05,Banbury,Banbury,London Marylebone,London,110,Track,77.0,,,4,4,Chiltern Railways: 4,352
+2026-11-05,Southampton Central,Southampton,Poole,Poole,55,Track,59.0,,62.0,7,7,South Western Railway: 7,353
+2026-11-05,Salisbury,Salisbury,Yeovil Junction,Yeovil,63,Track,54.0,,66.0,3,3,South Western Railway: 3,354
+2026-11-05,Yeovil Junction,Yeovil,Salisbury,Salisbury,63,Track,60.0,,,4,4,South Western Railway: 4,355
+2026-11-05,London Liverpool Street,London,Cambridge,Cambridge,90,Track,72.0,,73.0,2,2,Greater Anglia: 2,356
+2026-11-05,Cambridge,Cambridge,London Liverpool Street,London,90,Track,75.0,,,5,5,Greater Anglia: 5,357
+2026-11-05,Faversham,Faversham,Dover Priory,Dover,41,Track,45.0,,45.0,1,1,Southeastern: 1,358
+2026-11-05,Dover Priory,Dover,Faversham,Faversham,41,Track,36.0,,,6,6,Southeastern: 6,359
+2026-11-05,Faversham,Faversham,Ramsgate,Ramsgate,44,Track,45.0,,46.0,4,4,Southeastern: 4,360
+2026-11-05,Ramsgate,Ramsgate,Faversham,Faversham,44,Track,43.0,,,3,3,Southeastern: 3,361
+2026-11-05,London Euston,London,Northampton,Northampton,106,Track,55.0,,58.0,4,4,LNR & WMR: 4,362
+2026-11-05,Northampton,Northampton,London Euston,London,106,Track,56.0,,,3,3,LNR & WMR: 3,363
+2026-11-05,St-Pancras-International,London,Derby,Derby,206,Track,96.0,,119.0,3,3,East Midlands Railway: 3,364
+2026-11-05,Derby,Derby,St-Pancras-International,London,206,Track,96.0,,,3,3,East Midlands Railway: 3,365
+2026-11-05,Ayr,Ayr,Stranraer,Stranraer,95,Track,81.0,,82.0,3,3,ScotRail: 3,366
+2026-11-05,Stranraer,Stranraer,Ayr,Ayr,95,Track,80.0,,,3,3,ScotRail: 3,367
+2026-11-05,Birmingham New Street,Birmingham,Worcester Shrub Hill,Worcester,42,Track,37.0,,41.0,4,4,LNR & WMR: 4,368
+2026-11-05,Worcester Shrub Hill,Worcester,Birmingham New Street,Birmingham,42,Track,44.0,,,2,2,LNR & WMR: 2,369
+2026-11-05,Crewe,Crewe,Nottingham,Nottingham,107,Track,107.0,,111.0,3,3,East Midlands Railway: 3,370
+2026-11-05,Nottingham,Nottingham,Crewe,Crewe,107,Track,111.0,,,3,3,East Midlands Railway: 3,371
+2026-11-05,Manchester Piccadilly,Manchester,Manchester Airport,Manchester,16,Track,14.0,,16.0,4,4,TransPennine Express: 4,372
+2026-11-05,Manchester Airport,Manchester,Manchester Piccadilly,Manchester,16,Track,14.0,,,2,2,TransPennine Express: 2,373
+2026-11-05,Reading,Reading,York,York,353,Track,215.0,,216.0,4,4,CrossCountry: 4,374
+2026-11-05,York,York,Reading,Reading,353,Track,212.0,,,2,2,CrossCountry: 2,375
+2026-11-05,London Paddington,London,Paignton,Torbay,323,Track,185.0,,189.0,3,3,Great Western Railway: 3,376
+2026-11-05,Paignton,Torbay,London Paddington,London,323,Track,192.0,,,3,3,Great Western Railway: 3,377
+2026-11-05,London Victoria,London,Epsom,Epsom,26,Track,37.0,,38.0,3,3,Southern: 3,378
+2026-11-05,Epsom,Epsom,London Victoria,London,26,Track,40.0,,,3,3,Southern: 3,379
+2026-11-05,Gatwick Airport,Gatwick Airport,Bedford,Bedford,128,Track,108.0,,118.0,4,4,Thameslink: 4,380
+2026-11-05,Bedford,Bedford,Gatwick Airport,Gatwick Airport,128,Track,120.0,,,2,2,Thameslink: 2,381
+2026-11-05,Manchester Piccadilly,Manchester,Milford Haven,Milford Haven,461,Track,361.0,,365.0,2,2,Transport for Wales: 2,382
+2026-11-05,Milford Haven,Milford Haven,Manchester Piccadilly,Manchester,461,Track,367.0,,,4,4,Transport for Wales: 4,383
+2026-11-05,London Liverpool Street,London,Colchester,Colchester,83,Track,63.0,,70.0,5,5,Greater Anglia: 5,384
+2026-11-05,Colchester,Colchester,London Liverpool Street,London,83,Track,57.0,,,1,1,Greater Anglia: 1,385
+2026-11-05,London Liverpool Street,London,Southminster,Southminster,73,Track,70.0,,71.0,2,2,Greater Anglia: 2,386
+2026-11-05,Southminster,Southminster,London Liverpool Street,London,73,Track,69.0,,,4,4,Greater Anglia: 4,387
+2026-11-05,Hastings,Hastings,London Cannon Street,London,98,Track,100.0,,103.0,3,3,Southeastern: 3,388
+2026-11-05,London Cannon Street,London,Hastings,Hastings,98,Track,93.0,,,3,3,Southeastern: 3,389
+2026-11-05,Liverpool Lime Street,Liverpool,Glasgow Central,Glasgow,365,Track,198.0,,210.0,3,3,TransPennine Express: 3,390
+2026-11-05,Glasgow Central,Glasgow,Liverpool Lime Street,Liverpool,365,Track,215.0,,,3,3,TransPennine Express: 3,391
+2026-11-05,London Fenchurch Street,London,Leigh-on-Sea,Southend-on-Sea,52,Track,55.0,,55.0,1,1,c2c: 1,392
+2026-11-05,Leigh-on-Sea,Southend-on-Sea,London Fenchurch Street,London,52,Track,52.0,,,5,5,c2c: 5,393
+2026-11-05,Sheffield,Sheffield,Nottingham,Nottingham,65,Track,51.0,,55.0,3,3,Northern: 2; East Midlands Railway: 1,394
+2026-11-05,Nottingham,Nottingham,Sheffield,Sheffield,65,Track,59.0,,,2,2,Northern: 2,395
+2026-11-05,Crewe,Crewe,Liverpool Lime Street,Liverpool,57,Track,39.0,,44.0,4,4,LNR & WMR: 4,396
+2026-11-05,Liverpool Lime Street,Liverpool,Crewe,Crewe,57,Track,42.0,,,1,1,LNR & WMR: 1,397
+2026-11-05,Birmingham New Street,Birmingham,Great Malvern,The Malverns,55,Track,56.0,,56.0,1,1,LNR & WMR: 1,398
+2026-11-05,Great Malvern,The Malverns,Birmingham New Street,Birmingham,55,Track,54.0,,,4,4,LNR & WMR: 4,399
+2026-11-05,Leeds,Leeds,Hull,Hull,83,Track,58.0,,62.0,3,3,TransPennine Express: 3,400
+2026-11-05,Hull,Hull,Leeds,Leeds,83,Track,56.0,,,2,2,TransPennine Express: 2,401
+2026-11-05,London Victoria,London,Horsham,Horsham,61,Track,52.0,,70.0,3,3,Southern: 3,402
+2026-11-05,Horsham,Horsham,London Victoria,London,61,Track,56.0,,,2,2,Southern: 2,403
+2026-11-05,Brighton,Brighton,Chichester,Chichester,46,Track,54.0,,58.0,2,2,Southern: 2,404
+2026-11-05,Chichester,Chichester,Brighton,Brighton,46,Track,57.0,,,3,3,Southern: 3,405
+2026-11-05,London Paddington,London,Exeter St Davids,Exeter,278,Track,151.0,,152.0,2,2,Great Western Railway: 2,406
+2026-11-05,Exeter St Davids,Exeter,London Paddington,London,278,Track,145.0,,,3,3,Great Western Railway: 3,407
+2026-11-05,Chester,Chester,Holyhead,Holyhead,136,Track,111.0,,115.0,2,2,Transport for Wales: 2,408
+2026-11-05,Holyhead,Holyhead,Chester,Chester,136,Track,100.0,,,3,3,Transport for Wales: 2; Avanti West Coast: 1,409
+2026-11-05,Crewe,Crewe,Chester,Chester,34,Track,19.0,,19.0,1,1,Transport for Wales: 1,410
+2026-11-05,Chester,Chester,Crewe,Crewe,34,Track,22.0,,,4,4,Transport for Wales: 3; Avanti West Coast: 1,411
+2026-11-05,Glasgow Queen Street Low Level,Glasgow,Perth,Perth,103,Track,67.0,,70.0,3,3,ScotRail: 3,412
+2026-11-05,Perth,Perth,Glasgow Queen Street Low Level,Glasgow,103,Track,76.0,,,2,2,ScotRail: 2,413
+2026-11-05,London Liverpool Street,London,Ely,Ely,114,Track,96.0,,101.0,3,3,Greater Anglia: 3,414
+2026-11-05,Ely,Ely,London Liverpool Street,London,114,Track,98.0,,,2,2,Greater Anglia: 2,415
+2026-11-05,Three Bridges,Crawley,Luton,Luton,101,Track,105.0,,106.0,4,4,Thameslink: 4,416
+2026-11-05,Luton,Luton,Three Bridges,Crawley,101,Track,101.0,,,1,1,Thameslink: 1,417
+2026-11-05,London Euston,London,Preston,Preston,336,Track,151.0,,159.0,3,3,Avanti West Coast: 2; Lumo Stirling: 1,418
+2026-11-05,Preston,Preston,London Euston,London,336,Track,167.0,,,1,1,Lumo Stirling: 1,419
+2026-11-05,Birmingham New Street,Birmingham,Crewe,Crewe,84,Track,60.0,,65.0,2,2,LNR & WMR: 2,420
+2026-11-05,Crewe,Crewe,Birmingham New Street,Birmingham,84,Track,53.0,,,2,2,Avanti West Coast: 1; LNR & WMR: 1,421
+2026-11-05,Hereford,Hereford,Worcester Shrub Hill,Worcester,47,Track,47.0,,50.0,2,2,Great Western Railway: 1; LNR & WMR: 1,422
+2026-11-05,Worcester Shrub Hill,Worcester,Hereford,Hereford,47,Track,46.0,,,2,2,LNR & WMR: 2,423
+2026-11-05,Sheffield,Sheffield,Derby,Derby,58,Track,35.0,,45.0,3,3,East Midlands Railway: 3,424
+2026-11-05,Derby,Derby,Sheffield,Sheffield,58,Track,41.0,,,1,1,East Midlands Railway: 1,425
+2026-11-05,Manchester Piccadilly,Manchester,Scarborough,Scarborough,177,Track,144.0,,144.0,1,1,TransPennine Express: 1,426
+2026-11-05,Scarborough,Scarborough,Manchester Piccadilly,Manchester,177,Track,146.0,,,3,3,TransPennine Express: 3,427
+2026-11-05,London Marylebone,London,Stourbridge Junction,Stourbridge,199,Track,145.0,,154.0,3,3,Chiltern Railways: 3,428
+2026-11-05,Stourbridge Junction,Stourbridge,London Marylebone,London,199,Track,148.0,,,1,1,Chiltern Railways: 1,429
+2026-11-05,Brighton,Brighton,Portsmouth Harbour,Portsmouth,73,Track,87.0,,94.0,3,3,Southern: 3,430
+2026-11-05,Portsmouth Harbour,Portsmouth,Brighton,Brighton,73,Track,91.0,,,1,1,Southern: 1,431
+2026-11-05,Birmingham New Street,Birmingham,Edinburgh,Edinburgh,556,Track,254.0,,289.0,3,3,CrossCountry: 2; Avanti West Coast: 1,432
+2026-11-05,Edinburgh,Edinburgh,Birmingham New Street,Birmingham,556,Track,324.0,,,1,1,CrossCountry: 1,433
+2026-11-05,Manchester Piccadilly,Manchester,Paignton,Torbay,443,Track,290.0,,297.0,2,2,CrossCountry: 2,434
+2026-11-05,Paignton,Torbay,Manchester Piccadilly,Manchester,443,Track,285.0,,,2,2,CrossCountry: 2,435
+2026-11-05,Glasgow Central,Glasgow,Plymouth,Plymouth,981,Track,599.0,,600.0,2,2,CrossCountry: 2,436
+2026-11-05,Plymouth,Plymouth,Glasgow Central,Glasgow,981,Track,588.0,,,2,2,CrossCountry: 2,437
+2026-11-05,London Kings Cross,London,Beverley,Beverley,343,Track,183.0,,184.0,2,2,Hull Trains: 2,438
+2026-11-05,Beverley,Beverley,London Kings Cross,London,343,Track,174.0,,,2,2,Hull Trains: 2,439
+2026-11-05,London Paddington,London,Taunton,Taunton,263,Track,164.0,,165.0,2,2,Great Western Railway: 2,440
+2026-11-05,Taunton,Taunton,London Paddington,London,263,Track,160.0,,,2,2,Great Western Railway: 2,441
+2026-11-05,Birmingham International,Solihull,Chester,Chester,150,Track,132.0,,135.0,2,2,Transport for Wales: 2,442
+2026-11-05,Chester,Chester,Birmingham International,Solihull,150,Track,146.0,,,2,2,Transport for Wales: 2,443
+2026-11-05,Liverpool Lime Street,Liverpool,Chester,Chester,43,Track,45.0,,46.0,3,3,Transport for Wales: 3,444
+2026-11-05,Chester,Chester,Liverpool Lime Street,Liverpool,43,Track,51.0,,,1,1,Transport for Wales: 1,445
+2026-11-05,Birmingham International,Solihull,Shrewsbury,Shrewsbury,82,Track,72.0,,81.0,3,3,Transport for Wales: 3,446
+2026-11-05,Shrewsbury,Shrewsbury,Birmingham International,Solihull,82,Track,82.0,,,1,1,Transport for Wales: 1,447
+2026-11-05,Cardiff Central,Cardiff,Chester,Chester,239,Track,180.0,,186.0,3,3,Transport for Wales: 3,448
+2026-11-05,Chester,Chester,Cardiff Central,Cardiff,239,Track,191.0,,,1,1,Transport for Wales: 1,449
+2026-11-05,London Marylebone,London,Princes Risborough,Princes Risborough,58,Track,41.0,,41.0,1,1,Chiltern Railways: 1,450
+2026-11-05,Princes Risborough,Princes Risborough,London Marylebone,London,58,Track,46.0,,,3,3,Chiltern Railways: 3,451
+2026-11-05,Woking,Woking,Alton,Alton,35,Straight line,39.0,,41.0,3,3,South Western Railway: 3,452
+2026-11-05,Alton,Alton,Woking,Woking,35,Straight line,37.0,,,1,1,South Western Railway: 1,453
+2026-11-05,London Waterloo,London,Bournemouth,Bournemouth,173,Track,126.0,,129.0,3,3,South Western Railway: 3,454
+2026-11-05,Bournemouth,Bournemouth,London Waterloo,London,173,Track,135.0,,,1,1,South Western Railway: 1,455
+2026-11-05,Weymouth,Weymouth,Southampton Central,Southampton,102,Track,96.0,,,4,4,South Western Railway: 4,456
+2026-11-05,Ayr,Ayr,Kilmarnock,Kilmarnock,25,Track,23.0,,25.0,3,3,ScotRail: 3,457
+2026-11-05,Kilmarnock,Kilmarnock,Ayr,Ayr,25,Track,24.0,,,1,1,ScotRail: 1,458
+2026-11-05,Glasgow Central,Glasgow,Ardrossan Harbour,Ardrossan,51,Track,48.0,,49.0,2,2,ScotRail: 2,459
+2026-11-05,Ardrossan Harbour,Ardrossan,Glasgow Central,Glasgow,51,Track,39.0,,,2,2,ScotRail: 2,460
+2026-11-05,London Liverpool Street,London,Harwich International,Harwich International Port,111,Track,83.0,,84.0,2,2,Greater Anglia: 2,461
+2026-11-05,Harwich International,Harwich International Port,London Liverpool Street,London,111,Track,82.0,,,2,2,Greater Anglia: 2,462
+2026-11-05,Crayford,London,London Cannon Street,London,23,Track,39.0,,41.0,4,4,Southeastern: 4,463
+2026-11-05,London Blackfriars,London,Beckenham Junction,London,14,Track,19.0,,19.0,3,3,Southeastern: 3,464
+2026-11-05,Beckenham Junction,London,London Blackfriars,London,14,Track,19.0,,,1,1,Southeastern: 1,465
+2026-11-05,London Charing Cross,London,Orpington,London,22,Track,31.0,,34.0,2,2,Southeastern: 2,466
+2026-11-05,Orpington,London,London Charing Cross,London,22,Track,26.0,,,2,2,Southeastern: 2,467
+2026-11-05,Ramsgate,Ramsgate,London Cannon Street,London,123,Track,124.0,,125.0,2,2,Southeastern: 2,468
+2026-11-05,London Cannon Street,London,Ramsgate,Ramsgate,123,Track,123.0,,,2,2,Southeastern: 2,469
+2026-11-05,St-Pancras-International,London,Maidstone West,Maidstone,,,52.0,,53.0,2,2,Southeastern: 2,470
+2026-11-05,Maidstone West,Maidstone,St-Pancras-International,London,,,52.0,,,2,2,Southeastern: 2,471
+2026-11-05,Manchester Piccadilly,Manchester,Crewe,Crewe,50,Track,35.0,,35.0,1,1,Transport for Wales: 1,472
+2026-11-05,Crewe,Crewe,Manchester Piccadilly,Manchester,50,Track,33.0,,,3,3,Avanti West Coast: 2; Transport for Wales: 1,473
+2026-11-05,London Fenchurch Street,London,Southend Central,Southend-on-Sea,57,Track,58.0,,65.0,4,4,c2c: 4,474
+2026-11-05,London Kings Cross,London,Doncaster,Doncaster,251,Track,106.0,,106.0,1,1,LNER: 1,475
+2026-11-05,Doncaster,Doncaster,London Kings Cross,London,251,Track,108.0,,,2,2,LNER: 2,476
+2026-11-05,Nottingham,Nottingham,Norwich,Norwich,247,Track,159.0,,179.0,3,3,East Midlands Railway: 3,477
+2026-11-05,Kilmarnock,Kilmarnock,Stranraer,Stranraer,120,Track,109.0,,112.0,2,2,ScotRail: 2,478
+2026-11-05,Stranraer,Stranraer,Kilmarnock,Kilmarnock,120,Track,114.0,,,1,1,ScotRail: 1,479
+2026-11-05,Crianlarich,Crianlarich,Mallaig,Mallaig,150,Straight line,197.0,,199.0,3,3,ScotRail: 3,480
+2026-11-05,Mallaig,Mallaig,Glasgow Queen Street Low Level,Glasgow,232,Straight line,325.0,,,3,3,ScotRail: 3,481
+2026-11-05,Birmingham New Street,Birmingham,Worcester Foregate Street,Worcester,42,Track,44.0,,49.0,2,2,LNR & WMR: 2,482
+2026-11-05,Worcester Foregate Street,Worcester,Birmingham New Street,Birmingham,42,Track,46.0,,,1,1,LNR & WMR: 1,483
+2026-11-05,York,York,Redcar Central,Redcar,94,Track,75.0,,75.0,1,1,TransPennine Express: 1,484
+2026-11-05,Redcar Central,Redcar,York,York,94,Track,80.0,,,2,2,TransPennine Express: 2,485
+2026-11-05,Leeds,Leeds,Liverpool Lime Street,Liverpool,119,Track,91.0,,91.0,2,2,TransPennine Express: 2,486
+2026-11-05,Liverpool Lime Street,Liverpool,Leeds,Leeds,119,Track,86.0,,,1,1,TransPennine Express: 1,487
+2026-11-05,Manchester Airport,Manchester,Saltburn,Saltburn,231,Track,194.0,,194.0,2,2,TransPennine Express: 2,488
+2026-11-05,Saltburn,Saltburn,Manchester Airport,Manchester,231,Track,195.0,,,1,1,TransPennine Express: 1,489
+2026-11-05,London Victoria,London,Portsmouth & Southsea,Portsmouth,138,Track,128.0,,133.0,3,3,Southern: 3,490
+2026-11-05,Haywards Heath,Haywards Heath,Eastbourne,Eastbourne,45,Track,36.0,,37.0,2,2,Southern: 2,491
+2026-11-05,Eastbourne,Eastbourne,Haywards Heath,Haywards Heath,45,Track,47.0,,,1,1,Southern: 1,492
+2026-11-05,Gatwick Airport,Gatwick Airport,London Victoria,London,43,Track,36.0,,46.0,2,2,Gatwick Express: 1; Southern: 1,493
+2026-11-05,London Victoria,London,Gatwick Airport,Gatwick Airport,43,Track,44.0,,,1,1,Southern: 1,494
+2026-11-05,Southampton Central,Southampton,Bournemouth,Bournemouth,46,Track,28.0,,43.0,3,3,South Western Railway: 2; CrossCountry: 1,495
+2026-11-05,Leeds,Leeds,Plymouth,Plymouth,534,Track,337.0,,337.0,1,1,CrossCountry: 1,496
+2026-11-05,Plymouth,Plymouth,Leeds,Leeds,534,Track,336.0,,,2,2,CrossCountry: 2,497
+2026-11-05,Birmingham New Street,Birmingham,Cambridge,Cambridge,220,Track,171.0,,175.0,2,2,CrossCountry: 2,498
+2026-11-05,Cambridge,Cambridge,Birmingham New Street,Birmingham,220,Track,164.0,,,1,1,CrossCountry: 1,499
+2026-11-05,Manchester Piccadilly,Manchester,Southampton Central,Southampton,366,Track,260.0,,260.0,1,1,CrossCountry: 1,500
+2026-11-05,Southampton Central,Southampton,Manchester Piccadilly,Manchester,366,Track,254.0,,,2,2,CrossCountry: 2,501
+2026-11-05,Birmingham New Street,Birmingham,Bristol Temple Meads,Bristol,144,Track,85.0,,85.0,1,1,CrossCountry: 1,502
+2026-11-05,Bristol Temple Meads,Bristol,Birmingham New Street,Birmingham,144,Track,78.0,,,2,2,CrossCountry: 2,503
+2026-11-05,Birmingham New Street,Birmingham,Cardiff Central,Cardiff,174,Track,142.0,,144.0,2,2,CrossCountry: 2,504
+2026-11-05,Cardiff Central,Cardiff,Birmingham New Street,Birmingham,174,Track,120.0,,,1,1,CrossCountry: 1,505
+2026-11-05,Edinburgh,Edinburgh,Bristol Temple Meads,Bristol,700,Track,390.0,,394.0,2,2,CrossCountry: 2,506
+2026-11-05,Bristol Temple Meads,Bristol,Edinburgh,Edinburgh,700,Track,395.0,,,1,1,CrossCountry: 1,507
+2026-11-05,London Kings Cross,London,Glasgow Queen Street Low Level,Glasgow,708,Track,326.0,,329.0,2,2,Lumo: 2,508
+2026-11-05,Glasgow Queen Street Low Level,Glasgow,London Kings Cross,London,708,Track,360.0,,,1,1,Lumo: 1,509
+2026-11-05,London Victoria,London,Hastings,Hastings,132,Track,123.0,,126.0,2,2,Southern: 2,510
+2026-11-05,Hastings,Hastings,London Victoria,London,132,Track,137.0,,,1,1,Southern: 1,511
+2026-11-05,Chester,Chester,Shrewsbury,Shrewsbury,68,Track,61.0,,61.0,1,1,Transport for Wales: 1,512
+2026-11-05,Shrewsbury,Shrewsbury,Chester,Chester,68,Track,54.0,,,2,2,Transport for Wales: 2,513
+2026-11-05,Crewe,Crewe,Cardiff Central,Cardiff,223,Track,158.0,,158.0,1,1,Transport for Wales: 1,514
+2026-11-05,Cardiff Central,Cardiff,Crewe,Crewe,223,Track,165.0,,,2,2,Transport for Wales: 2,515
+2026-11-05,Manchester Piccadilly,Manchester,Fishguard Harbour,Fishguard,464,Track,358.0,,360.0,2,2,Transport for Wales: 2,516
+2026-11-05,Fishguard Harbour,Fishguard,Manchester Piccadilly,Manchester,464,Track,376.0,,,1,1,Transport for Wales: 1,517
+2026-11-05,Manchester Piccadilly,Manchester,Carmarthen,Carmarthen,393,Track,321.0,,323.0,2,2,Transport for Wales: 2,518
+2026-11-05,Carmarthen,Carmarthen,Manchester Piccadilly,Manchester,393,Track,312.0,,,1,1,Transport for Wales: 1,519
+2026-11-05,Leeds,Leeds,Blackpool North,Blackpool,128,Track,130.0,,130.0,1,1,Northern: 1,520
+2026-11-05,Blackpool North,Blackpool,Leeds,Leeds,128,Track,122.0,,,2,2,Northern: 2,521
+2026-11-05,Sheffield,Sheffield,Bridlington,Bridlington,145,Track,125.0,,125.0,1,1,Northern: 1,522
+2026-11-05,Bridlington,Bridlington,Sheffield,Sheffield,145,Track,133.0,,,2,2,Northern: 2,523
+2026-11-05,High Wycombe,High Wycombe,London Marylebone,London,45,Track,35.0,,,3,3,Chiltern Railways: 3,524
+2026-11-05,Bournemouth,Bournemouth,Basingstoke,Basingstoke,97,Track,96.0,,,3,3,South Western Railway: 3,525
+2026-11-05,London Liverpool Street,London,Harwich Town,Harwich,114,Track,88.0,,88.0,1,1,Greater Anglia: 1,526
+2026-11-05,Harwich Town,Harwich,London Liverpool Street,London,114,Track,95.0,,,2,2,Greater Anglia: 2,527
+2026-11-05,Broadstairs,Broadstairs,St-Pancras-International,London,,,105.0,,,3,3,Southeastern: 3,528
+2026-11-05,London Cannon Street,London,Dover Priory,Dover,119,Track,120.0,,,3,3,Southeastern: 3,529
+2026-11-05,London Marylebone,London,Bicester North,Bicester,88,Track,67.0,,69.0,3,3,Chiltern Railways: 3,530
+2026-11-05,London Paddington,London,Bedwyn,Great Bedwyn,106,Track,69.0,,69.0,1,1,Great Western Railway: 1,531
+2026-11-05,Bedwyn,Great Bedwyn,London Paddington,London,106,Track,69.0,,,2,2,Great Western Railway: 2,532
+2026-11-05,London Bridge,London,East Grinstead,East Grinstead,48,Track,52.0,,52.0,1,1,Thameslink: 1,533
+2026-11-05,East Grinstead,East Grinstead,London Bridge,London,48,Track,52.0,,,2,2,Thameslink: 2,534
+2026-11-05,Luton,Luton,Gatwick Airport,Gatwick Airport,96,Track,94.0,,,3,3,Thameslink: 3,535
+2026-11-05,Thorpe Bay,Southend-on-Sea,London Fenchurch Street,London,61,Track,61.0,,,3,3,c2c: 3,536
+2026-11-05,London Fenchurch Street,London,Laindon,Basildon,37,Track,31.0,,33.0,3,3,c2c: 3,537
+2026-11-05,London Paddington,London,Banbury,Banbury,138,Track,72.0,,72.0,1,1,Great Western Railway: 1,538
+2026-11-05,Banbury,Banbury,London Paddington,London,138,Track,74.0,,,1,1,Great Western Railway: 1,539
+2026-11-05,Darlington,Darlington,Newcastle,Newcastle upon Tyne,59,Track,35.0,,,2,2,LNER: 1; Northern: 1,540
+2026-11-05,London Kings Cross,London,Inverness,Inverness,934,Track,485.0,,485.0,1,1,LNER: 1,541
+2026-11-05,Inverness,Inverness,London Kings Cross,London,934,Track,487.0,,,1,1,LNER: 1,542
+2026-11-05,London Kings Cross,London,Skipton,Skipton,341,Track,195.0,,195.0,1,1,LNER: 1,543
+2026-11-05,Skipton,Skipton,London Kings Cross,London,341,Track,183.0,,,1,1,LNER: 1,544
+2026-11-05,Horsham,Horsham,Bedford,Bedford,146,Track,152.0,,,2,2,Thameslink: 2,545
+2026-11-05,Lowestoft,Lowestoft,Cambridge,Cambridge,148,Track,134.0,,,2,2,Greater Anglia: 2,546
+2026-11-05,Sheffield,Sheffield,Norwich,Norwich,283,Track,212.0,,212.0,1,1,East Midlands Railway: 1,547
+2026-11-05,Norwich,Norwich,Sheffield,Sheffield,283,Track,227.0,,,1,1,East Midlands Railway: 1,548
+2026-11-05,Edinburgh,Edinburgh,Fort William,Fort William,266,Track,310.0,,310.0,1,1,Caledonian Sleeper: 1,549
+2026-11-05,Fort William,Fort William,Edinburgh,Edinburgh,266,Track,318.0,,,1,1,Caledonian Sleeper: 1,550
+2026-11-05,Edinburgh,Edinburgh,Carstairs,Carstairs,46,Track,41.0,,41.0,1,1,Caledonian Sleeper: 1,551
+2026-11-05,Carstairs,Carstairs,Edinburgh,Edinburgh,46,Track,50.0,,,1,1,Caledonian Sleeper: 1,552
+2026-11-05,London Euston,London,Inverness,Inverness,922,Track,690.0,,690.0,1,1,Caledonian Sleeper: 1,553
+2026-11-05,Inverness,Inverness,London Euston,London,922,Track,675.0,,,1,1,Caledonian Sleeper: 1,554
+2026-11-05,Oban,Oban,Crianlarich,Crianlarich,67,Track,76.0,,,2,2,ScotRail: 2,555
+2026-11-05,Fort William,Fort William,Mallaig,Mallaig,59,Straight line,83.0,,83.0,1,1,ScotRail: 1,556
+2026-11-05,Mallaig,Mallaig,Fort William,Fort William,59,Straight line,84.0,,,1,1,ScotRail: 1,557
+2026-11-05,London Euston,London,Walsall,Walsall,203,Track,170.0,,170.0,1,1,LNR & WMR: 1,558
+2026-11-05,Walsall,Walsall,London Euston,London,203,Track,155.0,,,1,1,LNR & WMR: 1,559
+2026-11-05,Birmingham New Street,Birmingham,Milton Keynes Central,Milton Keynes,105,Track,86.0,,86.0,1,1,LNR & WMR: 1,560
+2026-11-05,Milton Keynes Central,Milton Keynes,Birmingham New Street,Birmingham,105,Track,94.0,,,1,1,LNR & WMR: 1,561
+2026-11-05,Newark Castle,Newark,Crewe,Crewe,135,Track,165.0,,,2,2,East Midlands Railway: 2,562
+2026-11-05,Leicester,Leicester,Sheffield,Sheffield,106,Track,62.0,,,2,2,East Midlands Railway: 2,563
+2026-11-05,Saltburn,Saltburn,York,York,102,Track,87.0,,,2,2,TransPennine Express: 2,564
+2026-11-05,Sheffield,Sheffield,Manchester Airport,Manchester,84,Track,116.0,,116.0,1,1,TransPennine Express: 1,565
+2026-11-05,Manchester Airport,Manchester,Sheffield,Sheffield,84,Track,134.0,,,1,1,TransPennine Express: 1,566
+2026-11-05,Manchester Airport,Manchester,Oxenholme Lake District,Oxenholme,131,Track,93.0,,93.0,1,1,TransPennine Express: 1,567
+2026-11-05,Oxenholme Lake District,Oxenholme,Manchester Airport,Manchester,131,Track,96.0,,,1,1,TransPennine Express: 1,568
+2026-11-05,Manchester Airport,Manchester,Scarborough,Scarborough,197,Track,181.0,,181.0,1,1,TransPennine Express: 1,569
+2026-11-05,Scarborough,Scarborough,Manchester Airport,Manchester,197,Track,202.0,,,1,1,TransPennine Express: 1,570
+2026-11-05,Manchester Airport,Manchester,Manchester Victoria,Manchester,20,Track,25.0,,27.0,2,2,TransPennine Express: 2,571
+2026-11-05,York,York,Newcastle,Newcastle upon Tyne,130,Track,66.0,,66.0,1,1,TransPennine Express: 1,572
+2026-11-05,Newcastle,Newcastle upon Tyne,York,York,130,Track,67.0,,,1,1,TransPennine Express: 1,573
+2026-11-05,Bicester Village,Bicester,Oxford,Oxford,19,Track,16.0,,,2,2,Chiltern Railways: 2,574
+2026-11-05,Leeds,Leeds,Carlisle,Carlisle,181,Track,164.0,,164.0,1,1,Northern: 1,575
+2026-11-05,Carlisle,Carlisle,Leeds,Leeds,181,Track,150.0,,,1,1,Northern: 1,576
+2026-11-05,Portsmouth & Southsea,Portsmouth,Horsham,Horsham,77,Track,74.0,,75.0,2,2,Southern: 2,577
+2026-11-05,London Victoria,London,Chichester,Chichester,112,Track,92.0,,100.0,2,2,Southern: 2,578
+2026-11-05,Barnham,Barnham,Portsmouth Harbour,Portsmouth,37,Track,35.0,,36.0,2,2,Southern: 2,579
+2026-11-05,Newcastle,Newcastle upon Tyne,Plymouth,Plymouth,702,Track,427.0,,427.0,1,1,CrossCountry: 1,580
+2026-11-05,Plymouth,Plymouth,Newcastle,Newcastle upon Tyne,702,Track,437.0,,,1,1,CrossCountry: 1,581
+2026-11-05,Plymouth,Plymouth,Birmingham New Street,Birmingham,349,Track,208.0,,,2,2,CrossCountry: 2,582
+2026-11-05,Newcastle,Newcastle upon Tyne,Birmingham New Street,Birmingham,334,Track,173.0,,,2,2,CrossCountry: 2,583
+2026-11-05,Birmingham New Street,Birmingham,Bournemouth,Bournemouth,280,Track,214.0,,214.0,1,1,CrossCountry: 1,584
+2026-11-05,Bournemouth,Bournemouth,Birmingham New Street,Birmingham,280,Track,184.0,,,1,1,CrossCountry: 1,585
+2026-11-05,Manchester Piccadilly,Manchester,Reading,Reading,282,Track,193.0,,193.0,1,1,CrossCountry: 1,586
+2026-11-05,Reading,Reading,Manchester Piccadilly,Manchester,282,Track,211.0,,,1,1,CrossCountry: 1,587
+2026-11-05,Edinburgh,Edinburgh,Cardiff Central,Cardiff,727,Track,421.0,,421.0,1,1,CrossCountry: 1,588
+2026-11-05,Cardiff Central,Cardiff,Edinburgh,Edinburgh,727,Track,444.0,,,1,1,CrossCountry: 1,589
+2026-11-05,Edinburgh,Edinburgh,Penzance,Penzance,901,Straight line,639.0,,639.0,1,1,CrossCountry: 1,590
+2026-11-05,Penzance,Penzance,Edinburgh,Edinburgh,901,Straight line,659.0,,,1,1,CrossCountry: 1,591
+2026-11-05,Birmingham New Street,Birmingham,Reading,Reading,150,Track,92.0,,94.0,2,2,CrossCountry: 2,592
+2026-11-05,London Paddington,London,Frome,Frome,162,Track,112.0,,112.0,1,1,Great Western Railway: 1,593
+2026-11-05,Frome,Frome,London Paddington,London,162,Track,109.0,,,1,1,Great Western Railway: 1,594
+2026-11-05,Bristol Parkway,Stoke Gifford,Carmarthen,Carmarthen,178,Track,143.0,,143.0,1,1,Great Western Railway: 1,595
+2026-11-05,Carmarthen,Carmarthen,Bristol Parkway,Stoke Gifford,178,Track,161.0,,,1,1,Great Western Railway: 1,596
+2026-11-05,Cardiff Central,Cardiff,Frome,Frome,116,Track,110.0,,110.0,1,1,Great Western Railway: 1,597
+2026-11-05,Frome,Frome,Cardiff Central,Cardiff,116,Track,126.0,,,1,1,Great Western Railway: 1,598
+2026-11-05,Plymouth,Plymouth,Gloucester,Gloucester,267,Track,187.0,,187.0,1,1,Great Western Railway: 1,599
+2026-11-05,Gloucester,Gloucester,Plymouth,Plymouth,267,Track,164.0,,,1,1,CrossCountry: 1,600
+2026-11-05,York,York,Liverpool Lime Street,Liverpool,160,Track,120.0,,120.0,1,1,TransPennine Express: 1,601
+2026-11-05,Liverpool Lime Street,Liverpool,York,York,160,Track,159.0,,,1,1,TransPennine Express: 1,602
+2026-11-05,Sheffield,Sheffield,Cleethorpes,Cleethorpes,113,Track,115.0,,115.0,1,1,TransPennine Express: 1,603
+2026-11-05,Cleethorpes,Cleethorpes,Sheffield,Sheffield,113,Track,116.0,,,1,1,TransPennine Express: 1,604
+2026-11-05,York,York,Scarborough,Scarborough,68,Track,48.0,,48.0,1,1,TransPennine Express: 1,605
+2026-11-05,Scarborough,Scarborough,York,York,68,Track,51.0,,,1,1,TransPennine Express: 1,606
+2026-11-05,London Bridge,London,Eastbourne,Eastbourne,106,Track,92.0,,92.0,1,1,Southern: 1,607
+2026-11-05,Eastbourne,Eastbourne,London Bridge,London,106,Track,98.0,,,1,1,Southern: 1,608
+2026-11-05,London Bridge,London,Littlehampton,Littlehampton,112,Track,106.0,,106.0,1,1,Southern: 1,609
+2026-11-05,Littlehampton,Littlehampton,London Bridge,London,112,Track,110.0,,,1,1,Southern: 1,610
+2026-11-05,London Bridge,London,Bognor Regis,Bognor Regis,112,Track,106.0,,106.0,1,1,Southern: 1,611
+2026-11-05,Bognor Regis,Bognor Regis,London Bridge,London,112,Track,116.0,,,1,1,Southern: 1,612
+2026-11-05,Three Bridges,Crawley,Redhill,Redhill,14,Track,19.0,,19.0,2,2,Southern: 2,613
+2026-11-05,Cardiff Central,Cardiff,Carmarthen,Carmarthen,124,Track,108.0,,116.0,2,2,Transport for Wales: 2,614
+2026-11-05,Birmingham International,Solihull,Holyhead,Holyhead,285,Track,242.0,,242.0,1,1,Transport for Wales: 1,615
+2026-11-05,Holyhead,Holyhead,Birmingham International,Solihull,285,Track,268.0,,,1,1,Transport for Wales: 1,616
+2026-11-05,Manchester Airport,Manchester,Chester,Chester,81,Track,82.0,,82.0,1,1,Transport for Wales: 1,617
+2026-11-05,Chester,Chester,Manchester Airport,Manchester,81,Track,81.0,,,1,1,Transport for Wales: 1,618
+2026-11-05,Crewe,Crewe,Holyhead,Holyhead,170,Track,137.0,,137.0,1,1,Transport for Wales: 1,619
+2026-11-05,Holyhead,Holyhead,Crewe,Crewe,170,Track,130.0,,,1,1,Transport for Wales: 1,620
+2026-11-05,Wrexham General,Wrexham,Chester,Chester,20,Track,18.0,,,2,2,Transport for Wales: 2,621
+2026-11-05,Hastings,Hastings,Eastbourne,Eastbourne,26,Track,26.0,,26.0,1,1,Southern: 1,622
+2026-11-05,Eastbourne,Eastbourne,Hastings,Hastings,26,Track,28.0,,,1,1,Southern: 1,623
+2026-11-05,London Kings Cross,London,Middlesbrough,Middlesbrough,384,Track,181.0,,181.0,1,1,LNER: 1,624
+2026-11-05,Middlesbrough,Middlesbrough,London Kings Cross,London,384,Track,184.0,,,1,1,LNER: 1,625
+2026-11-05,Doncaster,Doncaster,Edinburgh,Edinburgh,382,Track,178.0,,,2,2,LNER: 2,626
+2026-11-05,London Victoria,London,Worthing,Worthing,99,Track,91.0,,97.0,2,2,Southern: 2,627
+2026-11-05,Hull,Hull,Scarborough,Scarborough,86,Track,76.0,,76.0,1,1,Northern: 1,628
+2026-11-05,Scarborough,Scarborough,Hull,Hull,86,Track,83.0,,,1,1,Northern: 1,629
+2026-11-05,Hull,Hull,Bridlington,Bridlington,50,Track,49.0,,49.0,1,1,Northern: 1,630
+2026-11-05,Bridlington,Bridlington,Hull,Hull,50,Track,48.0,,,1,1,Northern: 1,631
+2026-11-05,London Waterloo,London,Portsmouth & Southsea,Portsmouth,117,Track,121.0,,126.0,2,2,South Western Railway: 2,632
+2026-11-05,Salisbury,Salisbury,Reading,Reading,83,Track,60.0,,,2,2,South Western Railway: 2,633
+2026-11-05,Salisbury,Salisbury,Exeter St Davids,Exeter,142,Track,136.0,,136.0,1,1,South Western Railway: 1,634
+2026-11-05,Exeter St Davids,Exeter,Salisbury,Salisbury,142,Track,153.0,,,1,1,South Western Railway: 1,635
+2026-11-05,London Waterloo,London,Yeovil Pen Mill,Yeovil,200,Track,159.0,,171.0,2,2,South Western Railway: 2,636
+2026-11-05,Exeter St Davids,Exeter,Yeovil Junction,Yeovil,80,Track,77.0,,77.0,1,1,South Western Railway: 1,637
+2026-11-05,Yeovil Junction,Yeovil,Exeter St Davids,Exeter,80,Track,79.0,,,1,1,South Western Railway: 1,638
+2026-11-05,Farnham,Farnham,London Waterloo,London,75,Track,104.0,,,2,2,South Western Railway: 2,639
+2026-11-05,London Waterloo,London,Aldershot,Aldershot,70,Track,88.0,,94.0,2,2,South Western Railway: 2,640
+2026-11-05,Yeovil Pen Mill,Yeovil,Salisbury,Salisbury,90,Track,73.0,,,2,2,South Western Railway: 2,641
+2026-11-05,London Waterloo,London,Woking,Woking,55,Track,84.0,,84.0,1,1,South Western Railway: 1,642
+2026-11-05,Woking,Woking,London Waterloo,London,55,Track,88.0,,,1,1,South Western Railway: 1,643
+2026-11-05,Weybridge,Weybridge,London Waterloo,London,48,Track,86.0,,,2,2,South Western Railway: 2,644
+2026-11-05,Glasgow Central,Glasgow,Dumfries,Dumfries,132,Track,109.0,,117.0,2,2,ScotRail: 2,645
+2026-11-05,Glasgow Queen Street Low Level,Glasgow,Arbroath,Arbroath,164,Track,130.0,,130.0,1,1,ScotRail: 1,646
+2026-11-05,Arbroath,Arbroath,Glasgow Queen Street Low Level,Glasgow,164,Track,131.0,,,1,1,ScotRail: 1,647
+2026-11-05,Glasgow Central,Glasgow,Neilston,Neilston,18,Track,24.0,,24.0,1,1,ScotRail: 1,648
+2026-11-05,Neilston,Neilston,Glasgow Central,Glasgow,18,Track,26.0,,,1,1,ScotRail: 1,649
+2026-11-05,London Liverpool Street,London,Southend Airport,Southend-on-Sea,64,Track,56.0,,56.0,1,1,Greater Anglia: 1,650
+2026-11-05,Southend Airport,Southend-on-Sea,London Liverpool Street,London,64,Track,56.0,,,1,1,Greater Anglia: 1,651
+2026-11-05,Ely,Ely,Norwich,Norwich,86,Track,59.0,,59.0,1,1,Greater Anglia: 1,652
+2026-11-05,Norwich,Norwich,Ely,Ely,86,Track,58.0,,,1,1,Greater Anglia: 1,653
+2026-11-05,Norwich,Norwich,Ipswich,Ipswich,74,Track,44.0,,44.0,1,1,Greater Anglia: 1,654
+2026-11-05,Ipswich,Ipswich,Norwich,Norwich,74,Track,41.0,,,1,1,Greater Anglia: 1,655
+2026-11-05,London Liverpool Street,London,Cambridge North,Cambridge,93,Track,82.0,,83.0,2,2,Greater Anglia: 2,656
+2026-11-05,Crayford,London,London Charing Cross,London,24,Track,40.0,,,2,2,Southeastern: 2,657
+2026-11-05,Strood,Strood,London Charing Cross,London,50,Track,72.0,,,2,2,Southeastern: 2,658
+2026-11-05,London Blackfriars,London,Maidstone East,Maidstone,65,Track,71.0,,71.0,1,1,Southeastern: 1,659
+2026-11-05,Maidstone East,Maidstone,London Blackfriars,London,65,Track,76.0,,,1,1,Southeastern: 1,660
+2026-11-05,Gillingham (Kent),Gillingham,London Cannon Street,London,53,Track,50.0,,53.0,2,2,Southeastern: 2,661
+2026-11-05,Faversham,Faversham,London Cannon Street,London,79,Track,80.0,,83.0,2,2,Southeastern: 2,662
+2026-11-05,Hastings,Hastings,Tonbridge,Tonbridge,53,Track,60.0,,60.0,1,1,Southeastern: 1,663
+2026-11-05,Tonbridge,Tonbridge,Hastings,Hastings,53,Track,66.0,,,1,1,Southeastern: 1,664
+2026-11-05,Canterbury West,Canterbury,St-Pancras-International,London,,,60.0,,,2,2,Southeastern: 2,665
+2026-11-05,Sandwich,Sandwich,St-Pancras-International,London,,,92.0,,,2,2,Southeastern: 2,666
+2026-11-05,Ramsgate,Ramsgate,Ashford International,Ashford,69,Track,64.0,,64.0,2,2,Southeastern: 2,667
+2026-11-05,Lancaster,Lancaster,London Euston,London,369,Track,167.0,,,2,2,Avanti West Coast: 2,668
+2026-11-05,Birmingham New Street,Birmingham,Holyhead,Holyhead,254,Track,174.0,,174.0,1,1,Avanti West Coast: 1,669
+2026-11-05,Holyhead,Holyhead,Birmingham New Street,Birmingham,254,Track,183.0,,,1,1,Avanti West Coast: 1,670
+2026-11-05,London Euston,London,Wrexham General,Wrexham,307,Track,151.0,,151.0,1,1,Avanti West Coast: 1,671
+2026-11-05,Wrexham General,Wrexham,London Euston,London,307,Track,155.0,,,1,1,Avanti West Coast: 1,672
+2026-11-05,Bristol Temple Meads,Bristol,Portsmouth Harbour,Portsmouth,165,Track,155.0,,,2,2,Great Western Railway: 2,673
+2026-11-05,Reading,Reading,Bedwyn,Great Bedwyn,49,Track,52.0,,52.0,1,1,Great Western Railway: 1,674
+2026-11-05,Bedwyn,Great Bedwyn,Reading,Reading,49,Track,41.0,,,1,1,Great Western Railway: 1,675
+2026-11-05,Haywards Heath,Haywards Heath,Bedford,Bedford,146,Track,149.0,,149.0,2,2,Thameslink: 2,676
+2026-11-05,Lincoln Central,Lincoln,St-Pancras-International,London,258,Track,167.0,,,2,2,East Midlands Railway: 2,677
+2026-11-05,Sheffield,Sheffield,Liverpool Lime Street,Liverpool,123,Track,113.0,,113.0,1,1,TransPennine Express: 1,678
+2026-11-05,Liverpool Lime Street,Liverpool,Sheffield,Sheffield,123,Track,117.0,,,1,1,TransPennine Express: 1,679
+2026-11-05,Liverpool Lime Street,Liverpool,Doncaster,Doncaster,154,Track,154.0,,154.0,1,1,TransPennine Express: 1,680
+2026-11-05,Doncaster,Doncaster,Liverpool Lime Street,Liverpool,154,Track,144.0,,,1,1,TransPennine Express: 1,681
+2026-11-05,Liverpool Lime Street,Liverpool,Oxenholme Lake District,Oxenholme,121,Track,77.0,,77.0,1,1,TransPennine Express: 1,682
+2026-11-05,Oxenholme Lake District,Oxenholme,Liverpool Lime Street,Liverpool,121,Track,89.0,,,1,1,TransPennine Express: 1,683
+2026-11-05,Manchester Airport,Manchester,Lancaster,Lancaster,101,Track,81.0,,81.0,1,1,TransPennine Express: 1,684
+2026-11-05,Lancaster,Lancaster,Manchester Airport,Manchester,101,Track,77.0,,,1,1,TransPennine Express: 1,685
+2026-11-05,London Paddington,London,Bristol Parkway,Stoke Gifford,179,Track,87.0,,88.0,2,2,Great Western Railway: 2,686
+2026-11-05,Cardiff Central,Cardiff,Fishguard Harbour,Fishguard,191,Track,158.0,,158.0,1,1,Transport for Wales: 1,687
+2026-11-05,Fishguard Harbour,Fishguard,Cardiff Central,Cardiff,191,Track,162.0,,,1,1,Transport for Wales: 1,688
+2026-11-05,London Fenchurch Street,London,Pitsea,Basildon,57,Track,62.0,,62.0,1,1,c2c: 1,689
+2026-11-05,Pitsea,Basildon,London Fenchurch Street,London,57,Track,62.0,,,1,1,c2c: 1,690
+2026-11-05,Berwick-upon-Tweed,Berwick-upon-Tweed,London Kings Cross,London,541,Track,239.0,,,1,1,LNER: 1,691
+2026-11-05,Aberdeen,Aberdeen,Doncaster,Doncaster,592,Track,372.0,,,1,1,LNER: 1,692
+2026-11-05,Corby,Corby,Kettering,Kettering,12,Track,8.0,,,1,1,East Midlands Railway: 1,693
+2026-11-05,Manchester Piccadilly,Manchester,Nottingham,Nottingham,133,Track,109.0,,109.0,1,1,East Midlands Railway: 1,694
+2026-11-05,Norwich,Norwich,Manchester Piccadilly,Manchester,352,Track,283.0,,,1,1,East Midlands Railway: 1,695
+2026-11-05,Norwich,Norwich,Derby,Derby,244,Track,197.0,,,1,1,East Midlands Railway: 1,696
+2026-11-05,Stranraer,Stranraer,Glasgow Central,Glasgow,159,Track,155.0,,,1,1,ScotRail: 1,697
+2026-11-05,Crewe,Crewe,Rugby,Rugby,121,Track,75.0,,75.0,1,1,LNR & WMR: 1,698
+2026-11-05,Crewe,Crewe,Northampton,Northampton,152,Track,98.0,,98.0,1,1,LNR & WMR: 1,699
+2026-11-05,Rugby,Rugby,London Euston,London,136,Track,80.0,,,1,1,LNR & WMR: 1,700
+2026-11-05,Tring,Tring,London Euston,London,51,Track,28.0,,,1,1,LNR & WMR: 1,701
+2026-11-05,Darlington,Darlington,Manchester Victoria,Manchester,181,Track,123.0,,,1,1,TransPennine Express: 1,702
+2026-11-05,York,York,Darlington,Darlington,71,Track,52.0,,52.0,1,1,TransPennine Express: 1,703
+2026-11-05,Nunthorpe,Nunthorpe,Carlisle,Carlisle,184,Track,172.0,,,1,1,Northern: 1,704
+2026-11-05,Middlesbrough,Middlesbrough,Hexham,Hexham,113,Track,118.0,,118.0,1,1,Northern: 1,705
+2026-11-05,Sheffield,Sheffield,Lincoln Central,Lincoln,78,Track,79.0,,79.0,1,1,Northern: 1,706
+2026-11-05,Newcastle,Newcastle upon Tyne,Prudhoe,Prudhoe,19,Track,26.0,,26.0,1,1,Northern: 1,707
+2026-11-05,Newcastle,Newcastle upon Tyne,Hexham,Hexham,36,Track,44.0,,44.0,1,1,Northern: 1,708
+2026-11-05,Barnham,Barnham,Bognor Regis,Bognor Regis,6,Track,6.0,,6.0,1,1,Southern: 1,709
+2026-11-05,Three Bridges,Crawley,Portsmouth Harbour,Portsmouth,92,Track,113.0,,113.0,1,1,Southern: 1,710
+2026-11-05,Havant,Havant,London Victoria,London,126,Track,115.0,,,1,1,Southern: 1,711
+2026-11-05,Southampton Central,Southampton,Horsham,Horsham,105,Track,99.0,,99.0,1,1,Southern: 1,712
+2026-11-05,East Croydon,London,Uckfield,Uckfield,57,Track,61.0,,61.0,1,1,Southern: 1,713
+2026-11-05,London Bridge,London,Oxted,Oxted,33,Track,29.0,,29.0,1,1,Southern: 1,714
+2026-11-05,Brighton,Brighton,Havant,Havant,60,Track,67.0,,67.0,1,1,Southern: 1,715
+2026-11-05,Derby,Derby,Newcastle,Newcastle upon Tyne,270,Track,148.0,,,1,1,CrossCountry: 1,716
+2026-11-05,Southampton Central,Southampton,Newcastle,Newcastle upon Tyne,559,Track,332.0,,,1,1,CrossCountry: 1,717
+2026-11-05,Bristol Temple Meads,Bristol,Stansted Airport,Stansted Airport,406,Track,315.0,,,1,1,CrossCountry: 1,718
+2026-11-05,Nottingham,Nottingham,Bournemouth,Bournemouth,372,Track,276.0,,276.0,1,1,CrossCountry: 1,719
+2026-11-05,Bristol Temple Meads,Bristol,Cardiff Central,Cardiff,63,Track,61.0,,,1,1,CrossCountry: 1,720
+2026-11-05,Derby,Derby,Cardiff Central,Cardiff,240,Track,156.0,,,1,1,CrossCountry: 1,721
+2026-11-05,Nottingham,Nottingham,Gloucester,Gloucester,175,Track,137.0,,137.0,1,1,CrossCountry: 1,722
+2026-11-05,Leicester,Leicester,Gloucester,Gloucester,147,Track,131.0,,131.0,1,1,CrossCountry: 1,723
+2026-11-05,Birmingham New Street,Birmingham,Paignton,Torbay,311,Track,189.0,,189.0,1,1,CrossCountry: 1,724
+2026-11-05,Derby,Derby,Plymouth,Plymouth,415,Track,277.0,,277.0,1,1,CrossCountry: 1,725
+2026-11-05,York,York,Plymouth,Plymouth,575,Track,366.0,,366.0,1,1,CrossCountry: 1,726
+2026-11-05,Aberdeen,Aberdeen,Plymouth,Plymouth,1112,Track,687.0,,687.0,1,1,CrossCountry: 1,727
+2026-11-05,Westbury (Wilts),Westbury,Cardiff Central,Cardiff,106,Track,109.0,,,1,1,Great Western Railway: 1,728
+2026-11-05,Bristol Parkway,Stoke Gifford,Portsmouth & Southsea,Portsmouth,174,Track,187.0,,,1,1,Great Western Railway: 1,729
+2026-11-05,Manchester Piccadilly,Manchester,Leeds,Leeds,68,Track,53.0,,53.0,1,1,TransPennine Express: 1,730
+2026-11-05,Portsmouth Harbour,Portsmouth,Gatwick Airport,Gatwick Airport,96,Track,107.0,,,1,1,Southern: 1,731
+2026-11-05,Hastings,Hastings,Haywards Heath,Haywards Heath,72,Track,95.0,,,1,1,Southern: 1,732
+2026-11-05,London Victoria,London,Three Bridges,Crawley,47,Track,59.0,,59.0,1,1,Southern: 1,733
+2026-11-05,Shrewsbury,Shrewsbury,Liverpool Lime Street,Liverpool,111,Track,111.0,,,1,1,Transport for Wales: 1,734
+2026-11-05,Llandudno Junction,Llandudno Junction,Liverpool Lime Street,Liverpool,115,Track,110.0,,,1,1,Transport for Wales: 1,735
+2026-11-05,Llandudno,Llandudno,Birmingham New Street,Birmingham,213,Track,201.0,,,1,1,Transport for Wales: 1,736
+2026-11-05,Llandudno Junction,Llandudno Junction,Manchester Airport,Manchester,152,Track,138.0,,,1,1,Transport for Wales: 1,737
+2026-11-05,Holyhead,Holyhead,Warrington Bank Quay,Warrington,165,Track,137.0,,,1,1,Transport for Wales: 1,738
+2026-11-05,Welshpool,Welshpool,Aberystwyth,Aberystwyth,99,Track,93.0,,93.0,1,1,Transport for Wales: 1,739
+2026-11-05,Birmingham New Street,Birmingham,Aberystwyth,Aberystwyth,199,Track,179.0,,179.0,1,1,Transport for Wales: 1,740
+2026-11-05,Llandudno Junction,Llandudno Junction,Shrewsbury,Shrewsbury,139,Track,109.0,,,1,1,Transport for Wales: 1,741
+2026-11-05,Crewe,Crewe,Shrewsbury,Shrewsbury,102,Track,75.0,,75.0,1,1,Transport for Wales: 1,742
+2026-11-05,Llandudno Junction,Llandudno Junction,Crewe,Crewe,105,Track,77.0,,,1,1,Transport for Wales: 1,743
+2026-11-05,Llandudno,Llandudno,Crewe,Crewe,111,Track,86.0,,,1,1,Transport for Wales: 1,744
+2026-11-05,Crewe,Crewe,Milford Haven,Milford Haven,412,Track,341.0,,341.0,1,1,Transport for Wales: 1,745
+2026-11-05,Shrewsbury,Shrewsbury,Fishguard Harbour,Fishguard,362,Track,281.0,,281.0,1,1,Transport for Wales: 1,746
+2026-11-05,Swansea,Swansea,Manchester Piccadilly,Manchester,346,Track,270.0,,,1,1,Transport for Wales: 1,747
+2026-11-05,Paignton,Torbay,Bristol Temple Meads,Bristol,166,Track,100.0,,,1,1,CrossCountry: 1,748
+2026-11-05,Bristol Temple Meads,Bristol,Penzance,Penzance,287,Straight line,238.0,,238.0,1,1,CrossCountry: 1,749
+2026-11-05,Penzance,Penzance,Birmingham New Street,Birmingham,410,Straight line,341.0,,,1,1,CrossCountry: 1,750
+2026-11-05,Leeds,Leeds,Edinburgh,Edinburgh,371,Track,180.0,,180.0,1,1,CrossCountry: 1,751
+2026-11-05,Eastbourne,Eastbourne,Ore,Hastings,28,Track,33.0,,33.0,1,1,Southern: 1,752
+2026-11-05,Southampton Central,Southampton,Littlehampton,Littlehampton,74,Track,77.0,,77.0,1,1,Southern: 1,753
+2026-11-05,Littlehampton,Littlehampton,Haywards Heath,Haywards Heath,52,Track,58.0,,,1,1,Southern: 1,754
+2026-11-05,Haywards Heath,Haywards Heath,Worthing,Worthing,36,Track,35.0,,35.0,1,1,Southern: 1,755
+2026-11-05,London Victoria,London,East Croydon,London,17,Track,20.0,,,1,1,Southern: 1,756
+2026-11-05,Barnham,Barnham,Southampton Central,Southampton,64,Track,60.0,,60.0,1,1,Southern: 1,757
+2026-11-05,Newcastle,Newcastle upon Tyne,Chathill,Chathill,74,Track,54.0,,54.0,1,1,Northern: 1,758
+2026-11-05,Blackburn,Blackburn,Blackpool North,Blackpool,48,Track,50.0,,,1,1,Northern: 1,759
+2026-11-05,Blackpool North,Blackpool,Bradford Interchange,Bradford,113,Track,106.0,,106.0,1,1,Northern: 1,760
+2026-11-05,Hebden Bridge,Hebden Bridge,York,York,83,Track,86.0,,,1,1,Northern: 1,761
+2026-11-05,Manchester Airport,Manchester,Corkickle,Whitehaven,229,Track,234.0,,234.0,1,1,Northern: 1,762
+2026-11-05,Manchester Victoria,Manchester,Chester,Chester,64,Track,55.0,,,1,1,Northern: 1,763
+2026-11-05,Wigan North Western,Wigan,Liverpool Lime Street,Liverpool,32,Track,35.0,,,1,1,Northern: 1,764
+2026-11-05,Middlesbrough,Middlesbrough,Metrocentre,Gateshead,83,Track,84.0,,84.0,1,1,Northern: 1,765
+2026-11-05,Middlesbrough,Middlesbrough,Newcastle,Newcastle upon Tyne,77,Track,73.0,,,1,1,Northern: 1,766
+2026-11-05,Barrow-in-Furness,Barrow-in-Furness,Manchester Victoria,Manchester,139,Track,127.0,,,1,1,Northern: 1,767
+2026-11-05,Retford,Retford,Leeds,Leeds,104,Track,108.0,,,1,1,Northern: 1,768
+2026-11-05,Sheffield,Sheffield,Retford,Retford,38,Track,49.0,,49.0,1,1,Northern: 1,769
+2026-11-05,Windermere,Windermere,Preston,Preston,81,Track,58.0,,,1,1,Northern: 1,770
+2026-11-05,Saltburn,Saltburn,Newcastle,Newcastle upon Tyne,103,Track,100.0,,,1,1,Northern: 1,771
+2026-11-05,Liverpool Lime Street,Liverpool,Preston,Preston,57,Track,72.0,,72.0,1,1,Northern: 1,772
+2026-11-05,Barrow-in-Furness,Barrow-in-Furness,Preston,Preston,90,Track,83.0,,,1,1,Northern: 1,773
+2026-11-05,York,York,Hull,Hull,78,Track,53.0,,53.0,1,1,Northern: 1,774
+2026-11-05,Chesterfield,Chesterfield,Leeds,Leeds,86,Track,78.0,,,1,1,Northern: 1,775
+2026-11-05,Blackpool North,Blackpool,Manchester Piccadilly,Manchester,79,Track,74.0,,,1,1,Northern: 1,776
+2026-11-05,Millom,Millom,Manchester Airport,Manchester,183,Track,185.0,,,1,1,Northern: 1,777
+2026-11-05,Retford,Retford,Nottingham,Nottingham,103,Track,107.0,,,1,1,Northern: 1,778
+2026-11-05,London Victoria,London,Gillingham (Kent),Gillingham,57,Track,61.0,,61.0,1,1,Southeastern: 1,779
+2026-11-05,Leamington Spa,Leamington Spa,Birmingham Snow Hill,Birmingham,37,Track,46.0,,46.0,1,1,Chiltern Railways: 1,780
+2026-11-05,Bicester North,Bicester,Birmingham Moor Street,Birmingham,91,Track,73.0,,73.0,1,1,Chiltern Railways: 1,781
+2026-11-05,Oxford,Oxford,High Wycombe,High Wycombe,62,Track,52.0,,52.0,1,1,Chiltern Railways: 1,782
+2026-11-05,Aylesbury,Aylesbury,London Marylebone,London,160,Track,62.0,,,1,1,Chiltern Railways: 1,783
+2026-11-05,Kings Sutton,Kings Sutton,London Marylebone,London,105,Track,83.0,,,1,1,Chiltern Railways: 1,784
+2026-11-05,Alton,Alton,Farnham,Farnham,14,Straight line,23.0,,,1,1,South Western Railway: 1,785
+2026-11-05,London Waterloo,London,Southampton Central,Southampton,127,Track,91.0,,91.0,1,1,South Western Railway: 1,786
+2026-11-05,Strawberry Hill,London,London Waterloo,London,20,Track,31.0,,,1,1,South Western Railway: 1,787
+2026-11-05,Basingstoke,Basingstoke,Salisbury,Salisbury,58,Track,42.0,,42.0,1,1,South Western Railway: 1,788
+2026-11-05,Auchinleck,Auchinleck,Glasgow Central,Glasgow,61,Track,57.0,,,1,1,ScotRail: 1,789
+2026-11-05,Glasgow Central,Glasgow,Girvan,Girvan,98,Track,106.0,,106.0,1,1,ScotRail: 1,790
+2026-11-05,Perth,Perth,Inverurie,Inverurie,175,Track,133.0,,133.0,1,1,ScotRail: 1,791
+2026-11-05,Carstairs,Carstairs,Glasgow Central,Glasgow,46,Track,49.0,,,1,1,ScotRail: 1,792
+2026-11-05,Carstairs,Carstairs,Garscadden,Glasgow,55,Track,62.0,,62.0,1,1,ScotRail: 1,793
+2026-11-05,Anderston,Glasgow,Carstairs,Carstairs,47,Track,54.0,,,1,1,ScotRail: 1,794
+2026-11-05,Dunbar,Dunbar,Edinburgh,Edinburgh,47,Track,32.0,,,1,1,ScotRail: 1,795
+2026-11-05,Edinburgh,Edinburgh,Motherwell,Motherwell,71,Track,69.0,,69.0,1,1,ScotRail: 1,796
+2026-11-05,Aberdeen,Aberdeen,Perth,Perth,148,Track,108.0,,,1,1,ScotRail: 1,797
+2026-11-05,Edinburgh,Edinburgh,North Berwick,North Berwick,36,Track,24.0,,24.0,1,1,ScotRail: 1,798
+2026-11-05,Dundee,Dundee,Inverness,Inverness,288,Track,231.0,,231.0,1,1,ScotRail: 1,799
+2026-11-05,Colchester Town,Colchester,Colchester,Colchester,4,Track,7.0,,,1,1,Greater Anglia: 1,800
+2026-11-05,Stansted Airport,Stansted Airport,Lowestoft,Lowestoft,187,Track,167.0,,167.0,1,1,Greater Anglia: 1,801
+2026-11-05,Colchester,Colchester,Harwich Town,Harwich,31,Track,31.0,,31.0,1,1,Greater Anglia: 1,802
+2026-11-05,Bishops Stortford,Bishops Stortford,London Liverpool Street,London,49,Track,43.0,,,1,1,Greater Anglia: 1,803
+2026-11-05,Walton-on-the-Naze,Walton-on-the-Naze,London Liverpool Street,London,112,Track,103.0,,,1,1,Greater Anglia: 1,804
+2026-11-05,Beckenham Junction,London,London Victoria,London,14,Track,21.0,,,1,1,Southeastern: 1,805
+2026-11-05,Broadstairs,Broadstairs,London Cannon Street,London,119,Track,120.0,,120.0,1,1,Southeastern: 1,806
+2026-11-05,Ore,Hastings,London Charing Cross,London,102,Track,104.0,,,1,1,Southeastern: 1,807
+2026-11-05,Ashford International,Ashford,St-Pancras-International,London,,,38.0,,,1,1,Southeastern: 1,808
+2026-11-05,London Charing Cross,London,Gillingham (Kent),Gillingham,55,Track,88.0,,88.0,1,1,Southeastern: 1,809
+2026-11-05,London Victoria,London,Faversham,Faversham,83,Track,76.0,,76.0,1,1,Southeastern: 1,810
+2026-11-05,Gravesend,Gravesend,Maidstone West,Maidstone,30,Track,24.0,,24.0,1,1,Southeastern: 1,811
+2026-11-05,Margate,Margate,Ashford International,Ashford,56,Track,49.0,,49.0,1,1,Southeastern: 1,812
+2026-11-05,Ashford International,Ashford,London Cannon Street,London,88,Track,81.0,,81.0,1,1,Southeastern: 1,813
+2026-11-05,Tonbridge,Tonbridge,London Charing Cross,London,48,Track,61.0,,,1,1,Southeastern: 1,814
+2026-11-05,Chester,Chester,Llandudno Junction,Llandudno Junction,71,Track,59.0,,59.0,1,1,Transport for Wales: 1,815
+2026-11-05,Three Bridges,Crawley,Peterborough,Peterborough,175,Track,147.0,,147.0,1,1,Thameslink: 1,816
+2026-11-05,London Euston,London,Runcorn,Runcorn,290,Track,151.0,,151.0,1,1,Avanti West Coast: 1,817
+2026-11-05,Blackpool North,Blackpool,Crewe,Crewe,110,Track,70.0,,,1,1,Avanti West Coast: 1,818
+2026-11-05,Wolverhampton,Wolverhampton,Glasgow Central,Glasgow,454,Track,241.0,,,1,1,Avanti West Coast: 1,819
+2026-11-05,Glasgow Central,Glasgow,Crewe,Crewe,391,Track,198.0,,,1,1,Avanti West Coast: 1,820
+2026-11-05,London Euston,London,Blackpool North,Blackpool,364,Track,180.0,,180.0,1,1,Avanti West Coast: 1,821
+2026-11-05,Birmingham New Street,Birmingham,Glasgow Central,Glasgow,475,Track,251.0,,251.0,1,1,Avanti West Coast: 1,822
+2026-11-05,Swindon,Swindon,Worcester Shrub Hill,Worcester,105,Track,86.0,,86.0,1,1,Great Western Railway: 1,823
+2026-11-05,London Paddington,London,Westbury (Wilts),Westbury,153,Track,92.0,,92.0,1,1,Great Western Railway: 1,824
+2026-11-05,Swansea,Swansea,Milford Haven,Milford Haven,115,Track,124.0,,124.0,1,1,Transport for Wales: 1,825
+2026-11-05,Manchester Piccadilly,Manchester,Shrewsbury,Shrewsbury,102,Track,94.0,,94.0,1,1,Transport for Wales: 1,826
+2026-11-05,Crewe,Crewe,Birmingham International,Solihull,134,Track,139.0,,139.0,1,1,Transport for Wales: 1,827
+2026-11-05,London Bridge,London,Horsham,Horsham,61,Track,52.0,,52.0,1,1,Thameslink: 1,828
+2026-11-05,St-Pancras-International,London,East Grinstead,East Grinstead,53,Track,64.0,,64.0,1,1,Thameslink: 1,829
+2026-11-05,Gatwick Airport,Gatwick Airport,Brighton,Brighton,39,Track,34.0,,34.0,1,1,Thameslink: 1,830
+2026-11-05,East Grinstead,East Grinstead,West Hampstead Thameslink,London,59,Track,76.0,,76.0,1,1,Thameslink: 1,831
+2026-11-05,London Bridge,London,Three Bridges,Crawley,47,Track,38.0,,38.0,1,1,Thameslink: 1,832
+2026-11-05,Kettering,Kettering,Nottingham,Nottingham,88,Track,70.0,,,1,1,East Midlands Railway: 1,833
+2026-11-05,Manchester Airport,Manchester,Cleethorpes,Cleethorpes,198,Track,187.0,,187.0,1,1,TransPennine Express: 1,834
+2026-11-05,Liverpool Lime Street,Liverpool,Stalybridge,Stalybridge,63,Track,49.0,,49.0,1,1,TransPennine Express: 1,835
+2026-11-05,Manchester Victoria,Manchester,Liverpool Lime Street,Liverpool,51,Track,38.0,,,1,1,TransPennine Express: 1,836
+2026-11-05,Hull,Hull,Manchester Victoria,Manchester,159,Track,187.0,,,1,1,TransPennine Express: 1,837
+2026-11-05,Hull,Hull,Selby,Selby,50,Track,31.0,,31.0,1,1,TransPennine Express: 1,838
+2026-11-05,Preston,Preston,Manchester Airport,Manchester,67,Track,56.0,,56.0,1,1,TransPennine Express: 1,839
+2026-11-05,Liverpool Lime Street,Liverpool,Manchester Airport,Manchester,72,Track,68.0,,68.0,1,1,TransPennine Express: 1,840
+2026-11-05,Manchester Piccadilly,Manchester,Glasgow Central,Glasgow,359,Track,207.0,,207.0,1,1,TransPennine Express: 1,841
+2026-11-05,Pontypridd,Pontypridd,Aberdare,Aberdare,,,33.0,,33.0,1,1,Transport for Wales: 1,842
+2026-11-05,Cardiff Central,Cardiff,Abergavenny,Abergavenny,50,Track,51.0,,51.0,1,1,Transport for Wales: 1,843
+2026-11-05,Cardiff Central,Cardiff,Hereford,Hereford,89,Track,76.0,,76.0,1,1,Transport for Wales: 1,844
+2026-11-05,Shrewsbury,Shrewsbury,Cardiff Central,Cardiff,171,Track,126.0,,,1,1,Transport for Wales: 1,845
+2026-11-05,Grays,Grays,London Fenchurch Street,London,37,Track,42.0,,,1,1,c2c: 1,846
+2026-11-05,Coventry,Coventry,London Euston,London,155,Track,91.0,,,1,1,LNR & WMR: 1,847

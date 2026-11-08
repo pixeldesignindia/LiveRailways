@@ -1,0 +1,2 @@
+// Shared city photography; show only the chosen destination on its tourism page.
+{const city=new URLSearchParams(location.search).get('city');const selected=(window.LR_CITY_LANDMARKS||[]).filter(p=>!city||p.city.toLowerCase()===city.toLowerCase());window.LR_PROFILE_GALLERY=(selected.length?selected:window.LR_CITY_LANDMARKS||[]).map(p=>[p.image.replace(/^assets\//,''),p.alt,p.city+' · '+p.landmark,p.position,p.city,p.landmark,p.position,p.city.toLowerCase()]);}

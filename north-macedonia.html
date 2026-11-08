@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>North Macedonia Rail Map | LiveRailways</title>
+<meta name="description" content="Explore Europe's railway connections with LiveRailways. Explore the North Macedonia mainline railway network, operators and indicative journey times. Local city networks are excluded.">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="public-ui.css"><script src="countries.js?v=india-south-route" defer></script><script src="d3.min.js" defer></script><script id="country-map-script" data-country="mk" src="country-map.js" defer></script><script src="navigation.js?v=241" defer></script>
+<script src="endpoint-map.js" defer></script><link rel="stylesheet" href="banner.css?v=236"><script src="scenic-rail.js?v=country-scenic-trains" defer></script><script src="banner.js?v=241" defer></script><script src="search-filters-refined.js?v=241" defer></script><link rel="stylesheet" href="card-pagination.css?v=eight-cards"><script src="card-pagination.js?v=auto30-201" defer></script><link rel="stylesheet" href="site-footer.css?v=243"><script src="site-footer.js?v=243" defer></script><link rel="stylesheet" href="catalogue-design.css?v=223"><script src="catalogue-design.js?v=233" defer></script><link rel="stylesheet" href="shared-station-layout.css?v=234"><script src="country-page-theme.js?v=229" defer></script><link rel="stylesheet" href="typography.css?v=237"></head>
+<body>
+<header class="topbar"><a class="brand" href="index.html#europe" aria-label="LiveRailways home"><span class="brand-symbol">LR</span><span>LIVE<span class="gold">RAILWAYS</span><small>EUROPE RAIL ATLAS</small></span></a><span class="header-note">A continent of connections.</span><span class="edition"><span></span> SPAIN EDITION</span></header>
+<div class="workspace">
+<aside class="sidebar" aria-label="Atlas navigation"></aside>
+<main>
+ <div class="page-heading"><div><div class="eyebrow" id="breadcrumb">EUROPE / NORTH MACEDONIA</div><h1 id="page-title">North Macedonia, connected.</h1><p id="page-subtitle">Selected domestic corridors and published full endpoints. Train 641 continues beyond Bitola to Žabeni, so its Bitola stop is not counted as a terminus; trains 643/645 end at Bitola. Check current disruptions. No international service to Greece or Serbia is implied.</p></div><a class="back-map" href="routes.html?country=mk" style="font-size:11px;text-decoration:none;border:1px solid #d9dfdc;padding:11px 14px;border-radius:4px">North Macedonia route directory ↗</a><div class="country-stamp" id="country-stamp"><span>MK</span><small>NORTH MACEDONIA</small></div></div>
+ <div class="atlas-grid">
+  <section class="map-panel" aria-label="Interactive railway map">
+   <div class="map-topline"><span id="map-caption"><i class="status-dot"></i> MAINLINE RAIL NETWORK</span><span id="map-meta">3 corridor groups</span></div>
+   <div class="map-stage" id="map-stage"><svg id="rail-map" aria-label="Railway network map" role="img"></svg><div class="map-controls" aria-label="Map zoom controls"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="reset-map" aria-label="Reset map view">↺</button></div><div id="map-tooltip" role="status" hidden></div><div class="map-watermark">LIVE<span>RAILWAYS</span></div></div>
+   <div class="map-bottomline"><span>Geographic locations · simplified links</span><span id="map-instruction">Select a corridor or route to explore</span></div>
+   <div class="legend-heading"><span>COLOUR KEY · 3 CORRIDOR GROUPS</span><button id="show-all">Show all</button></div>
+   <div id="corridor-legend" class="corridor-legend"></div>
+  </section>
+  <aside class="route-panel" aria-label="Route explorer" id="route-panel">
+   <div class="eyebrow">FOLLOW A JOURNEY</div><h2>Route explorer</h2><label for="route-select">Choose a point-to-point route</label><select id="route-select"></select>
+   <div class="route-title" id="route-title"></div><div class="route-distance"><span id="route-km"></span><small>APPROXIMATE RAIL DISTANCE</small></div>
+   <div class="route-group-label">PLANNING GROUPS SHARED</div><div class="group-sequence" id="group-sequence"></div>
+   <div class="route-stops-label">MAIN LOCATIONS</div><ol class="route-stops" id="route-stops"></ol>
+   <p class="route-disclaimer">Selected locations, not every stop. Service routing and stopping patterns vary. Distances are planning estimates.</p>
+  </aside>
+ </div>
+ <section class="under-map"><div><h3>Selected corridors</h3><p>Selected domestic corridors and published full endpoints. Train 641 continues beyond Bitola to Žabeni, so its Bitola stop is not counted as a terminus; trains 643/645 end at Bitola. Check current disruptions. No international service to Greece or Serbia is implied.</p><p>Colours identify atlas corridors, not official zones. Lines are schematic; a corridor does not establish one direct train.</p></div><div><h3>Operators & sources</h3><p>ŽRSM Transport</p><p>Selected operators and service context; this is not an exhaustive operator register. Local city networks are excluded.</p><p><a href="https://mzt.mk/poagane-od-skopje/" target="_blank" rel="noopener">Official railway / transport reference ↗</a> · <a href="verification.html#mk">Endpoint verification ↗</a></p></div></section><footer><span>LIVE<span class="gold">RAILWAYS</span> / EUROPE RAIL ATLAS</span><span>Selected coverage · reviewed 24 October 2026 · <a href="https://www.naturalearthdata.com/">Natural Earth geography</a></span></footer></main></div>
+<div id="load-error" hidden role="alert">The map could not load. Please refresh the page.</div>
+</body></html>

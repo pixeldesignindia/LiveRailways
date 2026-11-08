@@ -1,0 +1,16 @@
+/* Continent and listing filters replace journey search on directory banners. */
+body[data-directory-layout="browse"] .lr-search-shell>.lr-search-box{display:none!important}
+body[data-directory-layout="browse"] .lr-search-shell{margin-top:-48px!important;max-width:1280px;width:calc(100% - 72px)}
+body[data-directory-layout="browse"] .lr-banner{padding-bottom:0!important;--lr-search-overlap:48px!important}
+.lr-directory-hero-filters{background:#fff;border:1px solid #d9dcd8;border-radius:8px;box-shadow:0 7px 20px #173a2a10;overflow:hidden}
+body .lr-directory-hero-filters .lr-home-continent-tabs{margin:0;border-radius:0;display:flex;flex-wrap:nowrap;overflow-x:auto}
+body .lr-directory-hero-filters .lr-home-continent-tabs button{flex:1 0 auto;min-height:48px;white-space:nowrap}
+body .lr-directory-hero-filters form.lr-home-country-filters{margin:0;border:0;border-radius:0;box-shadow:none;padding:16px 20px}
+body[data-directory-layout="browse"] .lr-home-container{padding-top:20px}
+body[data-directory-layout="browse"] .lr-home-intro{margin-bottom:16px}
+body[data-directory-layout="browse"] .lr-directory-continent-panel:empty{display:none}
+@media(max-width:650px){
+ body[data-directory-layout="browse"] .lr-search-shell{width:calc(100% - 32px)}
+ body[data-directory-layout="browse"] .lr-home-container{padding-top:16px}
+ body .lr-directory-hero-filters form.lr-home-country-filters{padding:14px}
+}

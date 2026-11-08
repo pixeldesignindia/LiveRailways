@@ -1,0 +1,1063 @@
+{
+  "reviewed": "2026-10-24",
+  "definition": "One route = actual origin station to final destination station in one direction, without passenger transfer. Repeat departures are trips, not new routes. International routes belong to the origin country.",
+  "coverage": "All 51 country editions have coverage and status notes, including Caucasus and transcontinental editions. Endpoint inventory remains partial: dated Renfe and SNCF data plus selected official published endpoints. Unresolved records are excluded, not counted as zero real-world services.",
+  "totals": {
+    "routes": 2366,
+    "countriesWithEvidence": 40,
+    "longDistance": 525,
+    "regional": 1879,
+    "mixed": 38
+  },
+  "countries": [
+    {
+      "code": "es",
+      "name": "Spain",
+      "map": "index.html#spain",
+      "reviewed": "2026-10-24",
+      "verified": 523,
+      "longDistance": 185,
+      "regional": 362,
+      "mixed": 24,
+      "dated": 523,
+      "published": 0,
+      "cataloguePairs": 18618,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Renfe · dated AV/LD/MD snapshot",
+        "url": "https://data.renfe.com/dataset/horarios-de-alta-velocidad-larga-distancia-y-media-distancia"
+      },
+      "note": "Dated Renfe first/last-stop extraction, 24–30 October 2026. Six foreign-origin services are attributed to France or Portugal rather than to Spain. Feed scope only; other Spanish operators remain incomplete."
+    },
+    {
+      "code": "fr",
+      "name": "France",
+      "map": "france.html",
+      "reviewed": "2026-10-24",
+      "verified": 1743,
+      "longDistance": 269,
+      "regional": 1488,
+      "mixed": 14,
+      "dated": 1742,
+      "published": 1,
+      "cataloguePairs": 39,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "SNCF Voyageurs · national GTFS timetable",
+        "url": "https://transport.data.gouv.fr/datasets/horaires-sncf"
+      },
+      "note": "Dated SNCF rail endpoints plus France-origin services from the Renfe feed, 24–30 October 2026, and selected published endpoints. Buses, tram-trains and shuttles excluded; other operators remain partial."
+    },
+    {
+      "code": "de",
+      "name": "Germany",
+      "map": "germany.html",
+      "reviewed": "2026-10-24",
+      "verified": 4,
+      "longDistance": 4,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 4,
+      "cataloguePairs": 21,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "DB · 2026 long-distance map",
+        "url": "https://int.bahn.de/en/trains/long-distance-trains/route-maps"
+      },
+      "note": "ICE/IC line maps show corridors and intermediate stops, not a complete list of train first/last stops. Imported endpoint services are partial."
+    },
+    {
+      "code": "uk",
+      "name": "United Kingdom",
+      "map": "uk.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 26,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "National Rail · network maps",
+        "url": "https://www.nationalrail.co.uk/travel-information/maps-of-the-national-rail-network/"
+      },
+      "note": "Operator/network maps are not terminal inventories. Confirmed international endpoints included; domestic train-level coverage remains incomplete."
+    },
+    {
+      "code": "nl",
+      "name": "Netherlands",
+      "map": "netherlands.html",
+      "reviewed": "2026-10-24",
+      "verified": 1,
+      "longDistance": 1,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 1,
+      "cataloguePairs": 15,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "NS · EuroCity",
+        "url": "https://www.ns.nl/en/travel/trains/eurocity"
+      },
+      "note": "EuroCity Rotterdam–Brussels is distinct from Eurocity Direct, which can originate at Lelystad or Amsterdam Zuid. Intermediate Amsterdam pairs are not assumed full routes."
+    },
+    {
+      "code": "be",
+      "name": "Belgium",
+      "map": "belgium.html",
+      "reviewed": "2026-10-24",
+      "verified": 3,
+      "longDistance": 3,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 3,
+      "cataloguePairs": 15,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "SNCB · IC timetable leaflets",
+        "url": "https://www.belgiantrain.be/nl/travel-info/prepare-for-your-journey/leaflets/ic-leaflets"
+      },
+      "note": "IC 01 terminal pair imported; Brussels and Bruges are intermediate stops on that line. Other line patterns and short workings require more train-level evidence."
+    },
+    {
+      "code": "ch",
+      "name": "Switzerland",
+      "map": "switzerland.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 22,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "RhB · Bernina timetable",
+        "url": "https://www.rhb.ch/en/panoramic-journeys/bernina-express/"
+      },
+      "note": "Chur/Tirano and St. Moritz/Tirano are distinct full services. Dates and Vereina diversion must be respected; no blanket Glacier Express active-service claim."
+    },
+    {
+      "code": "it",
+      "name": "Italy",
+      "map": "italy.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 18,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Trenitalia · Intercity Notte",
+        "url": "https://www.trenitalia.com/en/connections/intercity-notte.html"
+      },
+      "note": "Named long-distance services reviewed; city names alone do not verify exact terminal stations. Bernina international endpoint services admitted separately; domestic coverage remains incomplete."
+    },
+    {
+      "code": "ie",
+      "name": "Ireland",
+      "map": "ireland.html",
+      "reviewed": "2026-10-24",
+      "verified": 3,
+      "longDistance": 3,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 3,
+      "cataloguePairs": 12,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Irish Rail · direct timetable PDFs",
+        "url": "https://www.irishrail.ie/en-ie/train-timetables/timetables-by-route"
+      },
+      "note": "Direct timetable columns distinguish Cork endpoint trains from Tralee through trains. Transfer connections are not promoted."
+    },
+    {
+      "code": "dk",
+      "name": "Denmark",
+      "map": "denmark.html",
+      "reviewed": "2026-10-24",
+      "verified": 1,
+      "longDistance": 1,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 1,
+      "cataloguePairs": 10,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "DSB · timetable 2026",
+        "url": "https://www.dsb.dk/trafikinformation/sporfornyelse/k26/"
+      },
+      "note": "Copenhagen/Hamburg full services are distinct from longer Railjet services and from intermediate Odense pairs. Engineering changes can alter endpoints."
+    },
+    {
+      "code": "pt",
+      "name": "Portugal",
+      "map": "portugal.html",
+      "reviewed": "2026-10-24",
+      "verified": 3,
+      "longDistance": 3,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 1,
+      "published": 2,
+      "cataloguePairs": 13,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "CP · timetable from September 2026",
+        "url": "https://www.cp.pt/info/documents/d/cp/comboios-alfa-pendular-intercidades-lisboa-norte-sul"
+      },
+      "note": "Published Porto Campanhã/Faro AP terminals plus the Portugal-origin Porto–Vigo service in dated Renfe data. Lisbon is intermediate on the AP trains. Connecting journeys are excluded."
+    },
+    {
+      "code": "at",
+      "name": "Austria",
+      "map": "austria.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 17,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "CFR · 2025–2026 international timetable",
+        "url": "https://www.cfrcalatori.ro/en/comunicate/shift-to-the-new-2025-2026-timetable/"
+      },
+      "note": "Vienna Westbahnhof is the published Dacia/Someș terminal; Budapest is intermediate. These few services are not an inventory of Austrian rail routes."
+    },
+    {
+      "code": "pl",
+      "name": "Poland",
+      "map": "poland.html",
+      "reviewed": "2026-10-24",
+      "verified": 1,
+      "longDistance": 1,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 1,
+      "cataloguePairs": 14,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "ČD · Chopin terminal timetable",
+        "url": "https://www.cd.cz/en/vlak/407/datepart/5100066/19.22/5434124/1.28/"
+      },
+      "note": "Warszawa Wschodnia/München Hbf published direct service imported. Whole-network PKP train-origin/terminus coverage remains incomplete."
+    },
+    {
+      "code": "hu",
+      "name": "Hungary",
+      "map": "hungary.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 13,
+      "status": "Endpoint verification unresolved",
+      "complete": false,
+      "source": {
+        "name": "MÁV · international timetables",
+        "url": "https://www.mavcsoport.hu/mav-szemelyszallitas/nemzetkozi-utazas/nemzetkozi-menetrendek"
+      },
+      "note": "Published city pairs include both full services and Dacia through services. Exact dated origin stations during works remain unresolved; none promoted from generic Budapest city-pair facts."
+    },
+    {
+      "code": "ro",
+      "name": "Romania",
+      "map": "romania.html",
+      "reviewed": "2026-10-24",
+      "verified": 3,
+      "longDistance": 3,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 3,
+      "cataloguePairs": 13,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "CFR · timetable 2025–2026",
+        "url": "https://www.cfrcalatori.ro/en/comunicate/shift-to-the-new-2025-2026-timetable/"
+      },
+      "note": "București Nord/Wien Westbahnhof and Baia Mare/Wien Westbahnhof endpoints confirmed. Corrections during 27–29 October works require dated checking."
+    },
+    {
+      "code": "bg",
+      "name": "Bulgaria",
+      "map": "bulgaria.html",
+      "reviewed": "2026-10-24",
+      "verified": 1,
+      "longDistance": 1,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 1,
+      "cataloguePairs": 14,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "BDZ · Sofia–Halkalı timetable",
+        "url": "https://www.bdz.bg/en/a/sofia-istanbul-sofia"
+      },
+      "note": "Full international endpoint pair confirmed by the operator’s revised timetable notice. Other domestic city pairs lack full first/last-stop verification."
+    },
+    {
+      "code": "al",
+      "name": "Albania",
+      "map": "albania.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "Endpoint verification unresolved",
+      "complete": false,
+      "source": {
+        "name": "HSH · official railway website",
+        "url": "https://hekurudha.al/"
+      },
+      "note": "Current official passenger timetable could not be retrieved. No verified endpoint route is published here; this is not proof that no passenger train exists."
+    },
+    {
+      "code": "gr",
+      "name": "Greece",
+      "map": "greece.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 8,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Hellenic Train · route timetable",
+        "url": "https://www.hellenictrain.gr/en/athens-thessaloniki/"
+      },
+      "note": "Athens/Thessaloniki full Intercity route confirmed; Larissa and Katerini not counted as new endpoints for that service."
+    },
+    {
+      "code": "tr",
+      "name": "Türkiye",
+      "map": "turkey.html",
+      "reviewed": "2026-10-24",
+      "verified": 3,
+      "longDistance": 3,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 3,
+      "cataloguePairs": 10,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "TCDD · Ankara Express",
+        "url": "https://www.tcddtasimacilik.gov.tr/tr/ana_hat_tren/detay/11"
+      },
+      "note": "Ankara/Halkalı endpoint service distinguished from the seasonal tourist Eastern Express. Sofia service uses Halkalı, not central Istanbul."
+    },
+    {
+      "code": "no",
+      "name": "Norway",
+      "map": "norway.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 11,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "SJ Norge · daytime Nordland service",
+        "url": "https://www.sj.no/en/strekning/nordlandsbanen-2/"
+      },
+      "note": "Trondheim S/Bodø daytime endpoints retained. The Nordland night service is suspended until at least January 2027; sleeper branding and overnight sample times removed. Other operators and routes remain incomplete."
+    },
+    {
+      "code": "se",
+      "name": "Sweden",
+      "map": "sweden.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 17,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Snälltåget · 2026 terminal timetable",
+        "url": "https://www.snalltaget.se/en/berlin"
+      },
+      "note": "Berlin and Dresden endings are date-dependent. Friday services extending to Dresden are not also counted as Berlin-ending trips. SJ whole-network evidence remains incomplete."
+    },
+    {
+      "code": "fi",
+      "name": "Finland",
+      "map": "finland.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 12,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "VR · Kemijärvi terminal services",
+        "url": "https://www.vr.fi/en/railway-stations-and-routes/kemijarvi"
+      },
+      "note": "Helsinki/Kemijärvi full journey confirmed. A stop at Rovaniemi does not create a second full endpoint service; broader VR trip-level coverage remains incomplete."
+    },
+    {
+      "code": "cz",
+      "name": "Czechia",
+      "map": "czechia.html",
+      "reviewed": "2026-10-24",
+      "verified": 1,
+      "longDistance": 1,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 1,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Czechia · official railway / transport reference",
+        "url": "https://www.ceskedrahy.cz/en/JR-2026"
+      },
+      "note": "Selected national corridors. Prague station endings vary by operator and engineering works; only independently evidenced full endpoints enter the direct list.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "sk",
+      "name": "Slovakia",
+      "map": "slovakia.html",
+      "reviewed": "2026-10-24",
+      "verified": 3,
+      "longDistance": 3,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 3,
+      "cataloguePairs": 2,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Slovakia · official railway / transport reference",
+        "url": "https://www.zssk.sk/en/timetables/"
+      },
+      "note": "Selected trunk corridors. TATRAN/KRIVÁŇ express-service notices and named international terminal publications are linked in the route list. Older IC marketing examples are not current IC frequency evidence. Exact dated operation remains to be checked.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "si",
+      "name": "Slovenia",
+      "map": "slovenia.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Slovenia · official railway / transport reference",
+        "url": "https://potniski.sz.si/vozni-redi/vozni-redi-po-relacijah/"
+      },
+      "note": "Selected railway corridors. Check replacement buses and works; a timetable connection containing a change is excluded from the full-train directory.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "hr",
+      "name": "Croatia",
+      "map": "croatia.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Croatia · official railway / transport reference",
+        "url": "https://www.hzpp.hr/en/promotions-and-benefits/to-the-seaside-by-rail"
+      },
+      "note": "Selected domestic corridors. Seasonal services and bus replacements require a dated check; Zagreb can be an intermediate stop on an Osijek–Split train.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "ba",
+      "name": "Bosnia and Herzegovina",
+      "map": "bosnia-herzegovina.html",
+      "reviewed": "2026-10-24",
+      "verified": 6,
+      "longDistance": 4,
+      "regional": 2,
+      "mixed": 0,
+      "dated": 0,
+      "published": 6,
+      "cataloguePairs": 3,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Bosnia and Herzegovina · official railway / transport reference",
+        "url": "https://www.zfbh.ba/en/time-table/"
+      },
+      "note": "Separate operator networks. Selected ŽFBH full endpoints are listed; Republika Srpska corridors are mapped but their full endpoint inventory is unresolved. Check restoration notices and operating days.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "rs",
+      "name": "Serbia",
+      "map": "serbia.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Serbia · official railway / transport reference",
+        "url": "https://www.srbvoz.rs/"
+      },
+      "note": "Selected corridors only. Novi Sad station access and route endpoints have changed; use the operator’s current timetable, not a city-pair assumption.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "me",
+      "name": "Montenegro",
+      "map": "montenegro.html",
+      "reviewed": "2026-10-24",
+      "verified": 4,
+      "longDistance": 0,
+      "regional": 4,
+      "mixed": 0,
+      "dated": 0,
+      "published": 4,
+      "cataloguePairs": 2,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Montenegro · official railway / transport reference",
+        "url": "https://www.zpcg.me/en/red-voznje/lokalni"
+      },
+      "note": "Bar–Bijelo Polje regional trains and Podgorica–Nikšić have distinct full endpoints. International trains continue into Serbia; intermediate Podgorica pairs are excluded.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "xk",
+      "name": "Kosovo",
+      "map": "kosovo.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 0,
+      "regional": 2,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Kosovo · official railway / transport reference",
+        "url": "https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/?lang=en"
+      },
+      "note": "Selected Prishtinë–Pejë regional corridor. Published operator timetable is labelled 2025; current operating days require reconfirmation. No international connection is implied. Kosovo is shown as a separate atlas edition without a position on recognition.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "mk",
+      "name": "North Macedonia",
+      "map": "north-macedonia.html",
+      "reviewed": "2026-10-24",
+      "verified": 3,
+      "longDistance": 0,
+      "regional": 3,
+      "mixed": 0,
+      "dated": 0,
+      "published": 3,
+      "cataloguePairs": 3,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "North Macedonia · official railway / transport reference",
+        "url": "https://mzt.mk/poagane-od-skopje/"
+      },
+      "note": "Selected domestic corridors and published full endpoints. Train 641 continues beyond Bitola to Žabeni, so its Bitola stop is not counted as a terminus; trains 643/645 end at Bitola. Check current disruptions. No international service to Greece or Serbia is implied.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "lu",
+      "name": "Luxembourg",
+      "map": "luxembourg.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 0,
+      "regional": 2,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Luxembourg · official railway / transport reference",
+        "url": "https://www.cfl.lu/en-gb/network"
+      },
+      "note": "Selected CFL trunk corridors and the Kautenbach–Wiltz regional shuttle. Most corridor names do not establish full train terminals: through trains and short workings must be checked individually. Check current works and reduced service. Coverage remains partial.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "ee",
+      "name": "Estonia",
+      "map": "estonia.html",
+      "reviewed": "2026-10-24",
+      "verified": 6,
+      "longDistance": 0,
+      "regional": 6,
+      "mixed": 0,
+      "dated": 0,
+      "published": 6,
+      "cataloguePairs": 3,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Estonia · official railway / transport reference",
+        "url": "https://elron.ee/en/soiduinfo/soiduplaanid"
+      },
+      "note": "Selected intercity and regional corridors. Tallinn–Vilnius itineraries may involve a change and are not counted as a single direct route.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "lv",
+      "name": "Latvia",
+      "map": "latvia.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 0,
+      "regional": 2,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Latvia · official railway / transport reference",
+        "url": "https://www.vivi.lv/en/information-for-passengers/"
+      },
+      "note": "Selected mainline corridors. Transfer icons in operator timetables mean separate trains and are not promoted to full endpoint journeys.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "lt",
+      "name": "Lithuania",
+      "map": "lithuania.html",
+      "reviewed": "2026-10-24",
+      "verified": 4,
+      "longDistance": 2,
+      "regional": 2,
+      "mixed": 0,
+      "dated": 0,
+      "published": 4,
+      "cataloguePairs": 2,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Lithuania · official railway / transport reference",
+        "url": "https://ltglink.lt/metiniai-tvarkarasciai"
+      },
+      "note": "Selected domestic corridors. October/November engineering timetables supersede annual sheets. Nida and Palanga extensions are buses, not direct railway routes.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "md",
+      "name": "Moldova",
+      "map": "moldova.html",
+      "reviewed": "2026-10-24",
+      "verified": 1,
+      "longDistance": 1,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 1,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Moldova · official railway / transport reference",
+        "url": "https://www.cfrcalatori.ro/cu-trenul-in-moldova/"
+      },
+      "note": "Selected Prietenia international corridor. Border procedures and time zones affect duration. No service to Odesa or through Transnistria is implied.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "ua",
+      "name": "Ukraine",
+      "map": "ukraine.html",
+      "reviewed": "2026-10-24",
+      "verified": 1,
+      "longDistance": 1,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 1,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Ukraine · official railway / transport reference",
+        "url": "https://uz-vezemo.uz.gov.ua/"
+      },
+      "note": "Selected published international full-train services. Connections shown after a transfer at Przemyśl or Chełm remain separate routes. Disruptions can alter dates and endpoints.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "by",
+      "name": "Belarus",
+      "map": "belarus.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Belarus · official railway / transport reference",
+        "url": "https://pass.rw.by/"
+      },
+      "note": "Selected domestic corridors. Cross-border availability is not inferred from infrastructure; check current operator restrictions.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "ru",
+      "name": "Russia",
+      "map": "russia.html",
+      "reviewed": "2026-10-24",
+      "verified": 2,
+      "longDistance": 2,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 2,
+      "cataloguePairs": 1,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Russia · official railway / transport reference",
+        "url": "https://ozd.rzd.ru/ru/4009/page/2452802?accessible=true&id=133869"
+      },
+      "note": "European trunk corridors only, not the entire Russian network. Sapsan full terminals are listed; other corridors require separate train-level evidence.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "am",
+      "name": "Armenia",
+      "map": "armenia.html",
+      "reviewed": "2026-10-24",
+      "verified": 3,
+      "longDistance": 1,
+      "regional": 2,
+      "mixed": 0,
+      "dated": 0,
+      "published": 3,
+      "cataloguePairs": 2,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Armenia · official railway / transport reference",
+        "url": "https://www.railway.am/en/index"
+      },
+      "note": "Caucasus edition. Yerevan–Tbilisi and summer Yerevan–Batumi are distinct seasonal endpoints. No passenger border link to Azerbaijan or Türkiye is implied.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "az",
+      "name": "Azerbaijan",
+      "map": "azerbaijan.html",
+      "reviewed": "2026-10-24",
+      "verified": 4,
+      "longDistance": 2,
+      "regional": 2,
+      "mixed": 0,
+      "dated": 0,
+      "published": 4,
+      "cataloguePairs": 2,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Azerbaijan · official railway / transport reference",
+        "url": "https://ticket.ady.az/en"
+      },
+      "note": "Caucasus edition. Selected domestic corridors only. Do not infer an operating international train from the physical railway to Georgia.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "ge",
+      "name": "Georgia",
+      "map": "georgia.html",
+      "reviewed": "2026-10-24",
+      "verified": 9,
+      "longDistance": 7,
+      "regional": 2,
+      "mixed": 0,
+      "dated": 0,
+      "published": 9,
+      "cataloguePairs": 5,
+      "status": "Partial endpoint coverage",
+      "complete": false,
+      "source": {
+        "name": "Georgia · official railway / transport reference",
+        "url": "https://www.railway.ge/en/traffic-general-schedule/"
+      },
+      "note": "Caucasus edition. Selected passenger corridors and published endpoints. Railway links across closed borders are excluded; published times require a current dated check.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "kz",
+      "name": "Kazakhstan",
+      "map": "kazakhstan.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "Endpoint verification unresolved",
+      "complete": false,
+      "source": {
+        "name": "Kazakhstan · official railway / transport reference",
+        "url": "https://bilet.railways.kz/"
+      },
+      "note": "Transcontinental edition, shown for network context. Most of this network is in Asia. Selected trunk corridors are schematic; a current official first/last-stop inventory has not been imported, so no unverified pair is counted as a full train route. Full origin-to-final-station routes are pending verification; use the linked operator search.",
+      "serviceStatus": "partial"
+    },
+    {
+      "code": "ad",
+      "name": "Andorra",
+      "map": "andorra.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "No passenger railway",
+      "complete": false,
+      "source": {
+        "name": "Andorra · official railway / transport reference",
+        "url": "https://visitandorra.com/en/visitor-information/transport-and-mobility/get-around-easily/"
+      },
+      "note": "No railway inside Andorra. Rail access is via France or Spain followed by road transport; those transfers are not direct train routes.",
+      "serviceStatus": "no-rail"
+    },
+    {
+      "code": "mc",
+      "name": "Monaco",
+      "map": "monaco.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "Rail service · no verified local origin",
+      "complete": false,
+      "source": {
+        "name": "Monaco · official railway / transport reference",
+        "url": "https://www.visitmonaco.com/preparez-votre-sejour/acces-et-transport/arriver-en-principaute/arriver-en-train"
+      },
+      "note": "Monaco–Monte-Carlo is served by SNCF regional trains. The mapped coastal corridor crosses borders; a stop in Monaco is not evidence that a train starts or finishes there. No independently verified Monaco-origin full route is currently listed.",
+      "serviceStatus": "transit-only"
+    },
+    {
+      "code": "li",
+      "name": "Liechtenstein",
+      "map": "liechtenstein.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "Rail service · no verified local origin",
+      "complete": false,
+      "source": {
+        "name": "Liechtenstein · official railway / transport reference",
+        "url": "https://www.schaan.li/leben-soziales/oeffentlicher-verkehr/bahn"
+      },
+      "note": "ÖBB regional trains use the Feldkirch–Buchs corridor through Liechtenstein. Schaan-Vaduz is an intermediate stop, not an assumed train terminus. The line reopened on 15 October 2026; verify the current timetable.",
+      "serviceStatus": "transit-only"
+    },
+    {
+      "code": "sm",
+      "name": "San Marino",
+      "map": "san-marino.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "Heritage only · excluded",
+      "complete": false,
+      "source": {
+        "name": "San Marino · official railway / transport reference",
+        "url": "https://www.visitsanmarino.com/pub2/VisitSM/en/luogo/Arte-e-cultura/Galleria-Montale-e-Treno-storico.html"
+      },
+      "note": "No regular national passenger railway. Montale tunnel demonstration rides are heritage experiences and are excluded from the long-distance and regional mainline directory.",
+      "serviceStatus": "heritage-only"
+    },
+    {
+      "code": "va",
+      "name": "Vatican City",
+      "map": "vatican-city.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "Special rail access only",
+      "complete": false,
+      "source": {
+        "name": "Vatican City · official railway / transport reference",
+        "url": "https://www.archivioapostolicovaticano.va/content/aav/en/contatti/come-raggiungerci.html"
+      },
+      "note": "Rail infrastructure exists, but no regular public mainline passenger timetable is included. Special excursions require separate confirmation. Roma San Pietro station is in Italy; it is not a Vatican-origin service.",
+      "serviceStatus": "limited-service"
+    },
+    {
+      "code": "mt",
+      "name": "Malta",
+      "map": "malta.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "No passenger railway",
+      "complete": false,
+      "source": {
+        "name": "Malta · official railway / transport reference",
+        "url": "https://www.publictransport.com.mt/"
+      },
+      "note": "No regular passenger railway. Public transport is by bus and ferry; historic railway remains are not current train routes.",
+      "serviceStatus": "no-rail"
+    },
+    {
+      "code": "cy",
+      "name": "Cyprus",
+      "map": "cyprus.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "No passenger railway",
+      "complete": false,
+      "source": {
+        "name": "Cyprus · official railway / transport reference",
+        "url": "https://www.culture.gov.cy/dmculture/da/da.nsf/b14288d7890cced6c2256fd300369c86/3f2cf6e8b9e9bf3dc2257de7002dfe14?OpenDocument"
+      },
+      "note": "No regular passenger railway. The former Cyprus Government Railway closed in 1951; the railway museum is a heritage site, not a scheduled rail service.",
+      "serviceStatus": "no-rail"
+    },
+    {
+      "code": "is",
+      "name": "Iceland",
+      "map": "iceland.html",
+      "reviewed": "2026-10-24",
+      "verified": 0,
+      "longDistance": 0,
+      "regional": 0,
+      "mixed": 0,
+      "dated": 0,
+      "published": 0,
+      "cataloguePairs": 0,
+      "status": "No passenger railway",
+      "complete": false,
+      "source": {
+        "name": "Iceland · official railway / transport reference",
+        "url": "https://www.visiticeland.com/article/public-transport/"
+      },
+      "note": "No public passenger railway. Bus, ferry and air connections are outside this railway directory.",
+      "serviceStatus": "no-rail"
+    }
+  ]
+}

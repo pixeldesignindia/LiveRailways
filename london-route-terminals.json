@@ -1,0 +1,74 @@
+{
+  "reviewed": "2026-10-27",
+  "operators": {
+    "Avanti West Coast": {
+      "terminal": "London Euston",
+      "sources": [
+        "https://www.avantiwestcoast.co.uk/travel-information/train-times",
+        "https://www.avantiwestcoast.co.uk/travel-information/train-times/manchester-piccadilly/london-euston"
+      ]
+    },
+    "Caledonian Sleeper": {
+      "terminal": "London Euston",
+      "sources": [
+        "https://www.sleeper.scot/destinations/a-z-destinations/inverness/",
+        "https://www.sleeper.scot/destinations/a-z-destinations/fort-william/"
+      ]
+    },
+    "LNER": {
+      "terminal": "London King's Cross",
+      "sources": [
+        "https://www.lner.co.uk/routes/london-kings-cross-to-edinburgh-trains/",
+        "https://www.nationalrail.co.uk/live-trains/departures/london-kings-cross/?to=edinburgh"
+      ]
+    },
+    "Lumo": {
+      "terminal": "London King's Cross",
+      "sources": [
+        "https://www.nationalrail.co.uk/live-trains/departures/london-kings-cross/?to=edinburgh"
+      ]
+    },
+    "Hull Trains": {
+      "terminal": "London King's Cross",
+      "sources": [
+        "https://www.hulltrains.co.uk/tickets-and-offers/travel-offers",
+        "https://www.nationalrail.co.uk/live-trains/departures/london-kings-cross/hull/"
+      ]
+    },
+    "Grand Central": {
+      "terminal": "London King's Cross",
+      "sources": [
+        "https://www.grandcentralrail.com/travelling-with-gc/timetables",
+        "https://www.grandcentralrail.com/stations"
+      ]
+    },
+    "Great Western Railway": {
+      "terminal": "London Paddington",
+      "sources": [
+        "https://www.gwr.com/stations-and-destinations/popular-routes/london-to-exeter",
+        "https://www.gwr.com/stations-and-destinations/popular-routes/london-to-plymouth",
+        "https://www.gwr.com/stations-and-destinations/destinations/trains-to-penzance"
+      ]
+    },
+    "East Midlands Railway": {
+      "terminal": "London St Pancras International",
+      "sources": [
+        "https://www.eastmidlandsrailway.co.uk/train-times/london-st-pancras-international-to-nottingham",
+        "https://www.eastmidlandsrailway.co.uk/timetables-updates/our-routes"
+      ]
+    },
+    "Greater Anglia": {
+      "terminal": "London Liverpool Street",
+      "sources": [
+        "https://www.greateranglia.co.uk/train-times/london-liverpool-street-to-norwich",
+        "https://www.greateranglia.co.uk/travel-information/timetables"
+      ]
+    },
+    "Eurostar": {
+      "terminal": "London St Pancras International",
+      "sources": [
+        "https://www.eurostar.com/be-en/travel-info/timetable/8727100/7015400/paris-gare-du-nord/london-st-pancras-intl"
+      ]
+    }
+  }
+}

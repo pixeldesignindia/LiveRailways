@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Finland Rail Map | LiveRailways</title>
+<meta name="description" content="Explore Europe's railway connections with LiveRailways. Explore the Finland mainline railway network, operators and indicative journey times. Local city networks are excluded.">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="public-ui.css"><script src="countries.js?v=india-south-route" defer></script><script src="d3.min.js" defer></script><script id="country-map-script" data-country="fi" src="country-map.js" defer></script><script src="navigation.js?v=241" defer></script>
+<script src="endpoint-map.js" defer></script><link rel="stylesheet" href="banner.css?v=236"><script src="scenic-rail.js?v=country-scenic-trains" defer></script><script src="banner.js?v=241" defer></script><script src="search-filters-refined.js?v=241" defer></script><link rel="stylesheet" href="card-pagination.css?v=eight-cards"><script src="card-pagination.js?v=auto30-201" defer></script><link rel="stylesheet" href="site-footer.css?v=243"><script src="site-footer.js?v=243" defer></script><link rel="stylesheet" href="catalogue-design.css?v=223"><script src="catalogue-design.js?v=233" defer></script><link rel="stylesheet" href="shared-station-layout.css?v=234"><script src="country-page-theme.js?v=229" defer></script><link rel="stylesheet" href="typography.css?v=237"></head>
+<body>
+<header class="topbar"><a class="brand" href="index.html#europe" aria-label="LiveRailways home"><span class="brand-symbol">LR</span><span>LIVE<span class="gold">RAILWAYS</span><small>EUROPE RAIL ATLAS</small></span></a><span class="header-note">A continent of connections.</span><span class="edition"><span></span> SPAIN EDITION</span></header>
+<div class="workspace">
+<aside class="sidebar" aria-label="Atlas navigation"></aside>
+<main>
+ <div class="page-heading"><div><div class="eyebrow" id="breadcrumb">EUROPE / FINLAND</div><h1 id="page-title">Finland, connected.</h1><p id="page-subtitle">Intercity trains, Lapland sleepers and the Sweden border link. Local city networks excluded.</p></div><a class="back-map" href="routes.html?country=fi" style="font-size:11px;text-decoration:none;border:1px solid #d9dfdc;padding:11px 14px;border-radius:4px">Finland route directory ↗</a><div class="country-stamp" id="country-stamp"><span>FI</span><small>FINLAND</small></div></div>
+ <div class="atlas-grid">
+  <section class="map-panel" aria-label="Interactive railway map">
+   <div class="map-topline"><span id="map-caption"><i class="status-dot"></i> MAINLINE RAIL NETWORK</span><span id="map-meta">8 groups · selected connections</span></div>
+   <div class="map-stage" id="map-stage"><svg id="rail-map" aria-label="Railway network map" role="img"></svg><div class="map-controls" aria-label="Map zoom controls"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="reset-map" aria-label="Reset map view">↺</button></div><div id="map-tooltip" role="status" hidden></div><div class="map-watermark">LIVE<span>RAILWAYS</span></div></div>
+   <div class="map-bottomline"><span>Geographic locations · simplified links</span><span id="map-instruction">Select a corridor or route to explore</span></div>
+   <div class="legend-heading"><span>COLOUR KEY · 8 CORRIDOR GROUPS</span><button id="show-all">Show all</button></div>
+   <div id="corridor-legend" class="corridor-legend"></div>
+  </section>
+  <aside class="route-panel" aria-label="Route explorer" id="route-panel">
+   <div class="eyebrow">FOLLOW A JOURNEY</div><h2>Route explorer</h2><label for="route-select">Choose a point-to-point route</label><select id="route-select"></select>
+   <div class="route-title" id="route-title"></div><div class="route-distance"><span id="route-km"></span><small>APPROXIMATE RAIL DISTANCE</small></div>
+   <div class="route-group-label">PLANNING GROUPS SHARED</div><div class="group-sequence" id="group-sequence"></div>
+   <div class="route-stops-label">MAIN LOCATIONS</div><ol class="route-stops" id="route-stops"></ol>
+   <p class="route-disclaimer">Selected locations, not every stop. Service routing and stopping patterns vary. Distances are planning estimates.</p>
+  </aside>
+ </div>
+ <section class="under-map"><div><h3>A map of connections.</h3><p>Colours organise the network into our eight planning groups. A journey can share tracks with several groups; these are not official Finland operating zones.</p></div><div><h3>Read the map</h3><p><span class="key-hub"></span> Helsinki hub <span class="key-junction"></span> Shared connection <span class="key-station"></span> Selected city</p><p>Selected intercity and international connections. Metro, tram and local urban networks are excluded. Lines show connectivity, not exact track geometry. Oulu–Haparanda passenger services began 10 August 2026. Finland is one hour ahead of Sweden; the listed time is elapsed time. Change at Haparanda for Norrtåg services into Sweden. A through Helsinki–Stockholm train is not implied. Lapland destinations may need onward buses beyond the railhead; no rail links to Norway, Estonia or Russia are shown. This is a planning atlas, not a live timetable.</p></div></section>
+ <footer><span>LIVE<span class="gold">RAILWAYS</span> <span class="footer-divider">/</span> EUROPE RAIL ATLAS</span><span>References: <a href="https://www.vr.fi/en" target="_blank" rel="noopener">VR</a> · <a href="distance-notes.html" target="_blank" rel="noopener">Distance notes</a> · <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a></span></footer>
+</main></div>
+<div id="load-error" hidden role="alert">The map could not load. Please refresh the page.</div>
+</body></html>

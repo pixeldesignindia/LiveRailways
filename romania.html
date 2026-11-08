@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Romania Rail Map | LiveRailways</title>
+<meta name="description" content="Explore Europe's railway connections with LiveRailways. Explore Romania mainline railway network, operators and indicative journey times. Local city networks are excluded.">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="public-ui.css"><script src="countries.js?v=india-south-route" defer></script><script src="d3.min.js" defer></script><script id="country-map-script" data-country="ro" src="country-map.js" defer></script><script src="navigation.js?v=241" defer></script>
+<script src="endpoint-map.js" defer></script><link rel="stylesheet" href="banner.css?v=236"><script src="scenic-rail.js?v=country-scenic-trains" defer></script><script src="banner.js?v=241" defer></script><script src="search-filters-refined.js?v=241" defer></script><link rel="stylesheet" href="card-pagination.css?v=eight-cards"><script src="card-pagination.js?v=auto30-201" defer></script><link rel="stylesheet" href="site-footer.css?v=243"><script src="site-footer.js?v=243" defer></script><link rel="stylesheet" href="catalogue-design.css?v=223"><script src="catalogue-design.js?v=233" defer></script><link rel="stylesheet" href="shared-station-layout.css?v=234"><script src="country-page-theme.js?v=229" defer></script><link rel="stylesheet" href="typography.css?v=237"></head>
+<body>
+<header class="topbar"><a class="brand" href="index.html#europe" aria-label="LiveRailways home"><span class="brand-symbol">LR</span><span>LIVE<span class="gold">RAILWAYS</span><small>EUROPE RAIL ATLAS</small></span></a><span class="header-note">A continent of connections.</span><span class="edition"><span></span> SPAIN EDITION</span></header>
+<div class="workspace">
+<aside class="sidebar">
+ <div class="nav-label">EXPLORE THE NETWORK</div>
+ <button class="country-button overview-button" data-view="europe"><span class="nav-symbol">◎</span> Europe overview <span class="chevron">↗</span></button>
+ <div class="nav-label country-heading">COUNTRY MAPS <span>01</span></div>
+ <button class="country-button active" data-view="spain"><span class="country-code">ES</span><span>Spain<small>8 planning groups</small></span><span class="availability"></span></button>
+ <a class="country-button directory-link" href="routes.html?country=ro" style="text-decoration:none"><span class="nav-symbol">≡</span><span>Romania route directory<small>Distances · times · operators</small></span></a><div class="future-countries"><span>FR <b>Romania</b><small>Not yet mapped</small></span><span>IT <b>Italy</b><small>Not yet mapped</small></span><span>DE <b>Romania</b><small>Not yet mapped</small></span><span>GB <b>Romania</b><small>Not yet mapped</small></span><span>PT <b>Portugal</b><small>Not yet mapped</small></span></div>
+ <div class="sidebar-bottom"><span class="gold">THE BIGGER PICTURE</span><p>Follow the connections.<br>Understand the journey.</p><small>Selected long-distance routes.<br>More country maps can be added.</small></div>
+</aside>
+<main>
+ <div class="page-heading"><div><div class="eyebrow" id="breadcrumb">EUROPE / ROMANIA</div><h1 id="page-title">Romania, connected.</h1><p id="page-subtitle">Intercity connections and cross-border journeys. Local city networks excluded.</p></div><a class="back-map" href="routes.html?country=ro" style="font-size:11px;text-decoration:none;border:1px solid #d9dfdc;padding:11px 14px;border-radius:4px">Romania route directory ↗</a><div class="country-stamp" id="country-stamp"><span>RO</span><small>ROMANIA</small></div></div>
+ <div class="atlas-grid">
+  <section class="map-panel" aria-label="Interactive railway map">
+   <div class="map-topline"><span id="map-caption"><i class="status-dot"></i> MAINLINE RAIL NETWORK</span><span id="map-meta">8 groups · selected connections</span></div>
+   <div class="map-stage" id="map-stage"><svg id="rail-map" aria-label="Railway network map" role="img"></svg><div class="map-controls" aria-label="Map zoom controls"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="reset-map" aria-label="Reset map view">↺</button></div><div id="map-tooltip" role="status" hidden></div><div class="map-watermark">LIVE<span>RAILWAYS</span></div></div>
+   <div class="map-bottomline"><span>Geographic locations · simplified links</span><span id="map-instruction">Select a corridor or route to explore</span></div>
+   <div class="legend-heading"><span>THE EIGHT PLANNING GROUPS</span><button id="show-all">Show all</button></div>
+   <div id="corridor-legend" class="corridor-legend"></div>
+  </section>
+  <aside class="route-panel" aria-label="Route explorer" id="route-panel">
+   <div class="eyebrow">FOLLOW A JOURNEY</div><h2>Route explorer</h2><label for="route-select">Choose a point-to-point route</label><select id="route-select"></select>
+   <div class="route-title" id="route-title"></div><div class="route-distance"><span id="route-km"></span><small>APPROXIMATE RAIL DISTANCE</small></div>
+   <div class="route-group-label">PLANNING GROUPS SHARED</div><div class="group-sequence" id="group-sequence"></div>
+   <div class="route-stops-label">MAIN LOCATIONS</div><ol class="route-stops" id="route-stops"></ol>
+   <p class="route-disclaimer">Selected locations, not every stop. Service routing and stopping patterns vary. Distances are labelled planning estimates or published route references.</p>
+  </aside>
+ </div>
+ <section class="under-map"><div><h3>A map of connections.</h3><p>Colours organise the network into our eight planning groups. A journey can share tracks with several groups; these are not official Romania operating zones.</p></div><div><h3>Read the map</h3><p><span class="key-hub"></span> Bucharest hub <span class="key-junction"></span> Shared connection <span class="key-station"></span> Selected city</p><p>Selected intercity and international connections. Metro, tram and local urban networks are excluded. Selected mainline links are included. Selected CFR Călători routes and Astra Trans Carpatic examples. Some distances come from Astra’s timetable kilometre column and are labelled as published references. Budapest uses a different time zone. Selected international lines are planning connections; works, connections and overnight services affect timings. Unlisted lines and local networks are outside this edition. Lines show connectivity, not exact track geometry. This is a planning atlas, not a live timetable.</p></div></section>
+ <footer><span>LIVE<span class="gold">RAILWAYS</span> <span class="footer-divider">/</span> EUROPE RAIL ATLAS</span><span>References: <a href="https://www.cfrcalatori.ro/en/" target="_blank" rel="noopener">CFR Călători</a> · <a href="distance-notes.html" target="_blank" rel="noopener">Distance notes</a> · <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a></span></footer>
+</main></div>
+<div id="load-error" hidden role="alert">The map could not load. Please refresh the page.</div>
+</body></html>

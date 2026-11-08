@@ -1,0 +1,2 @@
+window.LR_PROFILE_GALLERY=[['station-heroes/amsterdam-panorama.webp','AI-generated Amsterdam-inspired station ambience','NETHERLANDS · AMSTERDAM'],['station-heroes/rotterdam-panorama.webp','AI-generated Rotterdam-inspired station ambience','NETHERLANDS · ROTTERDAM']];
+const nlContext=document.createElement('select');nlContext.id='atlas-country';nlContext.hidden=true;nlContext.innerHTML='<option value="nl" selected>Netherlands</option>';document.body.append(nlContext);
