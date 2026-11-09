@@ -196,3 +196,15 @@ html body .lr-search-box .lr-date-chip:hover{box-shadow:none!important}
   html body .lr-search-shell .lr-search-box .lr-tabs :is(button,#lr-route-map-link)[aria-selected=true]{background:#fff!important;color:var(--sb-blue)!important;-webkit-text-fill-color:var(--sb-blue)!important;box-shadow:inset 0 0 0 2px var(--sb-blue)!important}
   html body .lr-search-shell .lr-search-box .lr-tabs :is(button,#lr-route-map-link)::before{width:16px!important;height:16px!important}
 }
+
+/* Timetable tab: "View Timetable" sits in the field grid, aligned after Operator (moved there by search-box.js) */
+html body .lr-search-box .lr-timetable-filter-grid>.lr-t-submit-inline{margin:0!important;width:100%!important;min-width:0!important;align-self:stretch!important}
+@media(min-width:901px){
+  html body .lr-search-box .lr-timetable-filter-grid>label:has(#lr-t-operator){grid-column:4!important}
+  html body .lr-search-box .lr-timetable-filter-grid>.lr-t-submit-inline{grid-column:5!important;grid-row:2!important;min-height:0!important;height:auto!important;padding:0 16px!important}
+}
+@media(max-width:900px){html body .lr-search-box .lr-timetable-filter-grid>.lr-t-submit-inline{grid-column:1/-1!important}}
+
+/* Timetable tab notes: no top margin, 15px below each, none below the last */
+html body .lr-search-shell .lr-search-box #lr-timetable .lr-filter-note{margin-top:0!important;margin-bottom:15px!important}
+html body .lr-search-shell .lr-search-box #lr-timetable .lr-filter-note:last-of-type{margin-bottom:0!important}

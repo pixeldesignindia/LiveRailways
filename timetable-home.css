@@ -1,0 +1,105 @@
+/* Station timetable: homepage-style look (light cards, blue headings, amber accent).
+   Styling only: no markup or behaviour changes. Loaded on station-timetable.html and train-details.html. */
+html body main#station-timetable.tt-page{
+  --tt-h:#1e3c65;--tt-blue:var(--lr-primary,#004080);--tt-text:#1B2433;--tt-muted:#4f4f4f;--tt-soft:#6b7280;
+  --tt-line:#e1e7ee;--tt-line-soft:#eef2f6;--tt-tint:#e8f8ff;--tt-field:#F2F3F5;--tt-accent:#E39E22;
+}
+
+/* ---------- Header: eyebrow, station name with amber underline, clock pills, outline button ---------- */
+html body main#station-timetable.tt-page>header.tt-header.tt-header{background:transparent!important;color:var(--tt-text)!important;border:0!important;border-radius:0!important;box-shadow:none!important;
+  display:grid!important;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"title link" "clock link";align-items:end;gap:14px 24px;
+  padding:0 0 24px!important;margin:0!important;min-height:0!important;text-align:left!important}
+html body main#station-timetable.tt-page>header.tt-header.tt-header::before,html body main#station-timetable.tt-page>header.tt-header.tt-header::after{display:none!important}
+html body main#station-timetable.tt-page .tt-station-banner-title{grid-area:title;display:flex!important;flex-direction:column-reverse!important;align-items:flex-start!important;gap:6px!important;text-align:left!important;margin:0!important}
+html body main#station-timetable.tt-page .tt-station-banner-title small{color:var(--tt-muted)!important;font-size:12px!important;font-weight:700!important;letter-spacing:.06em!important;text-transform:uppercase;margin:0!important}
+html body main#station-timetable.tt-page .tt-station-banner-title h1{color:var(--tt-blue)!important;-webkit-text-fill-color:var(--tt-blue)!important;font-size:2.5rem!important;margin:0!important;text-align:left!important;line-height:1.15!important}
+html body main#station-timetable.tt-page .tt-station-banner-title h1::after{content:"";display:block;width:140px;max-width:40%;height:3px;margin-top:12px;background:var(--tt-accent)}
+html body main#station-timetable.tt-page .tt-banner-clock{grid-area:clock;display:flex!important;flex-wrap:wrap;gap:10px!important;justify-content:flex-start!important;margin:0!important}
+html body main#station-timetable.tt-page .tt-banner-clock>span{display:inline-flex!important;align-items:baseline;gap:6px;padding:8px 14px!important;background:var(--tt-tint)!important;border-radius:999px!important;color:var(--tt-muted)!important;font-size:13px!important;font-weight:600}
+html body main#station-timetable.tt-page .tt-banner-clock time{color:var(--tt-blue)!important;font-size:18px!important;font-weight:700!important}
+html body main#station-timetable.tt-page .tt-banner-clock span span{color:var(--tt-muted)!important}
+html body main#station-timetable.tt-page>header.tt-header.tt-header>a{grid-area:link;align-self:center;display:inline-flex!important;align-items:center;gap:6px;padding:12px 18px!important;min-height:44px;
+  background:#fff!important;color:var(--tt-blue)!important;-webkit-text-fill-color:var(--tt-blue)!important;border:1.5px solid var(--tt-blue)!important;border-radius:12px!important;
+  font-weight:600!important;text-decoration:none!important;box-shadow:none!important;white-space:nowrap}
+html body main#station-timetable.tt-page>header.tt-header.tt-header>a:is(:hover,:focus-visible){background:#eef4fb!important}
+
+/* ---------- Results board: white card ---------- */
+html body main#station-timetable.tt-page .tt-results.tt-unified-board{background:#fff!important;color:var(--tt-text)!important;border:1px solid var(--tt-line)!important;border-radius:16px!important;box-shadow:0 10px 30px rgba(0,64,128,.06)!important;overflow:hidden}
+
+/* Other stations: chips like the homepage theme links */
+html body main#station-timetable.tt-page .tt-city-stations{background:#fff!important;color:var(--tt-text)!important;border:0!important;border-bottom:1px solid var(--tt-line-soft)!important;padding:18px 20px!important}
+html body main#station-timetable.tt-page .tt-city-stations strong{color:var(--tt-h)!important;font-weight:700!important}
+html body main#station-timetable.tt-page .tt-city-stations a{background:#fff!important;color:var(--tt-blue)!important;-webkit-text-fill-color:var(--tt-blue)!important;border:1px solid #ccd5db!important;border-radius:999px!important;box-shadow:none!important;padding:8px 16px!important;text-decoration:none!important;font-weight:600!important}
+html body main#station-timetable.tt-page .tt-city-stations a:is(:hover,:focus-visible){border-color:var(--tt-blue)!important}
+html body main#station-timetable.tt-page .tt-city-stations a[aria-current=page]{background:var(--tt-blue)!important;color:#fff!important;-webkit-text-fill-color:#fff!important;border-color:var(--tt-blue)!important}
+
+/* Date panel */
+html body main#station-timetable.tt-page .tt-date-panel{background:#fff!important;color:var(--tt-text)!important;border:0!important;border-bottom:1px solid var(--tt-line-soft)!important;padding:18px 20px!important}
+html body main#station-timetable.tt-page .tt-date-panel h2{color:var(--tt-h)!important}
+html body main#station-timetable.tt-page .tt-date-panel .tt-range{color:var(--tt-muted)!important}
+html body main#station-timetable.tt-page .tt-period-switch{background:var(--tt-field)!important;border:0!important;border-radius:10px!important;padding:3px!important;box-shadow:none!important}
+html body main#station-timetable.tt-page .tt-period-switch button{background:transparent!important;color:var(--tt-h)!important;-webkit-text-fill-color:var(--tt-h)!important;border:0!important;border-radius:8px!important;box-shadow:none!important;background-image:none!important;font-weight:600!important}
+html body main#station-timetable.tt-page .tt-period-switch button[aria-pressed=true]{background:var(--tt-blue)!important;color:#fff!important;-webkit-text-fill-color:#fff!important}
+html body main#station-timetable.tt-page .tt-date-strip button{background:#fff!important;color:var(--tt-text)!important;-webkit-text-fill-color:var(--tt-text)!important;border:1px solid var(--tt-line)!important;border-radius:10px!important;box-shadow:none!important;background-image:none!important}
+html body main#station-timetable.tt-page .tt-date-strip button :is(small,span){color:var(--tt-soft)!important;-webkit-text-fill-color:var(--tt-soft)!important}
+html body main#station-timetable.tt-page .tt-date-strip button strong{color:var(--tt-text)!important;-webkit-text-fill-color:var(--tt-text)!important}
+html body main#station-timetable.tt-page .tt-date-strip button:is(:hover,:focus-visible){border-color:var(--tt-blue)!important}
+html body main#station-timetable.tt-page .tt-date-strip button[aria-pressed=true]{background:var(--tt-blue)!important;border-color:var(--tt-blue)!important}
+html body main#station-timetable.tt-page .tt-date-strip button[aria-pressed=true] :is(small,span,strong){color:#fff!important;-webkit-text-fill-color:#fff!important}
+html body main#station-timetable.tt-page .tt-scroll{background:#fff!important;color:var(--tt-blue)!important;-webkit-text-fill-color:var(--tt-blue)!important;border:1px solid var(--tt-line)!important;border-radius:10px!important;box-shadow:none!important;background-image:none!important}
+html body main#station-timetable.tt-page .tt-scroll:is(:hover,:focus-visible){border-color:var(--tt-blue)!important}
+
+/* Results heading + table */
+html body main#station-timetable.tt-page .tt-results-heading{background:#fff!important;color:var(--tt-text)!important;border:0!important;padding:18px 20px 10px!important}
+html body main#station-timetable.tt-page .tt-results-heading h2{color:var(--tt-h)!important}
+html body main#station-timetable.tt-page .tt-table{background:#fff!important;color:var(--tt-text)!important;border:0!important}
+html body main#station-timetable.tt-page .tt-table thead,html body main#station-timetable.tt-page .tt-table thead tr{background:transparent!important}
+html body main#station-timetable.tt-page .tt-table thead th{background:#f3f6fa!important;color:var(--tt-h)!important;border:0!important;border-bottom:1px solid var(--tt-line)!important;font-weight:700!important;letter-spacing:.04em!important;text-transform:uppercase}
+@media(min-width:651px){html body main#station-timetable.tt-page .tt-table thead th{font-size:12px!important}}
+html body main#station-timetable.tt-page .tt-table tbody tr{background:#fff!important;transition:background .15s}
+html body main#station-timetable.tt-page .tt-table tbody tr:nth-child(even){background:#fafbfd!important}
+html body main#station-timetable.tt-page .tt-table tbody tr:is(:hover,:focus-visible){background:#f2f7ff!important}
+html body main#station-timetable.tt-page .tt-table tbody td{color:var(--tt-text)!important;border-color:var(--tt-line-soft)!important;border-top:0!important;border-bottom:1px solid var(--tt-line-soft)!important}
+html body main#station-timetable.tt-page .tt-table tbody td:first-child,html body main#station-timetable.tt-page .tt-table tbody td strong{color:var(--tt-blue)!important}
+html body main#station-timetable.tt-page .tt-table tbody td a{color:var(--tt-blue)!important;-webkit-text-fill-color:var(--tt-blue)!important}
+html body main#station-timetable.tt-page .tt-table :is(small.tt-row-note,.tt-mobile-number,.tt-mobile-service,.tt-mobile-connection,.tt-day-offset){color:var(--tt-soft)!important;-webkit-text-fill-color:var(--tt-soft)!important}
+html body main#station-timetable.tt-page .tt-table .tt-change-badge{background:var(--tt-tint)!important;color:var(--tt-h)!important;-webkit-text-fill-color:var(--tt-h)!important;border:0!important;box-shadow:none!important}
+html body main#station-timetable.tt-page .tt-table .tt-price{color:var(--tt-text)!important;-webkit-text-fill-color:var(--tt-text)!important}
+
+/* Footnote + loading note */
+html body main#station-timetable.tt-page .tt-footnote{background:var(--tt-tint)!important;color:var(--tt-muted)!important;border:0!important;border-radius:12px!important;margin:16px 20px 20px!important;padding:12px 16px!important}
+html body main#station-timetable.tt-page .tt-footnote *{color:inherit}
+html body main#station-timetable.tt-page #tt-sentinel{color:var(--tt-soft)!important}
+
+/* ---------- Route schedules: white card ---------- */
+html body main#station-timetable.tt-page .lr-route-facts{background:#fff!important;color:var(--tt-text)!important;border:1px solid var(--tt-line)!important;border-radius:16px!important;box-shadow:0 10px 30px rgba(0,64,128,.06)!important}
+html body main#station-timetable.tt-page .lr-route-facts header h2{color:var(--tt-h)!important}
+html body main#station-timetable.tt-page .lr-route-facts header p,html body main#station-timetable.tt-page .lr-route-facts .lr-fact-count{color:var(--tt-muted)!important}
+html body main#station-timetable.tt-page .lr-route-facts .lr-fact-filters label{color:var(--tt-muted)!important;font-weight:600}
+html body main#station-timetable.tt-page .lr-route-facts .lr-fact-filters :is(input,select){background-color:var(--tt-field)!important;color:var(--tt-text)!important;border:1px solid transparent!important;border-radius:10px!important;box-shadow:none!important}
+html body main#station-timetable.tt-page .lr-route-facts .lr-fact-filters :is(input,select):focus{background-color:#fff!important;border-color:var(--tt-blue)!important;outline:0}
+html body main#station-timetable.tt-page .lr-route-report-table{background:#fff!important;color:var(--tt-text)!important;border:1px solid var(--tt-line)!important;border-radius:12px!important;overflow:hidden}
+html body main#station-timetable.tt-page .lr-route-report-table thead th{background:#f3f6fa!important;color:var(--tt-h)!important;border:0!important;border-bottom:1px solid var(--tt-line)!important}
+html body main#station-timetable.tt-page .lr-route-report-table tbody tr{background:#fff!important}
+html body main#station-timetable.tt-page .lr-route-report-table tbody tr:nth-child(even){background:#fafbfd!important}
+html body main#station-timetable.tt-page .lr-route-report-table tbody td{color:var(--tt-text)!important;border-color:var(--tt-line-soft)!important}
+html body main#station-timetable.tt-page .lr-route-report-table summary strong{color:var(--tt-blue)!important}
+html body main#station-timetable.tt-page .lr-route-report-table :is(summary small,.lr-fact-detail,.lr-fact-detail p){color:var(--tt-muted)!important}
+html body main#station-timetable.tt-page .lr-route-report-table a{color:var(--tt-blue)!important}
+html body main#station-timetable.tt-page .lr-demo-switch{color:var(--tt-muted)!important}
+
+/* ---------- Phones ---------- */
+@media(max-width:640px){
+  html body main#station-timetable.tt-page>header.tt-header.tt-header{grid-template-columns:1fr;grid-template-areas:"title" "clock" "link";gap:12px;padding-bottom:18px!important}
+  html body main#station-timetable.tt-page>header.tt-header.tt-header>a{justify-content:center;width:100%}
+  html body main#station-timetable.tt-page .tt-banner-clock>span{padding:6px 12px!important}
+  html body main#station-timetable.tt-page .tt-station-banner-title h1{font-size:2rem!important}
+  html body main#station-timetable.tt-page .tt-city-stations,html body main#station-timetable.tt-page .tt-date-panel{padding:14px!important}
+  html body main#station-timetable.tt-page .tt-results-heading{padding:14px 14px 8px!important}
+  html body main#station-timetable.tt-page .tt-footnote{margin:12px 14px 16px!important}
+}
+/* Secondary text inside route schedule cells (e.g. "Count unavailable") */
+html body main#station-timetable.tt-page .lr-route-report-table td :is(small,span,em){color:var(--tt-soft)!important;-webkit-text-fill-color:var(--tt-soft)!important}
+html body main#station-timetable.tt-page .lr-route-report-table td summary strong{color:var(--tt-blue)!important;-webkit-text-fill-color:var(--tt-blue)!important}
+/* Phone fare chip */
+html body main#station-timetable.tt-page .tt-table .tt-mobile-fare .tt-mobile-price{background:#fff!important;border:1px solid var(--tt-line)!important;border-radius:8px!important;color:var(--tt-text)!important;-webkit-text-fill-color:var(--tt-text)!important;box-shadow:none!important}

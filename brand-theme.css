@@ -150,3 +150,23 @@ html body .lr-country-card .lr-country-name,html body .lr-country-name{font-size
 @media (max-width:1024px){html body .lr-country-card .lr-country-name,html body .lr-country-name{font-size:21px !important;min-height:70px !important}}
 @media (max-width:640px){html body .lr-country-card .lr-country-name,html body .lr-country-name{font-size:20px !important;min-height:68px !important;padding:10px 14px !important}}
 @media (max-width:360px){html body .lr-country-card .lr-country-name,html body .lr-country-name{font-size:19px !important}}
+
+/* Station timetable page: banner uses the same heights as the homepage banner (photo fills and crops like the homepage) */
+html body.lr-station-hero-view:has(.tt-page) .lr-hero{aspect-ratio:auto !important;height:clamp(360px,30vw,500px) !important}
+html body.lr-station-hero-view:has(.tt-page) .lr-hero>img{width:100% !important;height:100% !important;object-fit:cover !important;object-position:center !important}
+@media (min-width:651px) and (max-width:1024px){html body.lr-station-hero-view:has(.tt-page) .lr-hero{height:280px !important}}
+@media (max-width:650px){html body.lr-station-hero-view:has(.tt-page) .lr-hero{height:240px !important}}
+
+
+/* Timetable wrapper after the banner */
+html body .lr-timetable-section{background:#fff !important}
+html body .lr-banner+.lr-timetable-section{margin-top:-80px !important;padding-top:120px !important}
+
+
+/* Station banner image note ("AI-generated station ambience…"): aligned to a 1170px column */
+html body .lr-station-image-note{margin-top:15px !important;max-width:1170px !important;padding:0 !important}
+/* Narrower screens: keep a small side gutter so the text doesn't touch the screen edge */
+@media (max-width:1201px){html body .lr-station-image-note{padding:0 16px !important}}
+
+/* Station timetable page: smaller banner bottom padding */
+html body.lr-station-hero-view:has(.tt-page) .lr-banner.lr-banner{padding-bottom:20px !important}

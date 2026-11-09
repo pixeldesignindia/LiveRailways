@@ -68,7 +68,18 @@
     bar.append(band, changes);
   }
 
+  // Timetable tab: place "View Timetable" in the grid right after the Operator field (same form, so submit is unchanged).
+  function placeTimetableButton() {
+    const operator = document.getElementById('lr-t-operator')?.closest('label');
+    const grid = operator?.parentElement;
+    const button = grid?.closest('form')?.querySelector('.lr-filter-submit');
+    if (!operator || !button || button.parentElement === grid) return;
+    button.classList.add('lr-t-submit-inline');
+    operator.after(button);
+  }
+
   function enhance() {
+    placeTimetableButton();
     const fields = document.querySelector('.lr-search-box .lr-journey-fields');
     const date = document.getElementById('lr-date');
     if (!fields || !date) return;
