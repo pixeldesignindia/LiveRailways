@@ -11,8 +11,8 @@
 
 :root{
   --lr-bg:#f0f0f0;
-  --lr-primary:#004891;
-  --lr-primary-dark:#00366D;
+  --lr-primary:#0757AA;
+  --lr-primary-dark:#053F7A;
   --lr-accent:#E39E22;
   --lr-accent-dark:#C7861A;
   /* Buttons */
@@ -117,7 +117,7 @@ html body .jh-france-themes a:is(:hover,:focus-visible){border-color:var(--lr-pr
 
 /* Route / country cards: blue border, small lift and a 1s 5% photo zoom on hover or keyboard focus */
 html body .lr-country-card{transition:border-color .2s ease,box-shadow .25s ease,transform .25s ease !important}
-html body .lr-country-card:is(:hover,:focus-visible){border-color:var(--lr-primary) !important;transform:translateY(-4px);box-shadow:0 12px 24px rgba(0,72,145,.14) !important}
+html body .lr-country-card:is(:hover,:focus-visible){border-color:var(--lr-primary) !important;transform:translateY(-4px);box-shadow:0 12px 24px rgba(7,87,170,.14) !important}
 html body .lr-country-card .lr-country-photo img{transition:transform 1s cubic-bezier(.25,.6,.3,1);transform-origin:center}
 html body .lr-country-card:is(:hover,:focus-visible) .lr-country-photo img{transform:scale(1.05) !important}
 @media (prefers-reduced-motion:reduce){

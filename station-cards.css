@@ -1,12 +1,12 @@
-.lr-station-cards-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.ep-station{min-width:0;border:1px solid #dce3df;border-radius:8px;background:#fff;overflow:hidden;display:flex;flex-direction:column}.ep-station-photo{aspect-ratio:1672/941;overflow:hidden}.ep-station-photo img{display:block;width:100%;height:100%;object-fit:cover}.ep-station-copy{padding:15px;display:flex;flex-direction:column;gap:8px;flex:1}.ep-station h3{font-size:17px;line-height:1.35;color:#004891;margin:0;min-height:46px;letter-spacing:normal}.ep-station p{font-size:12px;line-height:1.45;color:#607269;margin:0}.ep-station-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid #e2e5e9;margin-top:auto;padding-top:11px;flex-wrap:wrap}.ep-station-actions a,.ep-station-actions button{font:inherit;font-size:12px;font-weight:600;color:#004891;text-decoration:none;border:0;background:none;padding:2px 0;cursor:pointer;text-align:start;min-height:36px;display:inline-flex;align-items:center}.ep-station-actions a:focus-visible,.ep-station-actions button:focus-visible{outline:3px solid #E39E22;outline-offset:3px}.ep-station .ep-photo-credit{font-size:11px;line-height:1.5}.ep-photo-credit a{color:inherit}.lr-station-cards-grid[hidden]{display:none!important}@media(max-width:1000px){.lr-station-cards-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:700px){.lr-station-cards-grid{grid-template-columns:1fr;gap:12px}.ep-station h3{font-size:18px;min-height:0}.ep-station p{font-size:16px}.ep-station-actions a,.ep-station-actions button{font-size:16px;min-height:44px}.ep-station .ep-photo-credit{font-size:12px}}
+.lr-station-cards-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.ep-station{min-width:0;border:1px solid #dce3df;border-radius:8px;background:#fff;overflow:hidden;display:flex;flex-direction:column}.ep-station-photo{aspect-ratio:1672/941;overflow:hidden}.ep-station-photo img{display:block;width:100%;height:100%;object-fit:cover}.ep-station-copy{padding:15px;display:flex;flex-direction:column;gap:8px;flex:1}.ep-station h3{font-size:17px;line-height:1.35;color:#0757AA;margin:0;min-height:46px;letter-spacing:normal}.ep-station p{font-size:12px;line-height:1.45;color:#607269;margin:0}.ep-station-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid #e2e5e9;margin-top:auto;padding-top:11px;flex-wrap:wrap}.ep-station-actions a,.ep-station-actions button{font:inherit;font-size:12px;font-weight:600;color:#0757AA;text-decoration:none;border:0;background:none;padding:2px 0;cursor:pointer;text-align:start;min-height:36px;display:inline-flex;align-items:center}.ep-station-actions a:focus-visible,.ep-station-actions button:focus-visible{outline:3px solid #E39E22;outline-offset:3px}.ep-station .ep-photo-credit{font-size:11px;line-height:1.5}.ep-photo-credit a{color:inherit}.lr-station-cards-grid[hidden]{display:none!important}@media(max-width:1000px){.lr-station-cards-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:700px){.lr-station-cards-grid{grid-template-columns:1fr;gap:12px}.ep-station h3{font-size:18px;min-height:0}.ep-station p{font-size:16px}.ep-station-actions a,.ep-station-actions button{font-size:16px;min-height:44px}.ep-station .ep-photo-credit{font-size:12px}}
 
 .ep-station .lr-station-ai-label{font-size:11px;color:#6a756f;line-height:1.4}@media(max-width:700px){.ep-station .lr-station-ai-label{font-size:12px}}
 
-.ep-station .lr-station-code{align-self:flex-start;background:#004891;color:#fff;font-size:12px;font-weight:700;letter-spacing:.8px;padding:4px 8px;border-radius:4px}.ep-banded-station .lr-station-landmark{color:#004891}.ep-banded-station .lr-station-zone strong,.ep-banded-station .lr-station-landmark strong{font-size:11px;text-transform:uppercase;letter-spacing:.5px}.ep-banded-station .ep-station-copy{gap:10px}
+.ep-station .lr-station-code{align-self:flex-start;background:#0757AA;color:#fff;font-size:12px;font-weight:700;letter-spacing:.8px;padding:4px 8px;border-radius:4px}.ep-banded-station .lr-station-landmark{color:#0757AA}.ep-banded-station .lr-station-zone strong,.ep-banded-station .lr-station-landmark strong{font-size:11px;text-transform:uppercase;letter-spacing:.5px}.ep-banded-station .ep-station-copy{gap:10px}
 
 /* Station cards follow the home country-card image, band and compact body proportions. */
 .ep-banded-station .ep-station-photo{flex:none;aspect-ratio:1672/941}
-.ep-banded-station .lr-station-name-band{display:grid;grid-template-columns:minmax(0,1fr) 58px;min-height:36px;background:var(--station-band,#004891);color:#fff;flex:none}
+.ep-banded-station .lr-station-name-band{display:grid;grid-template-columns:minmax(0,1fr) 58px;min-height:36px;background:var(--station-band,#0757AA);color:#fff;flex:none}
 .ep-banded-station h3.lr-station-name{display:flex;align-items:center;justify-content:flex-start;min-width:0;min-height:36px;margin:0;padding:3px 10px;box-sizing:border-box;color:#fff;font-size:17px;line-height:1.1;font-weight:700;letter-spacing:-.2px}
 .ep-banded-station h3.lr-station-name-medium{font-size:14px}
 .ep-banded-station h3.lr-station-name-long{font-size:12px}
@@ -42,7 +42,7 @@
 @media(max-width:700px){.ep-india-station .lr-station-name-band{grid-template-columns:minmax(0,1fr) 34px 62px}}
 
 /* Text-only railway panels when a suitable station photograph is unavailable. */
-.lr-station-placeholder{height:100%;box-sizing:border-box;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;padding:22px 16px 34px;background:linear-gradient(135deg,#00366D,#004891);color:#fff;text-align:center}
+.lr-station-placeholder{height:100%;box-sizing:border-box;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;padding:22px 16px 34px;background:linear-gradient(135deg,#053F7A,#0757AA);color:#fff;text-align:center}
 .lr-placeholder-kicker{font-size:9px;font-weight:700;letter-spacing:2px;color:#E39E22}
 .lr-station-placeholder strong{font-size:20px;line-height:1.2;letter-spacing:.1px;max-width:100%}
 .lr-placeholder-place{font-size:11px;color:#d5e5e7;letter-spacing:.6px}
@@ -65,24 +65,24 @@
 .lr-roundel-zone{width:100%;min-width:0}.lr-roundel-zone>span{display:block;max-width:100%}.lr-roundel-board strong,.lr-roundel-native{max-width:100%;overflow:hidden}.ep-india-station .lr-station-name>span{width:100%}
 
 /* Two explicitly illustrative scheduled-service previews: NK and JL only. */
-.lr-schedule-sample{margin:5px 0 8px;padding:11px 0 0;border-top:1px solid #e2e5e9;color:#004891}
+.lr-schedule-sample{margin:5px 0 8px;padding:11px 0 0;border-top:1px solid #e2e5e9;color:#0757AA}
 .lr-schedule-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px}
 .lr-schedule-heading>span{font-size:10px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;background:#fff3cb;color:#725617;border-radius:3px;padding:3px 6px}
 .lr-schedule-count{display:flex;align-items:baseline;gap:7px;margin:7px 0 9px}
 .lr-schedule-count>strong{font-size:28px;line-height:1;font-weight:700}
 .lr-schedule-count>span{font-size:12px;color:#607269}
 .lr-train-families{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px}
-.lr-train-families>span{font-size:10px;line-height:1.3;padding:4px 6px;border:1px solid #dce3df;border-radius:4px;background:#f4f6f5;color:#004891;font-weight:600}
+.lr-train-families>span{font-size:10px;line-height:1.3;padding:4px 6px;border:1px solid #dce3df;border-radius:4px;background:#f4f6f5;color:#0757AA;font-weight:600}
 .ep-banded-station .lr-schedule-disclaimer{font-size:10px;line-height:1.4;white-space:normal;color:#726749}
-.lr-schedule-sample>a{display:inline-block;margin-top:9px;font-size:12px;font-weight:600;color:#004891;text-decoration:none}
+.lr-schedule-sample>a{display:inline-block;margin-top:9px;font-size:12px;font-weight:600;color:#0757AA;text-decoration:none}
 
 /* Fixed sample count row and board action in the same place on both cards. */
 .lr-has-schedule .lr-schedule-sample{margin:5px 0 8px;padding-top:10px}
 .lr-schedule-summary{display:grid;grid-template-columns:minmax(0,1fr) 64px;align-items:center;gap:8px;min-height:54px;margin-bottom:10px}
 .lr-schedule-summary>div>strong{font-size:12px;display:block}
 .lr-schedule-label{display:block;font-size:10px;color:#726749;margin-top:5px}
-.lr-schedule-total{display:flex;align-items:center;justify-content:center;min-height:50px;background:#E39E22;color:#004891;border-radius:4px;font-size:28px;font-variant-numeric:tabular-nums}
+.lr-schedule-total{display:flex;align-items:center;justify-content:center;min-height:50px;background:#E39E22;color:#0757AA;border-radius:4px;font-size:28px;font-variant-numeric:tabular-nums}
 .lr-has-schedule .lr-train-families{min-height:24px;align-content:start}
 .lr-has-schedule .ep-station-actions{display:grid;grid-template-columns:1fr;gap:4px;margin-top:auto}
-.lr-has-schedule .ep-station-actions .lr-view-board{display:flex;align-items:center;justify-content:center;background:#004891;color:white;min-height:38px;border-radius:4px;padding:5px 8px;text-align:center}
+.lr-has-schedule .ep-station-actions .lr-view-board{display:flex;align-items:center;justify-content:center;background:#0757AA;color:white;min-height:38px;border-radius:4px;padding:5px 8px;text-align:center}
 .lr-has-schedule .ep-station-actions>a:last-child{justify-content:center}

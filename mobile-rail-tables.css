@@ -1,5 +1,5 @@
-.lr-route-report-table{width:100%;table-layout:fixed;border-collapse:collapse;color:#004891;background:#fff}.lr-route-report-table th{background:#004891;color:#fff;text-align:left;padding:12px;font-size:14px}.lr-route-report-table th:first-child{width:55%}.lr-route-report-table td{padding:12px;border-bottom:1px solid #dce3e9;vertical-align:top;font-size:14px;overflow-wrap:anywhere}.lr-route-report-table tr:nth-child(even){background:#f2f6fa}.lr-route-report-table small{display:block;margin-top:5px;font-size:12px;color:#526476}.lr-route-report-table .lr-fact-row{border:0}.lr-route-report-table .lr-fact-row summary{display:block;padding:0;font-size:14px}.lr-route-report-table .lr-fact-detail{padding:10px}.lr-route-report-table .lr-fact-detail dl{display:block}.lr-route-report-table .lr-fact-detail dd{margin:4px 0 12px}.lr-route-report-table .lr-fact-detail a{padding:8px}
-html body .tt-table thead,html body .tt-table th,html body .ab-columns{background:#004891!important;color:white!important}
+.lr-route-report-table{width:100%;table-layout:fixed;border-collapse:collapse;color:#0757AA;background:#fff}.lr-route-report-table th{background:#0757AA;color:#fff;text-align:left;padding:12px;font-size:14px}.lr-route-report-table th:first-child{width:55%}.lr-route-report-table td{padding:12px;border-bottom:1px solid #dce3e9;vertical-align:top;font-size:14px;overflow-wrap:anywhere}.lr-route-report-table tr:nth-child(even){background:#f2f6fa}.lr-route-report-table small{display:block;margin-top:5px;font-size:12px;color:#526476}.lr-route-report-table .lr-fact-row{border:0}.lr-route-report-table .lr-fact-row summary{display:block;padding:0;font-size:14px}.lr-route-report-table .lr-fact-detail{padding:10px}.lr-route-report-table .lr-fact-detail dl{display:block}.lr-route-report-table .lr-fact-detail dd{margin:4px 0 12px}.lr-route-report-table .lr-fact-detail a{padding:8px}
+html body .tt-table thead,html body .tt-table th,html body .ab-columns{background:#0757AA!important;color:white!important}
 @media(max-width:650px){
  html body :is(.tt-page,.ab-board-page){width:100%;max-width:100%;box-sizing:border-box;padding-left:8px;padding-right:8px}
  html body .lr-route-facts{padding:10px;min-width:0}.lr-route-report-table th{padding:9px 6px;font-size:12px;line-height:1.35}.lr-route-report-table th:first-child{width:49%}.lr-route-report-table td{padding:10px 6px;font-size:13px;line-height:1.4}.lr-route-report-table .lr-fact-row summary{font-size:14px;line-height:1.4}.lr-route-report-table small{font-size:12px;line-height:1.4}
@@ -13,15 +13,15 @@ html body .tt-table thead,html body .tt-table th,html body .ab-columns{backgroun
  html body .ab-columns{display:grid!important;font-size:12px!important}.ab-board{padding-left:10px;padding-right:10px}
 }
 /* Timetable: blue table background, with readable light text. */
-html body #station-timetable .lr-route-facts,html body #station-timetable .tt-results{background:#004891;color:#fff;border-color:#004891}
-html body #station-timetable .lr-route-report-table,html body #station-timetable .tt-table{background:#004891;color:#fff}
-html body #station-timetable .lr-route-report-table tr:nth-child(even),html body #station-timetable .tt-table tbody tr:nth-child(even){background:#004891}
-html body #station-timetable :is(.lr-route-report-table,.tt-table) :is(td,th){border-color:#004891;color:#fff}
+html body #station-timetable .lr-route-facts,html body #station-timetable .tt-results{background:#0757AA;color:#fff;border-color:#0757AA}
+html body #station-timetable .lr-route-report-table,html body #station-timetable .tt-table{background:#0757AA;color:#fff}
+html body #station-timetable .lr-route-report-table tr:nth-child(even),html body #station-timetable .tt-table tbody tr:nth-child(even){background:#0757AA}
+html body #station-timetable :is(.lr-route-report-table,.tt-table) :is(td,th){border-color:#0757AA;color:#fff}
 html body #station-timetable :is(.lr-route-facts,.tt-results) :is(h2,p,.lr-fact-count,small,a,.tt-row-note,.tt-price){color:#e2edf5}
-html body #station-timetable .lr-fact-detail{background:#004891;color:#fff}
-html body #station-timetable .lr-fact-filters :is(input,select){background:#fff;color:#004891}
+html body #station-timetable .lr-fact-detail{background:#0757AA;color:#fff}
+html body #station-timetable .lr-fact-filters :is(input,select){background:#fff;color:#0757AA}
 html body #station-timetable .lr-route-report-table :is(summary,summary strong,summary span,summary small){color:#fff!important}
-html body #station-timetable .tt-header{background:#004891!important;color:#fff!important}
+html body #station-timetable .tt-header{background:#0757AA!important;color:#fff!important}
 
 .lr-route-facts{padding:12px;margin:10px 0}.lr-route-facts h2{font-size:18px;margin:0 0 5px}.lr-route-facts header p{font-size:12px;line-height:1.4;margin:0 0 8px}.lr-fact-filters{gap:10px;margin:10px 0}.lr-fact-count{margin:8px 0;font-size:12px}.lr-route-report-table .lr-fact-row summary{display:block!important;visibility:visible!important;opacity:1!important}.lr-route-report-table .lr-fact-row summary>span:first-child{display:block!important}.tt-header p{display:none}.ab-data-status{font-size:12px!important;margin:6px 0!important}.tt-header,.ab-magenta-header{padding-top:12px!important;padding-bottom:12px!important}
 @media(max-width:650px){.lr-fact-filters{flex-direction:row}.lr-fact-filters label{min-width:0;font-size:12px}.lr-fact-filters :is(input,select){width:100%;box-sizing:border-box;min-width:0;height:44px;padding:7px;font-size:14px}.lr-route-facts h2{font-size:18px}.lr-route-facts header p{font-size:12px}}
@@ -176,7 +176,7 @@ html body main#station-timetable.tt-page>header.tt-header{background:var(--tt-br
 }
 @media(max-width:650px){html body #station-board .ab-service summary>.ab-platform{justify-content:flex-start}}
 
-.lr-embedded-schedules{margin:24px 0}.lr-embedded-schedules>h2{font-size:22px;margin:0 0 12px;color:#004891}
+.lr-embedded-schedules{margin:24px 0}.lr-embedded-schedules>h2{font-size:22px;margin:0 0 12px;color:#0757AA}
 html.lr-schedule-embed body{background:transparent!important;margin:0!important;padding:0!important}
 html.lr-schedule-embed body>*:not(main#station-timetable):not(script){display:none!important}
 html.lr-schedule-embed main#station-timetable{width:100%!important;max-width:none!important;margin:0!important;padding:0!important}
@@ -237,7 +237,7 @@ html body .tt-compact-review .tt-results-heading h2{font-size:15px!important;lin
 }
 
 /* Approved country menu colour; retain the black station-board table. */
-html body .lr-search-box .lr-tabs,html body .lr-panel-page-links,html body[data-country-theme] .lr-search-box .lr-tabs,html body[data-country-theme] .lr-panel-page-links{background:#004891!important;border-color:#004891!important}
+html body .lr-search-box .lr-tabs,html body .lr-panel-page-links,html body[data-country-theme] .lr-search-box .lr-tabs,html body[data-country-theme] .lr-panel-page-links{background:#0757AA!important;border-color:#0757AA!important}
 html body .lr-search-box .lr-tabs>*,html body .lr-panel-page-links>*,html body[data-country-theme] .lr-search-box .lr-tabs>*{color:#fff!important;background-color:transparent!important}
 html body #station-board .ab-results-panel,html body #station-board .ab-directory-empty{background:#111;color:#fff}
 
