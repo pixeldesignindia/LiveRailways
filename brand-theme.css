@@ -8,6 +8,10 @@
   --lr-accent-dark:#C7861A;
   --lr-text:#1E2B25;
 
+  /* Fonts: Helvetica Neue for headings (built into Apple devices, Helvetica/Arial elsewhere), DM Sans for everything else */
+  --lr-font-heading:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --lr-font-body:"DM Sans",Arial,sans-serif;
+
   /* Legacy tokens used by older stylesheets */
   --paper:var(--lr-cream);
   --navy:var(--lr-green);
@@ -30,6 +34,10 @@
   --op-color:var(--lr-green) !important;
   --lr-uniform-band:var(--lr-green) !important;
 }
+
+/* Fonts — override the mixed Arial/Manrope/Georgia stacks in older stylesheets */
+body,body *{font-family:var(--lr-font-body) !important}
+body :is(h1,h2,h3,h4,h5,h6),body :is(h1,h2,h3,h4,h5,h6) *{font-family:var(--lr-font-heading) !important}
 
 /* 60% — page background */
 html,body{background-color:var(--lr-cream) !important}
