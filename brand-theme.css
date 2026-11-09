@@ -15,6 +15,10 @@
   --lr-primary-dark:#00366D;
   --lr-accent:#E39E22;
   --lr-accent-dark:#C7861A;
+  /* Buttons */
+  --lr-btn:#ffbe00;
+  --lr-btn-hover:#ffbe00;
+  --lr-btn-text:#000;
   --lr-text:#1B2433;
 
   /* Fonts: PolySans for headings, DM Sans for everything else */
@@ -84,22 +88,56 @@ html body .video-nav nav a{color:var(--lr-menu-text) !important;font-weight:600 
 html body .video-nav nav a:hover,html body .video-nav nav a:focus-visible{color:var(--lr-accent) !important}
 html body .video-nav [aria-current]{border-bottom-color:var(--lr-accent) !important}
 
-/* 10% — buttons and calls to action (dark text keeps contrast on amber) */
-button[type="submit"],
-input[type="submit"],
-.btn,.button,.cta,
-[class*="search-button"],[class*="find-btn"],[class*="primary-btn"],[class*="btn-primary"]{
-  background-color:var(--lr-accent);
-  border-color:var(--lr-accent);
-  color:var(--lr-text);
+/* Buttons: #ffbe00 with black text on every call-to-action across the site */
+html body :is(button[type="submit"],input[type="submit"],.btn,.button,.cta,[class*="search-button"],[class*="find-btn"],[class*="primary-btn"],[class*="btn-primary"],
+  .lr-find,.ep-find,.search-submit,.search-button,#rm-search-submit,.atlas-top-filters button,.lr-europe-selection button,
+  .sb-pagination button,.lr-country-picker button,.hero-categories button[aria-pressed=true]){
+  background-color:var(--lr-btn) !important;background-image:none !important;border-color:var(--lr-btn) !important;
+  color:var(--lr-btn-text) !important;-webkit-text-fill-color:var(--lr-btn-text) !important;
 }
-button[type="submit"]:hover,
-input[type="submit"]:hover,
-.btn:hover,.button:hover,.cta:hover,
-[class*="search-button"]:hover,[class*="find-btn"]:hover,[class*="primary-btn"]:hover,[class*="btn-primary"]:hover{
-  background-color:var(--lr-accent-dark);
-  border-color:var(--lr-accent-dark);
+html body :is(button[type="submit"],input[type="submit"],.btn,.button,.cta,[class*="search-button"],[class*="find-btn"],[class*="primary-btn"],[class*="btn-primary"],
+  .lr-find,.ep-find,.search-submit,.search-button,#rm-search-submit,.atlas-top-filters button,.lr-europe-selection button,
+  .sb-pagination button,.lr-country-picker button,.hero-categories button[aria-pressed=true]):is(:hover,:focus-visible){
+  background-color:var(--lr-btn-hover) !important;border-color:var(--lr-btn-hover) !important;transform:none !important;
 }
 
 /* Focus rings use the accent */
 a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline-color:var(--lr-accent)}
+
+
+/* Home content area white; hero banner gets a rounded bottom (all pages) */
+html body .lr-home{background:#fff !important}
+html body .lr-banner.lr-banner{padding-bottom:70px !important;border-bottom-left-radius:80px !important;border-bottom-right-radius:80px !important}
+/* Let the white section run 80px up behind the banner so the rounded corners show (content position unchanged) */
+html body .lr-banner.lr-banner{position:relative;z-index:1}
+html body .lr-banner+.lr-home{margin-top:-80px !important;padding-top:80px !important}
+
+/* Theme link chips (e.g. "High-speed journeys"): blue border on hover/focus */
+html body .jh-france-themes a:is(:hover,:focus-visible){border-color:var(--lr-primary) !important}
+
+/* Route / country cards: blue border, small lift and a 1s 5% photo zoom on hover or keyboard focus */
+html body .lr-country-card{transition:border-color .2s ease,box-shadow .25s ease,transform .25s ease !important}
+html body .lr-country-card:is(:hover,:focus-visible){border-color:var(--lr-primary) !important;transform:translateY(-4px);box-shadow:0 12px 24px rgba(0,72,145,.14) !important}
+html body .lr-country-card .lr-country-photo img{transition:transform 1s cubic-bezier(.25,.6,.3,1);transform-origin:center}
+html body .lr-country-card:is(:hover,:focus-visible) .lr-country-photo img{transform:scale(1.05) !important}
+@media (prefers-reduced-motion:reduce){
+  html body .lr-country-card{transition:border-color .2s ease !important}
+  html body .lr-country-card:is(:hover,:focus-visible),html body .lr-country-card:is(:hover,:focus-visible) .lr-country-photo img{transform:none !important}
+}
+
+/* Homepage intro: eyebrow and description in grey */
+html body .jh-intro > div > small,html body .jh-intro h1 ~ p{color:#4f4f4f !important}
+
+/* Homepage intro heading: short amber underline */
+html body .jh-intro h1::after{content:"";display:block;width:30%;height:3px;margin-top:12px;background:#E39E22}
+
+/* Homepage "Showing <country>" note */
+html body #jh-location{background:#e8f8ff !important;padding:10px 16px !important}
+
+/* Homepage sections: no divider line between them */
+html body .jh-section{border:0 !important}
+html body .jh-section:not(.jh-section ~ .jh-section){padding-top:0 !important}
+
+/* Homepage section headings and their "View all" links */
+html body .jh-section h2{color:#1e3c65 !important}
+html body .jh-section>header>a{color:#1e3c65 !important;font-weight:500 !important;text-decoration:none !important}
