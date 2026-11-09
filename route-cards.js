@@ -12,6 +12,7 @@
  document.body.classList.add('lr-route-cards-view','lr-home-view');
  document.querySelector('.workspace').hidden=true;
  const main=document.createElement('main');main.className='lr-home lr-route-cards-home';main.id='route-cards-home';main.innerHTML='<div class="lr-home-container"><p role="status">Loading European routes…</p></div>';document.querySelector('.lr-banner').after(main);
+ main.addEventListener('click',e=>{const card=e.target.closest('[data-route-id]');if(!card||e.ctrlKey||e.metaKey)return;const r=rows.find(r=>r.id===card.dataset.routeId);if(r&&window.LRApprovedDetail){e.preventDefault();e.stopPropagation();window.LRApprovedDetail.open(window.LRApprovedDetail.route(r));}},true);
  const time=m=>m<60?m+'m':Math.floor(m/60)+'h '+String(m%60).padStart(2,'0')+'m';
  const duration=r=>r.durationText||(!r.minutes?'Duration not supplied':r.minutes[1]&&r.minutes[1]!==r.minutes[0]?`${time(r.minutes[0])}–${time(r.minutes[1])}`:time(r.minutes[0]));
  const shortStation=name=>({

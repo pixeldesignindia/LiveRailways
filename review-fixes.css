@@ -13,8 +13,6 @@ body .ep-station-actions{gap:8px 18px!important;flex-wrap:wrap}
 /* Hide the internal "Development times" toggle from visitors. */
 label:has(#tt-preview),.tt-preview-toggle{display:none!important}
 
-/* Make "sample data, not live" notices impossible to miss. */
-.ab-data-status{background:#fff4cc!important;color:#4d3a00!important;border:1px solid #E39E22;border-left:5px solid #C7861A;border-radius:6px;padding:10px 14px!important;font-weight:700;font-size:14px!important;line-height:1.5}
 
 /* Route-count box on station cards: don't squeeze a single count into one third of the width. */
 body .ep-station .uk-coverage-counts{grid-template-columns:repeat(auto-fit,minmax(90px,1fr))!important}

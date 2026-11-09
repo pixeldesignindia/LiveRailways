@@ -1,50 +1,88 @@
 /* LiveRailways brand palette — loaded last on every page.
-   60% cream background, 30% green (headings, header, tabs, footer), 10% amber accent (buttons). */
+   60% light background, 30% blue (headings, header, tabs, footer), 10% amber accent (buttons). */
+/* PolySans (licensed) — one Median file covers every heading weight so browsers don't fake bold */
+@font-face{
+  font-family:"PolySans";
+  src:local("PolySans Median"),local("PolySans-Median"),url("fonts/PolySans-Median.ttf") format("truetype");
+  font-weight:100 900;
+  font-style:normal;
+  font-display:swap;
+}
+
 :root{
-  --lr-cream:#FCF6DF;
-  --lr-green:#006D4D;
-  --lr-green-dark:#00553C;
+  --lr-bg:#f0f0f0;
+  --lr-primary:#004891;
+  --lr-primary-dark:#00366D;
   --lr-accent:#E39E22;
   --lr-accent-dark:#C7861A;
-  --lr-text:#1E2B25;
+  --lr-text:#1B2433;
 
-  /* Fonts: Helvetica Neue for headings (built into Apple devices, Helvetica/Arial elsewhere), DM Sans for everything else */
-  --lr-font-heading:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  /* Fonts: PolySans for headings, DM Sans for everything else */
+  --lr-font-heading:"PolySans","DM Sans",Arial,sans-serif;
   --lr-font-body:"DM Sans",Arial,sans-serif;
 
   /* Legacy tokens used by older stylesheets */
-  --paper:var(--lr-cream);
-  --navy:var(--lr-green);
+  --paper:var(--lr-bg);
+  --navy:var(--lr-primary);
   --gold:var(--lr-accent);
   --ink:var(--lr-text);
   --lr-header-gold:var(--lr-accent);
 
   /* Country pages used to tint headers with flag colors; keep one brand color everywhere */
-  --lr-country-color:var(--lr-green) !important;
+  --lr-country-color:var(--lr-primary) !important;
   --lr-country-ink:#fff !important;
 }
 
-/* Card title bands were a rotating multi-color palette; unify them to brand green */
+/* Card title bands were a rotating multi-color palette; unify them to the brand blue */
 [style*="--country-band"],[style*="--card-band"],[style*="--card-color"],
 [style*="--station-band"],[style*="--op-color"],[style*="--lr-uniform-band"]{
-  --country-band:var(--lr-green) !important;
-  --card-band:var(--lr-green) !important;
-  --card-color:var(--lr-green) !important;
-  --station-band:var(--lr-green) !important;
-  --op-color:var(--lr-green) !important;
-  --lr-uniform-band:var(--lr-green) !important;
+  --country-band:var(--lr-primary) !important;
+  --card-band:var(--lr-primary) !important;
+  --card-color:var(--lr-primary) !important;
+  --station-band:var(--lr-primary) !important;
+  --op-color:var(--lr-primary) !important;
+  --lr-uniform-band:var(--lr-primary) !important;
 }
+
+/* Timetable, train-detail and route headers were tinted with each operator's or station's colours;
+   use the brand blue with white text (the detail clock keeps the amber accent). */
+[style*="--tt-brand"]{--tt-brand:var(--lr-primary) !important;--tt-ink:#fff !important}
+[style*="--detail-brand"]{--detail-brand:var(--lr-primary) !important;--detail-ink:#fff !important;--detail-clock:var(--lr-accent) !important}
+[style*="--route-brand"]{--route-brand:var(--lr-primary) !important;--route-ink:#fff !important}
 
 /* Fonts — override the mixed Arial/Manrope/Georgia stacks in older stylesheets */
 body,body *{font-family:var(--lr-font-body) !important}
+/* Body-font text tracking (headings and map labels keep their own) */
+body,body :not(:is(h1,h2,h3,h4,h5,h6)):not(:is(h1,h2,h3,h4,h5,h6) *):not(svg *){letter-spacing:0px !important}
 body :is(h1,h2,h3,h4,h5,h6),body :is(h1,h2,h3,h4,h5,h6) *{font-family:var(--lr-font-heading) !important}
+/* Card title bands: PolySans with slight tracking */
+body .lr-country-name,body .lr-country-name *{font-family:var(--lr-font-heading) !important;letter-spacing:0.5px !important}
 
 /* 60% — page background */
-html,body{background-color:var(--lr-cream) !important}
+html,body{background-color:var(--lr-bg) !important}
 body{color:var(--lr-text)}
 
 /* 30% — headings */
-h1,h2,h3,h4,h5,h6{color:var(--lr-green)}
+h1,h2,h3,h4,h5,h6{color:var(--lr-primary)}
+/* …except on blue panels, where headings keep the panel's white text */
+:is(.hero,.uk-card-band,.results-video,.tt-header) :is(h1,h2,h3,h4,h5,h6){color:inherit}
+
+/* Page titles: one size and no tracking across the site */
+body h1{font-size:2.5rem !important;letter-spacing:0px !important}
+
+/* Top menu text — light cream on the blue header; amber hover/focus from banner.css still wins */
+:root{--lr-menu-text:#FFF7D6}
+html body .topbar :is(.public-navigation a,.public-navigation button,.lr-header-actions button):not(:hover):not(:focus-visible){
+  color:var(--lr-menu-text) !important;
+  -webkit-text-fill-color:var(--lr-menu-text) !important;
+}
+html body .topbar :is(.public-navigation a,.public-navigation button,.lr-header-actions button){font-weight:600 !important}
+
+/* Live Videos page has its own header (.video-nav); match the shared top menu */
+html body .video-nav{background:var(--lr-primary) !important}
+html body .video-nav nav a{color:var(--lr-menu-text) !important;font-weight:600 !important}
+html body .video-nav nav a:hover,html body .video-nav nav a:focus-visible{color:var(--lr-accent) !important}
+html body .video-nav [aria-current]{border-bottom-color:var(--lr-accent) !important}
 
 /* 10% — buttons and calls to action (dark text keeps contrast on amber) */
 button[type="submit"],

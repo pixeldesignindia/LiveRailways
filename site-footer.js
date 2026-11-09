@@ -2,7 +2,7 @@
  'use strict';
  function footerHTML(){
   const menu=[['Train Journey','index.html'],['Routes','routes.html'],['Destinations','destinations.html'],['Countries','countries.html'],['Trains','operators.html'],['Stations','stations.html'],['Live Videos','https://stream.liverailways.com/']];
-  const operator=[['Plan a Journey','index.html'],['Status','status.html'],['Timetable','timetables.html'],['Station Board','station-board.html'],['Network Map','europe.html'],['Coverage & Sources','verification.html']];
+  const operator=[['Plan a Journey','index.html'],['Status','status.html'],['Timetable','timetables.html'],['Station Board','station-board.html'],['Route Maps','route-maps.html'],['Network Map','europe.html'],['Coverage & Sources','verification.html']];
   const query=new URLSearchParams(location.search);
   const page=location.pathname.split('/').pop().replace('.html','');
   const countries={uk:'uk',france:'fr',spain:'es',germany:'de',italy:'it',india:'in',portugal:'pt',switzerland:'ch',netherlands:'nl',belgium:'be'};

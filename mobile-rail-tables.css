@@ -1,0 +1,285 @@
+.lr-route-report-table{width:100%;table-layout:fixed;border-collapse:collapse;color:#004891;background:#fff}.lr-route-report-table th{background:#004891;color:#fff;text-align:left;padding:12px;font-size:14px}.lr-route-report-table th:first-child{width:55%}.lr-route-report-table td{padding:12px;border-bottom:1px solid #dce3e9;vertical-align:top;font-size:14px;overflow-wrap:anywhere}.lr-route-report-table tr:nth-child(even){background:#f2f6fa}.lr-route-report-table small{display:block;margin-top:5px;font-size:12px;color:#526476}.lr-route-report-table .lr-fact-row{border:0}.lr-route-report-table .lr-fact-row summary{display:block;padding:0;font-size:14px}.lr-route-report-table .lr-fact-detail{padding:10px}.lr-route-report-table .lr-fact-detail dl{display:block}.lr-route-report-table .lr-fact-detail dd{margin:4px 0 12px}.lr-route-report-table .lr-fact-detail a{padding:8px}
+html body .tt-table thead,html body .tt-table th,html body .ab-columns{background:#004891!important;color:white!important}
+@media(max-width:650px){
+ html body :is(.tt-page,.ab-board-page){width:100%;max-width:100%;box-sizing:border-box;padding-left:8px;padding-right:8px}
+ html body .lr-route-facts{padding:10px;min-width:0}.lr-route-report-table th{padding:9px 6px;font-size:12px;line-height:1.35}.lr-route-report-table th:first-child{width:49%}.lr-route-report-table td{padding:10px 6px;font-size:13px;line-height:1.4}.lr-route-report-table .lr-fact-row summary{font-size:14px;line-height:1.4}.lr-route-report-table small{font-size:12px;line-height:1.4}
+ html body .tt-table{display:table!important;table-layout:fixed;width:100%!important;min-width:0!important;border-collapse:collapse}
+ html body .tt-table thead{display:table-header-group!important}html body .tt-table tbody{display:table-row-group!important}
+ html body .tt-table tr{display:table-row!important;border:0!important;box-shadow:none!important}
+ html body .tt-table th,html body .tt-table td{display:table-cell!important;padding:9px 4px!important;min-width:0!important;max-width:none!important;width:auto!important;font-size:12px!important;line-height:1.4!important;white-space:normal!important;overflow-wrap:anywhere;border-bottom:1px solid #dce3e9!important}
+ html body .tt-table td:before{display:none!important}html body .tt-table th:nth-child(3){width:28%}html body .tt-table th:nth-child(2){width:20%}
+ html body .tt-table td:first-child,html body .tt-table td:nth-child(4){font-size:14px!important;font-weight:700}
+ html body .tt-table :is(small,a,.tt-change-badge,.tt-price){font-size:12px!important;line-height:1.4!important;white-space:normal!important}.tt-change-badge{padding:2px!important}
+ html body .ab-columns{display:grid!important;font-size:12px!important}.ab-board{padding-left:10px;padding-right:10px}
+}
+/* Timetable: blue table background, with readable light text. */
+html body #station-timetable .lr-route-facts,html body #station-timetable .tt-results{background:#004891;color:#fff;border-color:#004891}
+html body #station-timetable .lr-route-report-table,html body #station-timetable .tt-table{background:#004891;color:#fff}
+html body #station-timetable .lr-route-report-table tr:nth-child(even),html body #station-timetable .tt-table tbody tr:nth-child(even){background:#004891}
+html body #station-timetable :is(.lr-route-report-table,.tt-table) :is(td,th){border-color:#004891;color:#fff}
+html body #station-timetable :is(.lr-route-facts,.tt-results) :is(h2,p,.lr-fact-count,small,a,.tt-row-note,.tt-price){color:#e2edf5}
+html body #station-timetable .lr-fact-detail{background:#004891;color:#fff}
+html body #station-timetable .lr-fact-filters :is(input,select){background:#fff;color:#004891}
+html body #station-timetable .lr-route-report-table :is(summary,summary strong,summary span,summary small){color:#fff!important}
+html body #station-timetable .tt-header{background:#004891!important;color:#fff!important}
+
+.lr-route-facts{padding:12px;margin:10px 0}.lr-route-facts h2{font-size:18px;margin:0 0 5px}.lr-route-facts header p{font-size:12px;line-height:1.4;margin:0 0 8px}.lr-fact-filters{gap:10px;margin:10px 0}.lr-fact-count{margin:8px 0;font-size:12px}.lr-route-report-table .lr-fact-row summary{display:block!important;visibility:visible!important;opacity:1!important}.lr-route-report-table .lr-fact-row summary>span:first-child{display:block!important}.tt-header p{display:none}.ab-data-status{font-size:12px!important;margin:6px 0!important}.tt-header,.ab-magenta-header{padding-top:12px!important;padding-bottom:12px!important}
+@media(max-width:650px){.lr-fact-filters{flex-direction:row}.lr-fact-filters label{min-width:0;font-size:12px}.lr-fact-filters :is(input,select){width:100%;box-sizing:border-box;min-width:0;height:44px;padding:7px;font-size:14px}.lr-route-facts h2{font-size:18px}.lr-route-facts header p{font-size:12px}}
+#station-board .ab-panel-heading{display:none}#station-board:has(.lr-route-facts) .ab-data-status{display:none}#station-board .ab-control-panel{padding:12px!important;margin-top:10px!important;margin-bottom:10px!important}#station-board .ab-toggle{margin-bottom:10px!important}#station-board .ab-table-toolbar{margin:8px 0!important}#station-board .ab-city-stations{margin:0 0 10px!important}
+
+/* Restore the approved black station display, separately from route tables. */
+html body #station-board .ab-columns{background:#111!important;color:#fff!important}
+html body #station-board:has(.lr-route-facts) .ab-data-status{display:block!important;background:#fff4ce!important;color:#4b3b0e!important;padding:8px!important;font-size:12px!important}
+#station-board .ab-services{background:#111;color:#fff}#station-board .ab-original{display:none}
+@media(max-width:650px){
+ html body #station-board .ab-columns,html body #station-board .ab-service summary{display:grid!important;grid-template-columns:42px 42px minmax(0,1fr) 30px 59px!important;gap:5px!important;padding:10px 2px!important;min-height:0!important;align-items:center!important;box-sizing:border-box}
+ html body #station-board .ab-columns span:nth-child(3),html body #station-board .ab-columns span:last-child{display:none!important}
+ html body #station-board .ab-columns{font-size:9px!important;line-height:1.3!important}
+ html body #station-board .ab-service summary>*{grid-column:auto!important;grid-row:auto!important;margin:0!important}
+ html body #station-board .ab-service .ab-train,html body #station-board .ab-chevron,html body #station-board .ab-time small,html body #station-board .ab-expected small,html body #station-board .ab-mobile-expected{display:none!important}
+ html body #station-board .ab-service .ab-expected{display:block!important}
+ html body #station-board .ab-service :is(.ab-time,.ab-time time,.ab-expected){font-size:13px!important;line-height:1.4!important}
+ html body #station-board .ab-place strong{font-size:13px!important;line-height:1.35!important;white-space:normal!important}
+ html body #station-board .ab-place>span{display:block!important;font-size:11px!important;line-height:1.35!important;margin-top:3px!important}
+ html body #station-board .ab-platform small{display:none!important}html body #station-board .ab-platform b{font-size:12px!important}
+ html body #station-board .ab-status{font-size:11px!important;line-height:1.35!important;white-space:normal!important}
+}
+
+/* Matching operational-display style for both approved tables. */
+html body #station-timetable .tt-results,html body #station-timetable .tt-table,html body #station-timetable .tt-table thead,html body #station-timetable .tt-table th{background:#111!important;color:#fff!important;border-color:#444!important}
+html body #station-timetable .tt-table tbody tr:nth-child(even){background:#1c1c1c!important}html body #station-timetable .tt-table td{border-color:#393939!important;color:#fff!important}html body #station-timetable .tt-table a{color:white!important}
+html body #station-timetable .tt-table tr[role=link]{cursor:pointer}html body #station-timetable .tt-table tr[role=link]:hover{background:#2b2b2b!important}html body #station-timetable .tt-table tr[role=link]:focus-visible{outline:2px solid #E39E22;outline-offset:-2px}
+html body #station-timetable .tt-data-note{background:#fff4ce!important;color:#4b3b0e!important;font-size:12px!important}
+@media(max-width:650px){html body #station-board .ab-columns span:nth-child(1),html body #station-board .ab-columns span:nth-child(2),html body #station-board .ab-columns span:nth-child(5){font-size:0!important}#station-board .ab-columns span:nth-child(1):after{content:'SCH';font-size:10px}#station-board .ab-columns span:nth-child(2):after{content:'EXP';font-size:10px}#station-board .ab-columns span:nth-child(5):after{content:'PLT';font-size:10px}}
+
+.tt-mobile-service{display:none}
+@media(max-width:650px){
+ html body .tt-table th:nth-child(2),html body .tt-table td:nth-child(2),html body .tt-table th:nth-child(5),html body .tt-table td:nth-child(5),html body .tt-table th:nth-child(6),html body .tt-table td:nth-child(6){display:none!important}
+ html body .tt-table th:first-child,html body .tt-table th:nth-child(4){width:62px!important}
+ html body .tt-table th:nth-child(3){width:auto!important}
+ html body .tt-table td{padding:10px 6px!important}
+ html body .tt-table td:first-child,html body .tt-table td:nth-child(4){font-size:15px!important;white-space:nowrap!important}
+ html body .tt-table .tt-mobile-service{display:block;font-size:12px!important;color:#e0e7ed!important;line-height:1.4;margin-bottom:5px;overflow-wrap:anywhere}
+ html body .tt-table .tt-route-link{font-size:14px!important;display:block!important;line-height:1.4!important}
+ html body .tt-table .tt-route-link span{display:inline!important}
+ html body .tt-table .tt-route-arrow{padding:0 4px}
+ html body .tt-table .tt-row-note{font-size:11px!important}
+ html body .tt-results{min-width:0;max-width:100%;overflow:hidden;box-sizing:border-box}
+}
+
+@media(max-width:650px){
+ html body .tt-table .tt-route-link span:first-child,html body .tt-table .tt-route-link .tt-route-arrow{display:none!important}
+ html body .tt-table .tt-mobile-service{margin:5px 0 0!important;font-size:12px!important;font-weight:400!important}
+ html body .tt-table td:nth-child(3)>.tt-row-note,html body .tt-table td:first-child>.tt-row-note,html body .tt-table td:nth-child(4)>.tt-row-note{display:none!important}
+ html body .tt-table th:first-child,html body .tt-table th:nth-child(3),html body .tt-table th:nth-child(4){font-size:0!important}
+ html body .tt-table th:first-child:after{content:'DEP';font-size:12px}
+ html body .tt-table th:nth-child(3):after{content:'DESTINATION';font-size:12px}
+ html body .tt-table th:nth-child(4):after{content:'ARR';font-size:12px}
+ html body .tt-table td{vertical-align:top!important}
+}
+
+.tt-mobile-origin{display:none;font-style:normal}
+@media(min-width:375px) and (max-width:650px){.tt-mobile-origin{display:inline}}
+
+.tt-short-destination{display:none!important}
+@media(max-width:650px){html body .tt-table .tt-route-link .tt-desktop-destination{display:none!important}html body .tt-table .tt-route-link .tt-short-destination{display:inline!important}}
+/* Minimal journey detail with a vertical railway track. */
+.tt-minimal-detail>.tt-header{display:none}
+html body .tt-minimal-detail .tt-journey-detail{background:#111;color:#fff;border:1px solid #393939;border-radius:12px;padding:20px;max-width:100%;box-sizing:border-box}
+html body .tt-minimal-detail .tt-journey-detail header{margin:15px 0}.tt-minimal-detail .tt-journey-detail h2{font-size:22px;line-height:1.35;color:#fff;margin:8px 0}.tt-minimal-detail .tt-journey-detail header small,.tt-minimal-detail .tt-back{color:#E39E22!important;font-size:14px!important}.tt-minimal-detail .tt-journey-detail header p{font-size:14px;color:#dce4eb}.tt-detail-demo{font-size:12px;color:#E39E22;line-height:1.4;margin:12px 0 20px}
+.tt-track-heading,.tt-vertical-track li{display:grid;grid-template-columns:58px 28px minmax(0,1fr);gap:10px}.tt-track-heading{font-size:11px;color:#aebbc6;padding:0 0 12px;border-bottom:1px solid #3a4248}.tt-vertical-track{list-style:none;margin:0;padding:16px 0 0}.tt-vertical-track li{min-height:78px;align-items:start}.tt-vertical-track time{font-size:16px;font-weight:700;padding-top:1px}.tt-vertical-track strong{font-size:15px;line-height:1.4;overflow-wrap:anywhere}.tt-vertical-track small{display:block;color:#adbbc7;font-size:12px;margin-top:5px}.tt-track-line{position:relative;align-self:stretch;display:flex;justify-content:center}.tt-track-line:before{content:'';position:absolute;top:7px;bottom:-7px;width:6px;border-left:2px solid #8094a2;border-right:2px solid #8094a2;background:repeating-linear-gradient(to bottom,transparent 0 8px,#8094a2 8px 10px)}.tt-track-line i{z-index:1;margin-top:4px;width:12px;height:12px;border:2px solid #E39E22;border-radius:50%;background:#111;box-sizing:border-box}.tt-vertical-track li:last-child .tt-track-line:before{display:none}
+@media(max-width:650px){html body .tt-minimal-detail .tt-journey-detail{padding:16px 12px}.tt-minimal-detail .tt-journey-detail h2{font-size:20px}.tt-track-heading,.tt-vertical-track li{grid-template-columns:50px 22px minmax(0,1fr);gap:8px}}
+
+/* Shared compact board journey detail */
+html body .ab-journey-dialog,html body .ab-detail{background:#111;color:#fff}
+html body .ab-journey-dialog{width:min(620px,calc(100% - 24px));max-height:85dvh;border:1px solid #393939;border-radius:12px;padding:0}
+html body .ab-journey-dialog>header{background:#111;color:#fff;padding:16px;border-bottom:1px solid #393939}
+html body .ab-journey-dialog h2{font-size:20px;color:#fff;line-height:1.35}
+html body .ab-journey-dialog header small{color:#E39E22}
+html body .ab-journey-content{display:block;padding:16px}
+html body .ab-detail .tt-vertical-track,html body .ab-journey-dialog .tt-vertical-track{display:block}
+html body .ab-detail .tt-vertical-track li,html body .ab-journey-dialog .tt-vertical-track li{display:grid;background:transparent;border:0;padding:0;min-height:78px}
+html body .ab-detail .tt-vertical-track strong,html body .ab-journey-dialog .tt-vertical-track strong{color:#fff}
+/* Compact station board title and section strip */
+html body .ab-station{padding:12px 16px;gap:12px;min-height:0}
+html body .ab-station-title h1{font-size:22px;line-height:1.12;margin:0}
+html body .ab-station-title .ab-demo{display:none}
+html body .ab-data-status{margin:0;padding:6px 12px;line-height:1.2;font-size:14px;font-weight:700}
+@media(max-width:650px){
+ html body .ab-station{padding:10px 12px;gap:8px}
+ html body .ab-station-title h1{font-size:18px;line-height:1.12}
+ html body .ab-header-information{gap:6px}
+ html body .ab-table-toolbar{padding-top:6px;padding-bottom:6px;min-height:0}
+}
+
+html body .ab-time-train{display:block;font-size:10px;line-height:1.3;font-weight:400;white-space:normal;overflow-wrap:anywhere;color:#cdd6de;margin-top:4px}
+html body .ab-station-title h1{font-size:22px!important;line-height:1.12!important}
+@media(max-width:650px){html body .ab-station-title h1{font-size:18px!important}}
+
+.ab-shared-train{display:none}
+@media(max-width:650px){
+ html body #station-board .ab-service summary{row-gap:3px!important}
+ html body #station-board .ab-service summary>.ab-time{grid-column:1!important;grid-row:1!important}
+ html body #station-board .ab-service summary>.ab-expected{grid-column:2!important;grid-row:1!important}
+ html body #station-board .ab-service summary>.ab-shared-train{display:block!important;grid-column:1 / 3!important;grid-row:2!important;text-align:center;font-size:12px;line-height:1.2;color:#cdd6de}
+ html body #station-board .ab-service summary>.ab-place{grid-column:3!important;grid-row:1 / 3!important}
+ html body #station-board .ab-service summary>.ab-platform{grid-column:4!important;grid-row:1 / 3!important}
+ html body #station-board .ab-service summary>.ab-status{grid-column:5!important;grid-row:1 / 3!important}
+}
+
+@media(max-width:650px){html body #station-board .ab-service summary>.ab-shared-train{font-size:11px;white-space:nowrap;letter-spacing:-.15px}}
+/* One connected station selector, direction toggle and board */
+html body #station-board .ab-control-panel[hidden]{display:none!important}
+html body #station-board .ab-unified-board>.ab-data-status{display:none!important}
+html body #station-board .ab-unified-board{padding-top:0;border-top:0}
+html body #station-board .ab-unified-board>.ab-city-stations{background:#111;color:white;margin:0 -24px!important;padding:10px 16px}
+html body #station-board .ab-unified-board>.ab-city-stations>strong{color:white;font-size:12px;margin-bottom:7px}
+html body #station-board .ab-unified-board .ab-city-stations>div{display:flex;gap:6px;overflow:auto;scrollbar-width:thin;padding-bottom:3px}
+html body #station-board .ab-unified-board .ab-city-stations a{background:#303030;color:white;border:1px solid #606060;white-space:nowrap;padding:8px 10px;border-radius:5px}
+html body #station-board .ab-unified-board .ab-city-stations a[aria-current=page]{background:white;color:#111;border-color:white}
+html body #station-board .ab-unified-board>.ab-toggle{display:grid;grid-template-columns:1fr 1fr;max-width:none;width:100%;box-sizing:border-box;gap:6px;background:#151515;border:0;margin:0!important;padding:8px 0}
+html body #station-board .ab-unified-board .ab-toggle button{min-height:44px;border:1px solid #777;border-bottom:4px solid #343434;border-radius:7px;background:linear-gradient(#575757,#323232);color:white;box-shadow:0 2px 3px #0008;font-weight:700}
+html body #station-board .ab-unified-board .ab-toggle button[aria-pressed=true]{background:linear-gradient(#c82b3a,#a01423);border-color:#de5561;border-bottom-color:#6b0d17}
+html body #station-board .ab-unified-board .ab-toggle button:focus-visible{outline:2px solid #E39E22;outline-offset:2px}
+@media(max-width:700px){html body #station-board .ab-unified-board>.ab-city-stations{margin:0 -12px!important;padding:9px 12px}}
+
+html body .tt-unified-board{padding-top:0!important;overflow:hidden}
+html body .tt-unified-board>.tt-date-panel{background:#111!important;color:white!important;border:0!important;box-shadow:none!important;margin:0!important;border-radius:0!important;padding:10px 12px!important}
+html body .tt-unified-board .tt-period h2{color:white!important;font-size:15px!important}
+html body .tt-unified-board .tt-period-switch{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+html body .tt-unified-board .tt-period-switch button,html body .tt-unified-board .tt-date-strip button{background:linear-gradient(#575757,#323232)!important;color:white!important;border:1px solid #777!important;border-bottom:3px solid #303030!important;border-radius:6px!important;min-height:44px;box-shadow:0 2px 3px #0008}
+html body .tt-unified-board button[aria-pressed=true]{background:linear-gradient(#c82b3a,#a01423)!important;border-color:#df6872!important;border-bottom-color:#6b0d17!important}
+html body .tt-city-stations{background:#ad1c28;color:white;padding:10px 12px}
+.tt-city-stations strong{font-size:12px}.tt-city-stations>div{display:flex;gap:6px;overflow:auto;margin-top:7px;padding-bottom:3px}
+html body .tt-city-stations a{background:#8c1420;color:white;border:1px solid #dc7680;white-space:nowrap;padding:8px 10px;border-radius:5px;font-size:12px}
+html body .tt-city-stations a[aria-current=page]{background:white;color:#9c1824}
+html body .tt-header{padding:12px 16px!important;margin-bottom:12px!important}
+html body .tt-header h1{font-size:22px!important;line-height:1.15!important}
+html body .tt-header p{display:none}
+html body .tt-minimal-detail .tt-city-stations{display:none}
+html body .tt-unified-board .tt-results-heading{background:#111!important;color:white!important;padding:10px 12px!important}
+html body .tt-unified-board .tt-results-heading h2,html body .tt-unified-board .tt-results-heading p,html body .tt-unified-board .tt-results-heading label{color:#eee!important}
+html body .tt-unified-board .tt-city-stations a[aria-current=page]{color:#9c1824!important;text-decoration:none}
+html body .tt-unified-board .tt-city-stations a{color:white!important;text-decoration:none}
+
+/* Timetable: red station banner, black integrated station selector */
+html body .tt-header{background:var(--tt-brand)!important;color:var(--tt-ink)!important}
+html body .tt-header h1,html body .tt-header small{color:var(--tt-ink)!important}
+html body .tt-unified-board .tt-city-stations{background:#111!important;color:white!important;border-bottom:1px solid #393939}
+html body .tt-unified-board .tt-city-stations a{background:#303030!important;border-color:#606060!important;color:white!important}
+html body .tt-unified-board .tt-city-stations a[aria-current=page]{background:#f5f5f5!important;color:#111!important;border-color:#f5f5f5!important}
+html body main#station-timetable.tt-page>header.tt-header{background:var(--tt-brand)!important;color:var(--tt-ink)!important}
+@media(max-width:650px){
+ html body #station-board .ab-service summary>.ab-platform{display:flex;justify-content:center;min-width:0;width:30px;padding:0!important}
+ html body #station-board .ab-service summary>.ab-platform b{box-sizing:border-box;min-width:24px!important;width:24px!important;height:26px!important;padding:0!important;font-size:14px!important;line-height:22px!important;text-align:center}
+ html body #station-board .ab-service summary>.ab-status{padding-left:2px!important;box-sizing:border-box}
+}
+@media(max-width:650px){html body #station-board .ab-service summary>.ab-platform{justify-content:flex-start}}
+
+.lr-embedded-schedules{margin:24px 0}.lr-embedded-schedules>h2{font-size:22px;margin:0 0 12px;color:#004891}
+html.lr-schedule-embed body{background:transparent!important;margin:0!important;padding:0!important}
+html.lr-schedule-embed body>*:not(main#station-timetable):not(script){display:none!important}
+html.lr-schedule-embed main#station-timetable{width:100%!important;max-width:none!important;margin:0!important;padding:0!important}
+html.lr-schedule-embed .tt-header,html.lr-schedule-embed .tt-ad-banner,html.lr-schedule-embed .tt-city-stations{display:none!important}
+html.lr-schedule-embed .tt-planner{margin:0 0 10px!important}
+
+/* Timetable candidate: joined panel and compact date scroller. Pending approval. */
+html body main#station-timetable.tt-compact-review>header.tt-header{margin-bottom:0!important;border-radius:11px 11px 0 0!important;box-shadow:none!important}
+html body .tt-compact-review>.tt-unified-board{border-radius:0 0 11px 11px!important;border-top:0!important;margin-top:0!important}
+html body .tt-compact-review .tt-unified-board>.tt-date-panel{padding:8px 12px!important}
+html body .tt-compact-review .tt-period{display:flex!important;flex-wrap:nowrap!important;gap:8px!important;align-items:center!important}
+html body .tt-compact-review .tt-period>div:first-child{width:auto!important;min-width:0;margin-right:auto}
+html body .tt-compact-review .tt-period h2{font-size:13px!important;margin:0!important}
+html body .tt-compact-review .tt-range{font-size:11px!important;margin:3px 0!important}
+html body .tt-compact-review .tt-period-switch{padding:2px!important;gap:4px!important;background:#222!important}
+html body .tt-compact-review .tt-period-switch button{font-size:12px!important;min-height:32px!important;padding:5px 8px!important}
+html body .tt-compact-review .tt-date-navigation{margin:7px 0 0!important;gap:5px!important}
+html body .tt-compact-review .tt-date-strip{gap:5px!important;padding:0 0 4px!important}
+html body .tt-compact-review .tt-date-strip button{flex:0 0 46px!important;min-width:46px!important;min-height:48px!important;height:48px!important;padding:3px!important;gap:0!important;line-height:1.05!important}
+html body .tt-compact-review .tt-date-strip button span,html body .tt-compact-review .tt-date-strip button small{font-size:10px!important;line-height:1.05!important}
+html body .tt-compact-review .tt-date-strip button strong{font-size:17px!important;line-height:1.12!important}
+html body .tt-compact-review .tt-scroll{width:24px!important;min-height:48px!important;font-size:20px!important;padding:0!important}
+
+/* Balanced timetable candidate; number under departure, brand under destination. */
+.tt-mobile-number{display:none}
+@media(max-width:650px){
+ html body #station-timetable .tt-table th:first-child,html body #station-timetable .tt-table th:nth-child(4){width:70px!important}
+ html body #station-timetable .tt-table td{padding:12px 9px!important;vertical-align:top!important}
+ html body #station-timetable .tt-table td:first-child,html body #station-timetable .tt-table td:nth-child(4){font-size:16px!important}
+ html body #station-timetable .tt-table th:nth-child(4),html body #station-timetable .tt-table td:nth-child(4){text-align:right!important;padding-right:12px!important}
+ html body #station-timetable .tt-mobile-number{display:block;font-size:11px!important;font-weight:400;color:#bfc7cf;line-height:1.4;margin-top:5px;white-space:normal}
+ html body #station-timetable .tt-mobile-service{font-size:12px!important;color:#cbd1d6!important;line-height:1.35!important;margin-top:5px!important}
+ html body #station-timetable .tt-mobile-origin{display:none!important}
+ html body #station-timetable .tt-route-link{font-size:14px!important;font-weight:600;line-height:1.35!important}
+}
+
+/* Clean timetable review: requested columns and compact selected-date heading. */
+html body .tt-compact-review .tt-results-heading #tt-count,
+html body .tt-compact-review .tt-results-heading .tt-preview,
+html body .tt-compact-review .tt-results-heading .tt-inline-sort,
+html body .tt-compact-review .tt-results>.tt-data-note{display:none!important}
+html body .tt-compact-review .tt-results-heading{display:block!important;padding:8px 12px!important;min-height:0!important;margin:0!important}
+html body .tt-compact-review .tt-results-heading h2{font-size:15px!important;line-height:1.3!important;margin:0!important}
+@media(max-width:650px){
+ html body #station-timetable.tt-compact-review .tt-table th:first-child:after{content:'SCH DEP.';font-size:13px!important}
+ html body #station-timetable.tt-compact-review .tt-table th:nth-child(4):after{content:'SCH ARR.';font-size:13px!important}
+ html body #station-timetable.tt-compact-review .tt-table th:nth-child(3):after{font-size:13px!important}
+ html body #station-timetable.tt-compact-review .tt-table th:first-child,html body #station-timetable.tt-compact-review .tt-table th:nth-child(4){width:78px!important}
+ html body #station-timetable.tt-compact-review .tt-table th{padding:10px 8px!important;letter-spacing:0!important;line-height:1.25!important}
+ html body #station-timetable.tt-compact-review .tt-table td{padding:12px 10px!important;line-height:1.3!important}
+ html body #station-timetable.tt-compact-review .tt-table td:first-child,html body #station-timetable.tt-compact-review .tt-table td:nth-child(4){font-size:18px!important}
+ html body #station-timetable.tt-compact-review .tt-route-link,html body #station-timetable.tt-compact-review .tt-short-destination{font-size:16px!important;line-height:1.3!important}
+ html body #station-timetable.tt-compact-review .tt-mobile-number,html body #station-timetable.tt-compact-review .tt-mobile-service{font-size:13px!important;line-height:1.3!important;margin-top:5px!important}
+}
+@media(max-width:650px){
+ html body #station-timetable.tt-compact-review .tt-table th:first-child,html body #station-timetable.tt-compact-review .tt-table th:nth-child(4){width:84px!important}
+ html body #station-timetable.tt-compact-review .tt-table th:first-child:after,html body #station-timetable.tt-compact-review .tt-table th:nth-child(4):after{white-space:nowrap}
+}
+
+/* Approved country menu colour; retain the black station-board table. */
+html body .lr-search-box .lr-tabs,html body .lr-panel-page-links,html body[data-country-theme] .lr-search-box .lr-tabs,html body[data-country-theme] .lr-panel-page-links{background:#004891!important;border-color:#004891!important}
+html body .lr-search-box .lr-tabs>*,html body .lr-panel-page-links>*,html body[data-country-theme] .lr-search-box .lr-tabs>*{color:#fff!important;background-color:transparent!important}
+html body #station-board .ab-results-panel,html body #station-board .ab-directory-empty{background:#111;color:#fff}
+
+/* Shared detail navigation; approved table colours and columns unchanged. */
+html body .lr-detail-back,html body .tt-minimal-detail .tt-back{display:inline-flex;align-items:center;min-height:44px;padding:9px 14px;border:1px solid #65717c;border-radius:8px;background:#252b32;color:#E39E22!important;font-family:inherit;font-size:14px;font-weight:600;line-height:1.3;text-decoration:none;cursor:pointer;box-sizing:border-box}
+.lr-detail-back:focus-visible,.tt-back:focus-visible{outline:2px solid #E39E22;outline-offset:3px}
+@media(prefers-reduced-motion:no-preference){.tt-journey-detail{animation:lr-detail-enter .2s ease-out}@keyframes lr-detail-enter{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}}
+
+/* Mobile arrival stack: time, price box, then connection count. */
+.tt-mobile-fare{display:none}
+@media(max-width:650px){
+ html body #station-timetable .tt-mobile-fare{display:flex;flex-direction:column;align-items:stretch;gap:5px;margin-top:7px;width:100%;font-size:12px;line-height:1.3;white-space:normal;text-align:center}
+ html body #station-timetable .tt-mobile-price{display:block;padding:5px 3px;border:1px solid #65717c;border-radius:5px;background:#252b32;color:#fff;font-size:12px;font-weight:600;white-space:nowrap}
+ html body #station-timetable .tt-mobile-connection{display:block;font-size:12px;font-weight:500;color:#e2edf5;line-height:1.3}
+}
+
+@media(max-width:650px){html body #station-timetable.tt-compact-review .tt-table td:first-child .tt-mobile-service{display:block;white-space:normal!important;overflow-wrap:anywhere;font-size:12px!important;font-weight:500;line-height:1.3!important;margin-top:5px!important}}
+
+.tt-mobile-connection{display:none}
+@media(max-width:650px){html body #station-timetable .tt-table td:nth-child(3)>.tt-mobile-connection{display:block;font-size:12px;font-weight:500;line-height:1.3;margin-top:7px;white-space:normal;color:#e2edf5}}
+
+@media(max-width:650px){html body #station-timetable .tt-mobile-price{background:#fff!important;color:#111!important;border-color:#fff!important;font-size:14px!important;font-weight:700}}
+
+/* Shared centred station timetable banner and embossed lower divider. */
+html body #station-timetable.tt-compact-review>.tt-header{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;text-align:center!important;gap:8px!important;padding:18px 16px!important;position:relative;border-bottom:1px solid #0008!important;box-shadow:0 1px 0 #ffffff50,0 3px 0 #0004!important}
+html body #station-timetable .tt-station-banner-title{width:100%;text-align:center}
+html body #station-timetable .tt-station-banner-title h1{margin:0 0 7px!important;line-height:1.25!important}
+html body #station-timetable .tt-station-banner-title small{display:block;font-size:12px!important;letter-spacing:1.3px;font-weight:600;line-height:1.4}
+html body #station-timetable.tt-compact-review>.tt-header>a{font-size:12px;align-self:center}
+html body main#station-timetable.tt-compact-review>header.tt-header{border-bottom:1px solid #0008!important;box-shadow:0 1px 0 #ffffff50,0 3px 0 #0004!important;z-index:1}
+/* Shared centred station-board title and tone-on-tone embossed divider. */
+html body #station-board .ab-station.ab-magenta-header{display:flex!important;flex-direction:column!important;align-items:center!important;text-align:center!important;gap:14px!important;position:relative;border-bottom:1px solid #0005!important;box-shadow:0 1px 0 #ffffff30,0 3px 0 #0003!important}
+html body #station-board .ab-station-title{width:100%;text-align:center!important}
+html body #station-board .ab-station-title h1,html body #station-board .ab-station-title .ab-demo{text-align:center!important}
+html body #station-board .ab-header-information{justify-content:center!important;margin-inline:auto}
+/* Station header and results form one joined board. */
+html body #station-board .ab-board[data-panels]>.ab-station.ab-magenta-header{margin-bottom:0!important;border-radius:11px 11px 0 0!important;z-index:1}
+html body #station-board .ab-board[data-panels]>.ab-results-panel{margin-top:0!important;border-radius:0 0 11px 11px!important}
+
+html body #station-board .ab-station-title .ab-board-subtitle{display:block!important;visibility:visible!important;opacity:1!important;margin-top:7px;color:inherit!important;text-align:center;font-size:14px!important;line-height:1.4!important;letter-spacing:.6px;font-weight:600}
+/* Clear station-name spacing and a tone-on-tone subtitle divider. */
+html body #station-board .ab-station-title h1{word-spacing:.18em}
+html body #station-board .ab-board-subtitle:after{content:'';display:block;width:100%;height:2px;margin:20px auto;background:rgba(0,0,0,.2);border-bottom:1px solid rgba(255,255,255,.25);box-shadow:0 1px 2px rgba(0,0,0,.12);box-sizing:content-box}
+
+html body #station-board .ab-station.ab-magenta-header{gap:0!important}

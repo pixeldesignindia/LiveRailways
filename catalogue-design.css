@@ -18,7 +18,7 @@ body .lr-home-tool-grid>a,body .destination-route{min-height:200px;padding:26px;
 body .topbar .public-navigation .lr-menu-link{font-size:15px;min-height:48px;display:flex;align-items:center;box-sizing:border-box}
 .lr-nav-category{position:relative;display:flex;align-items:center;gap:4px}
 .lr-nav-toggle{background:transparent;border:0;color:#E39E22;cursor:pointer;font-size:16px;min-width:28px;min-height:44px}
-.lr-nav-submenu{position:absolute;top:100%;left:0;z-index:1000;min-width:240px;padding:12px;background:#006D4D;border:1px solid #53766b;border-radius:0 0 10px 10px;box-shadow:0 12px 28px #0003}
+.lr-nav-submenu{position:absolute;top:100%;left:0;z-index:1000;min-width:240px;padding:12px;background:#004891;border:1px solid #536276;border-radius:0 0 10px 10px;box-shadow:0 12px 28px #0003}
 .lr-nav-submenu[hidden]{display:none!important}
 .topbar .public-navigation .lr-nav-submenu a{display:block;padding:12px;font-size:15px;text-decoration:none;line-height:1.4;border-radius:5px}
 .topbar .public-navigation .lr-nav-submenu a:hover{background:#ffffff16}
@@ -31,7 +31,7 @@ body .lr-tabs button,body .ep-jump a{min-height:50px;font-size:15px;box-sizing:b
 /* Exact shared name-strip geometry: two readable lines in every catalogue. */
 :root{--lr-name-strip-height:64px;--lr-card-height:550px}
 body .lr-country-name,body .lr-scenic-card .lr-country-name,body .lr-operator-name,body .ep-banded-station .lr-station-name-band,body .lr-route-card-title,body .ep-journey-card .lr-country-name{
- height:var(--lr-name-strip-height)!important;min-height:var(--lr-name-strip-height)!important;max-height:var(--lr-name-strip-height)!important;box-sizing:border-box!important;flex-shrink:0;margin:0!important;border:0!important;background:var(--lr-uniform-band,#006D4D)!important;color:#fff!important;font-size:18px!important;line-height:1.25!important;font-weight:700;overflow:hidden;
+ height:var(--lr-name-strip-height)!important;min-height:var(--lr-name-strip-height)!important;max-height:var(--lr-name-strip-height)!important;box-sizing:border-box!important;flex-shrink:0;margin:0!important;border:0!important;background:var(--lr-uniform-band,#004891)!important;color:#fff!important;font-size:18px!important;line-height:1.25!important;font-weight:700;overflow:hidden;
 }
 body .lr-country-name,body .lr-route-card-title{display:flex;align-items:center;justify-content:center;gap:6px;padding:8px 14px!important;text-align:center}
 body .lr-route-card-title{display:block;align-content:center;overflow-wrap:normal;font-size:16px!important}
@@ -44,6 +44,6 @@ body .ep-india-station .lr-station-junction-slot,body .ep-india-station .lr-stat
 body .lr-country-card .lr-country-copy,body .ep-banded-station .ep-station-copy{min-height:196px}
 @media(max-width:600px){body .lr-country-card,body .lr-operator-grid .lr-operator-card,body .ep-station,body .destination-city,body .ep-city-card{min-height:var(--lr-card-height)}}
 
-.uk-coverage-counts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;border-top:1px solid #dbe3ea;padding:12px 0;margin-top:12px}.uk-coverage-counts>span{display:block!important;font-size:10px!important;line-height:1.4}.uk-coverage-counts b{display:block;font-size:20px;color:#006D4D}.uk-coverage-date{display:block;font-size:11px;color:#637587;margin:5px 0 12px}
+.uk-coverage-counts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;border-top:1px solid #dbe3ea;padding:12px 0;margin-top:12px}.uk-coverage-counts>span{display:block!important;font-size:10px!important;line-height:1.4}.uk-coverage-counts b{display:block;font-size:20px;color:#004891}.uk-coverage-date{display:block;font-size:11px;color:#637587;margin:5px 0 12px}
 
-.ep-station-photo{position:relative}.lr-hub-station-badge{position:absolute;top:14px;left:14px;z-index:2;background:#E39E22;color:#006D4D;border:1px solid #ffffffb0;border-radius:5px;padding:7px 11px;font-size:11px;font-weight:800;letter-spacing:.3px;box-shadow:0 2px 7px #0002;line-height:1.25}
+.ep-station-photo{position:relative}.lr-hub-station-badge{position:absolute;top:14px;left:14px;z-index:2;background:#E39E22;color:#004891;border:1px solid #ffffffb0;border-radius:5px;padding:7px 11px;font-size:11px;font-weight:800;letter-spacing:.3px;box-shadow:0 2px 7px #0002;line-height:1.25}
