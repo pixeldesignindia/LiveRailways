@@ -1,17 +1,17 @@
 /* Operator cards share the country-card grid, image ratio, gaps and mobile sizing. */
-.lr-operators-view .lr-home-intro h1{font-size:32px;letter-spacing:-.8px;line-height:1.2;margin:12px 0 10px;color:#0757AA}
+.lr-operators-view .lr-home-intro h1{font-size:32px;letter-spacing:-.8px;line-height:1.2;margin:12px 0 10px;color:#00509E}
 .lr-operator-total{font-size:13px;white-space:nowrap;color:#536761;padding-bottom:4px}
 .lr-operator-filters{display:grid;grid-template-columns:minmax(0,2fr) minmax(180px,1fr) auto;align-items:end;gap:14px;padding:18px;background:#fff;border:1px solid #dce3df;border-radius:8px;margin:0 0 14px}
-.lr-operator-filters label{font-size:13px;font-weight:600;color:#0757AA}
-.lr-operator-filters input,.lr-operator-filters select{display:block;box-sizing:border-box;width:100%;height:44px;padding:8px 12px;margin-top:7px;background:#fff;border:1px solid #c7d2ce;border-radius:5px;color:#0757AA;font:inherit;font-size:16px}
-.lr-operator-filters button{height:44px;padding:0 18px;background:#f3f4ef;color:#0757AA;border:1px solid #c7d2ce;border-radius:5px;font-size:14px;font-weight:600;cursor:pointer}
+.lr-operator-filters label{font-size:13px;font-weight:600;color:#00509E}
+.lr-operator-filters input,.lr-operator-filters select{display:block;box-sizing:border-box;width:100%;height:44px;padding:8px 12px;margin-top:7px;background:#fff;border:1px solid #c7d2ce;border-radius:5px;color:#00509E;font:inherit;font-size:16px}
+.lr-operator-filters button{height:44px;padding:0 18px;background:#f3f4ef;color:#00509E;border:1px solid #c7d2ce;border-radius:5px;font-size:14px;font-weight:600;cursor:pointer}
 .lr-operator-count{font-size:13px;color:#536761;margin:0 0 14px}
 .lr-operator-grid .lr-operator-card{display:flex;flex-direction:column;min-height:0}
 .lr-operator-name{box-sizing:border-box;display:flex;align-items:center;justify-content:center;flex:none;height:40px;min-height:40px;padding:5px 10px;margin:0;background:var(--operator-color);color:var(--operator-text,#fff);border-bottom:4px solid var(--operator-accent);font-size:16px;font-weight:700;line-height:1.15;text-align:center;letter-spacing:0}
 .lr-operator-grid .lr-country-photo{aspect-ratio:1672/941;height:auto;flex:none}
 .lr-operator-grid .lr-country-photo img{object-fit:cover;object-position:center;transform:none}
 .lr-operator-grid .lr-country-copy{padding:14px;gap:7px}
-.lr-operator-grid .lr-country-copy .lr-country-description{font-size:14px;line-height:1.4;color:#0757AA}
+.lr-operator-grid .lr-country-copy .lr-country-description{font-size:14px;line-height:1.4;color:#00509E}
 .lr-operator-grid .lr-country-copy>span{display:flex;justify-content:space-between;gap:8px;font-size:13px;padding-top:10px}
 .lr-operator-grid .lr-country-copy>span b{font-size:18px;line-height:1}
 .lr-operator-image-note{font-size:12px;color:#64756c;line-height:1.5;margin:22px 0}
@@ -26,14 +26,14 @@
 /* Operator identity left, home-country patch right, inside the same colour band. */
 .lr-operator-name{justify-content:space-between;padding:0;gap:0;text-align:left}
 .lr-operator-label{min-width:0;flex:1;padding:3px 9px;font-size:14px;line-height:1.1;overflow-wrap:normal}
-.lr-operator-country{align-self:stretch;display:flex;align-items:center;justify-content:center;flex:none;padding:0 9px;background:#053F7A;color:#fff;font-size:12px;font-weight:600;line-height:1.1;white-space:nowrap;text-align:center}
+.lr-operator-country{align-self:stretch;display:flex;align-items:center;justify-content:center;flex:none;padding:0 9px;background:#003A72;color:#fff;font-size:12px;font-weight:600;line-height:1.1;white-space:nowrap;text-align:center}
 @media(max-width:700px){.lr-operator-label{font-size:16px;padding:3px 10px}.lr-operator-country{font-size:16px;padding:0 10px}}
 @media(max-width:700px){.lr-operator-label{padding:2px 8px;line-height:1}}
 
 .lr-operator-label{padding:2px 8px;line-height:1.05}
 @media(max-width:700px){.lr-operator-label{line-height:1}}
 /* Uniform neutral country patches across every operator livery. */
-.lr-operator-country{box-sizing:border-box;flex:0 0 112px;width:112px;min-width:112px;max-width:112px;padding:0 7px;background:#F5F4EF;color:#0757AA;border-left:1px solid #dce0dc;white-space:normal}
+.lr-operator-country{box-sizing:border-box;flex:0 0 112px;width:112px;min-width:112px;max-width:112px;padding:0 7px;background:#F5F4EF;color:#00509E;border-left:1px solid #dce0dc;white-space:normal}
 @media(min-width:701px) and (max-width:900px){.lr-operator-label{font-size:12px;padding:2px 4px}}
 @media(max-width:700px){.lr-operator-country{flex-basis:144px;width:144px;min-width:144px;max-width:144px;padding:0 8px}}
 /* The photograph meets the name band directly, without a separator or gap. */
@@ -55,17 +55,17 @@
 .lr-operator-results-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 16px}
 .lr-operator-results-toolbar .lr-operator-count{margin:0;white-space:nowrap}
 .lr-operator-kind{display:flex;gap:6px;flex-wrap:wrap}
-.lr-operator-kind button{min-height:40px;border:1px solid #cbd5d0;border-radius:5px;background:#fff;color:#0757AA;font:inherit;font-size:13px;font-weight:600;padding:7px 14px;cursor:pointer}
-.lr-operator-kind button[aria-pressed="true"]{background:#0757AA;border-color:#0757AA;color:#fff}
+.lr-operator-kind button{min-height:40px;border:1px solid #cbd5d0;border-radius:5px;background:#fff;color:#00509E;font:inherit;font-size:13px;font-weight:600;padding:7px 14px;cursor:pointer}
+.lr-operator-kind button[aria-pressed="true"]{background:#00509E;border-color:#00509E;color:#fff}
 .lr-operator-kind button:focus-visible{outline:3px solid #b19a59;outline-offset:2px}
 @media(max-width:700px){.lr-operator-results-toolbar{align-items:flex-start;flex-direction:column;gap:10px}.lr-operator-kind{width:100%;gap:5px}.lr-operator-kind button{flex:1;padding:7px 8px;min-height:44px;font-size:13px}}
 
 /* Train categories share the directory search panel. */
 .lr-directory-shared-filters .lr-operator-filter-bottom{grid-column:1/-1;min-width:0;border-top:1px solid #d4dde4;padding-top:14px;margin:0}
-.lr-directory-shared-filters .lr-operator-kind button{background:#fff;color:#0757AA;border-color:#bdcbd4;font-size:14px}
-.lr-directory-shared-filters .lr-operator-kind button[aria-pressed="true"]{background:#0757AA;border-color:#0757AA;color:#fff}
+.lr-directory-shared-filters .lr-operator-kind button{background:#fff;color:#00509E;border-color:#bdcbd4;font-size:14px}
+.lr-directory-shared-filters .lr-operator-kind button[aria-pressed="true"]{background:#00509E;border-color:#00509E;color:#fff}
 @media(max-width:700px){.lr-directory-shared-filters .lr-operator-kind button{min-width:0;font-size:14px;height:auto;min-height:46px}}
 
-.lr-france-networks{margin:0 0 24px;padding:18px 24px;background:#fff;border:1px solid #d9e0e8;border-radius:14px;color:#0757AA}.lr-france-networks summary{cursor:pointer;font-weight:700}.lr-france-networks ul{columns:2;padding-left:20px}.lr-france-networks li{margin:8px 0;break-inside:avoid}.lr-france-networks p{line-height:1.6}@media(max-width:600px){.lr-france-networks ul{columns:1}}
+.lr-france-networks{margin:0 0 24px;padding:18px 24px;background:#fff;border:1px solid #d9e0e8;border-radius:14px;color:#00509E}.lr-france-networks summary{cursor:pointer;font-weight:700}.lr-france-networks ul{columns:2;padding-left:20px}.lr-france-networks li{margin:8px 0;break-inside:avoid}.lr-france-networks p{line-height:1.6}@media(max-width:600px){.lr-france-networks ul{columns:1}}
 
-.lr-eu-coverage{margin:24px 0;padding:18px 22px;border:1px solid #d7e0e6;border-radius:12px;background:#fff;color:#0757AA}.lr-eu-coverage summary{font-weight:700;cursor:pointer}.lr-eu-coverage p{font-size:14px;line-height:1.6}.lr-coverage-table-wrap{overflow-x:auto}.lr-eu-coverage table{width:100%;border-collapse:collapse;font-size:14px}.lr-eu-coverage th,.lr-eu-coverage td{padding:10px 12px;border-bottom:1px solid #e3e8ec;text-align:left}.lr-eu-coverage thead{background:#f1f4f6}.lr-eu-coverage tr>:last-child{text-align:right}
+.lr-eu-coverage{margin:24px 0;padding:18px 22px;border:1px solid #d7e0e6;border-radius:12px;background:#fff;color:#00509E}.lr-eu-coverage summary{font-weight:700;cursor:pointer}.lr-eu-coverage p{font-size:14px;line-height:1.6}.lr-coverage-table-wrap{overflow-x:auto}.lr-eu-coverage table{width:100%;border-collapse:collapse;font-size:14px}.lr-eu-coverage th,.lr-eu-coverage td{padding:10px 12px;border-bottom:1px solid #e3e8ec;text-align:left}.lr-eu-coverage thead{background:#f1f4f6}.lr-eu-coverage tr>:last-child{text-align:right}
