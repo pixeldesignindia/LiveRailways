@@ -1,0 +1,59 @@
+/* LiveRailways brand palette — loaded last on every page.
+   60% cream background, 30% green (headings, header, tabs, footer), 10% amber accent (buttons). */
+:root{
+  --lr-cream:#FCF6DF;
+  --lr-green:#006D4D;
+  --lr-green-dark:#00553C;
+  --lr-accent:#E39E22;
+  --lr-accent-dark:#C7861A;
+  --lr-text:#1E2B25;
+
+  /* Legacy tokens used by older stylesheets */
+  --paper:var(--lr-cream);
+  --navy:var(--lr-green);
+  --gold:var(--lr-accent);
+  --ink:var(--lr-text);
+  --lr-header-gold:var(--lr-accent);
+
+  /* Country pages used to tint headers with flag colors; keep one brand color everywhere */
+  --lr-country-color:var(--lr-green) !important;
+  --lr-country-ink:#fff !important;
+}
+
+/* Card title bands were a rotating multi-color palette; unify them to brand green */
+[style*="--country-band"],[style*="--card-band"],[style*="--card-color"],
+[style*="--station-band"],[style*="--op-color"],[style*="--lr-uniform-band"]{
+  --country-band:var(--lr-green) !important;
+  --card-band:var(--lr-green) !important;
+  --card-color:var(--lr-green) !important;
+  --station-band:var(--lr-green) !important;
+  --op-color:var(--lr-green) !important;
+  --lr-uniform-band:var(--lr-green) !important;
+}
+
+/* 60% — page background */
+html,body{background-color:var(--lr-cream) !important}
+body{color:var(--lr-text)}
+
+/* 30% — headings */
+h1,h2,h3,h4,h5,h6{color:var(--lr-green)}
+
+/* 10% — buttons and calls to action (dark text keeps contrast on amber) */
+button[type="submit"],
+input[type="submit"],
+.btn,.button,.cta,
+[class*="search-button"],[class*="find-btn"],[class*="primary-btn"],[class*="btn-primary"]{
+  background-color:var(--lr-accent);
+  border-color:var(--lr-accent);
+  color:var(--lr-text);
+}
+button[type="submit"]:hover,
+input[type="submit"]:hover,
+.btn:hover,.button:hover,.cta:hover,
+[class*="search-button"]:hover,[class*="find-btn"]:hover,[class*="primary-btn"]:hover,[class*="btn-primary"]:hover{
+  background-color:var(--lr-accent-dark);
+  border-color:var(--lr-accent-dark);
+}
+
+/* Focus rings use the accent */
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline-color:var(--lr-accent)}
