@@ -141,3 +141,6 @@ html body .jh-section:not(.jh-section ~ .jh-section){padding-top:0 !important}
 /* Homepage section headings and their "View all" links */
 html body .jh-section h2{color:#1e3c65 !important}
 html body .jh-section>header>a{color:#1e3c65 !important;font-weight:500 !important;text-decoration:none !important}
+
+/* Homepage "Regional content is not available yet" note */
+html body .jh-fallback{color:#4f4f4f !important}
